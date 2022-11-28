@@ -1,18 +1,7 @@
 <template>
   <main>
     <div class="parallax">
-      <div id="mySidenav" class="sidenav" refs="mySidenav">
-        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
-          >&times;</a
-        >
-        <a href="#">About</a>
-        <a href="#">Services</a>
-        <a href="#">Clients</a>
-        <a href="#">Contact</a>
-      </div>
     </div>
-    <span @click="openNav">OPen</span>
-    <p>{{ data.open }}</p>
 
     <div
       class="bg-primary p-5"
@@ -56,12 +45,27 @@
     </div>
     <div class="parallax">
       <div class="container">
-        <h2 class="text-center">Services</h2>
+        <h2 class="text-center">We've got everything you need to launch and grow your business</h2>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. A architecto
           adipisci alias quibusdam eos tenetur, reprehenderit facilis natus
           totam quae!
+        
         </p>
+        <div class="flex-container-services">
+          <div class="flex-item-left">
+Hello world
+          </div>
+          <div class="flex-item-right">
+            Hello world
+          </div>
+          <div class="flex-item-right">
+            Hello world
+          </div>
+          <div class="flex-item-right">
+            Hello world
+          </div>
+        </div>
       </div>
     </div>
     <div
@@ -80,19 +84,6 @@
   </main>
 </template>
 <script setup>
-import { ref, reactive } from "vue";
-const data = reactive({
-  open: "hello",
-});
-
-let nav = ref("mySidenav");
-const openNav = () => {
-  console.log(this.$refs.nav);
-  // nav.value.style.width ="250px";
-};
-const closeNav = () => {
-  this.$refs.mySidenav.style.width = "0";
-};
 </script>
 <style lang="scss">
 .parallax {
@@ -119,53 +110,19 @@ const closeNav = () => {
     padding: 10px;
   }
 }
-
-.sidenav {
-  height: 100%;
-  width: 0;
-  position: fixed;
-  z-index: 1;
-  top: 0;
-  right: 0;
-  background-color: #111;
-  overflow-x: hidden;
-  transition: 0.5s;
-  padding-top: 60px;
-}
-
-.sidenav a {
-  padding: 8px 8px 8px 32px;
-  text-decoration: none;
-  font-size: 25px;
-  color: #818181;
-  display: block;
-  transition: 0.3s;
-}
-
-.sidenav a:hover {
-  color: #f1f1f1;
-}
-
-.sidenav .closebtn {
-  position: absolute;
-  top: 0;
-  right: 25px;
-  font-size: 36px;
-  margin-left: 50px;
-}
-
-@media screen and (max-height: 450px) {
-  .sidenav {
-    padding-top: 15px;
-  }
-  .sidenav a {
-    font-size: 18px;
+.flex-container-services{
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  flex-wrap: wrap;
+  .flex-item-left, .flex-item-right{
+    flex: 50%;
+    padding: 5%;
   }
 }
-
 /* Responsive layout - makes a one column-layout instead of two-column layout */
 @media (max-width: 800px) {
-  .flex-container {
+  .flex-container, .flex-container-services {
     flex-direction: column;
   }
 }
