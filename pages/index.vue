@@ -4,26 +4,22 @@
       <div class="flex-container navbar">
         <div class="flex-item-left text-left">Learn With Patrick</div>
         <div class="flex-item-right">
-          <div class="container ">
-             <div
-            class="text-right p-5"
-            style="text-align: right; font-size: 1.9rem; cursor: pointer;"
-            @click="openNav()"
-          >
-            <span>MENU</span> <span style="font-size: 50px">&#9776; </span>
+          <div class="container">
+            <div
+              class="text-right p-5"
+              style="text-align: right; font-size: 1.9rem; cursor: pointer"
+              @click="openNav"
+            >
+              <span>MENU</span> <span style="font-size: 50px">&#9776; </span>
+            </div>
           </div>
-          </div>
-         
 
           <div id="mySidenav" class="sidenav text-bg-dark" ref="sidenav">
             <div class="container p-3">
-              <a
-                href="javascript:void(0)"
-                class="closebtn"
-                @click="closeNav()"
-                >  &times;</a
+              <a href="javascript:void(0)" class="closebtn" @click="closeNav">
+                &times;</a
               >
-            </div> 
+            </div>
 
             <div class="flex-container">
               <div class="flex-item-right"></div>
@@ -32,7 +28,12 @@
             <a href="#">Services</a>
             <a href="#">Clients</a>
             <a href="#">Contact</a>
-            <p class="p-3">Lorem ipsum dolor sit amet. Odio, alias?, amet consectetur adipisicing elit. Vero fugit ab, delectus repellendus dolores ratione itaque? Ratione nisi quod, maiores voluptatibus, ullam vel ab numquam rem quo, ad similique qui?</p>
+            <p class="p-3">
+              Lorem ipsum dolor sit amet. Odio, alias?, amet consectetur
+              adipisicing elit. Vero fugit ab, delectus repellendus dolores
+              ratione itaque? Ratione nisi quod, maiores voluptatibus, ullam vel
+              ab numquam rem quo, ad similique qui?
+            </p>
           </div>
         </div>
       </div>
@@ -180,27 +181,30 @@
     </div>
   </main>
 </template>
-<script>
-import { ref, computed } from "vue";
-export default {
-  data() {
-    return {
-      sidenav: "",
-    };
-  },
 
-  methods: {
-    openNav: function () {
+
+<script lang="ts">
+import { defineComponent } from "vue";
+
+export default defineComponent({
+  setup() {
+    const sidenav: string = "";
+
+    function openNav(): void {
       this.$refs.sidenav.style.backgroundColor = "red";
       this.$refs.sidenav.style.width = "250px";
-      console.log(this.$refs.sidenav);
-    },
-    closeNav: function () {
+    }
+    function closeNav(): void {
       this.$refs.sidenav.style.width = "0";
-    },
+    }
+    return {
+      openNav,
+      closeNav,
+    };
   },
-};
+});
 </script>
+
 <style lang="scss">
 .parallax {
   /* The image used */
