@@ -3,7 +3,38 @@
     <div class="parallax">
       <div class="flex-container navbar">
         <div class="flex-item-left text-left">Learn With Patrick</div>
-        <div class="flex-item-right">Product Manager</div>
+        <div class="flex-item-right">
+          <div class="container ">
+             <div
+            class="text-right p-5"
+            style="text-align: right; font-size: 1.9rem; cursor: pointer;"
+            @click="openNav()"
+          >
+            <span>MENU</span> <span style="font-size: 50px">&#9776; </span>
+          </div>
+          </div>
+         
+
+          <div id="mySidenav" class="sidenav text-bg-dark" ref="sidenav">
+            <div class="container p-3">
+              <a
+                href="javascript:void(0)"
+                class="closebtn"
+                @click="closeNav()"
+                >  &times;</a
+              >
+            </div> 
+
+            <div class="flex-container">
+              <div class="flex-item-right"></div>
+            </div>
+            <a href="#">About</a>
+            <a href="#">Services</a>
+            <a href="#">Clients</a>
+            <a href="#">Contact</a>
+            <p class="p-3">Lorem ipsum dolor sit amet. Odio, alias?, amet consectetur adipisicing elit. Vero fugit ab, delectus repellendus dolores ratione itaque? Ratione nisi quod, maiores voluptatibus, ullam vel ab numquam rem quo, ad similique qui?</p>
+          </div>
+        </div>
       </div>
       <div class="container">
         <div class="flex-container-head">
@@ -26,7 +57,7 @@
       style="min-height: 800px; height: 100%; background-color: #00bfff"
     >
       <div class="container text-center">
-        <h1 style="font-size: 35px">We Are Glint</h1>
+        <h1 style="font-size: 60px">We Are Glint</h1>
         <p class="p-5 text-center text-dark" style="font-size: 25px">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique
           deleniti illo alias harum fugiat nobis saepe tempore nemo sequi
@@ -45,7 +76,6 @@
           >
             <h2 style="font-size: 5.4rem">100</h2>
             <h3 class="text-dark">Students</h3>
-            <!-- <div class="vr"></div> -->
           </div>
           <div
             class="flex-item-right border-right-5"
@@ -63,8 +93,8 @@
     </div>
     <div class="parallax">
       <div class="container">
-        <h2 class="text-center">
-          We've got everything you need to launch and grow your business
+        <h2 class="text-center" style="font-size: 60px">
+          What You Can Get From Me
         </h2>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. A architecto
@@ -118,23 +148,58 @@
         </p>
         <div class="flex-container">
           <div class="flex-item-left">
-            <img width="200px" src="https://images.unsplash.com/photo-1605711285791-0219e80e43a3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1169&q=80" alt="">
+            <img
+              width="200px"
+              src="https://images.unsplash.com/photo-1605711285791-0219e80e43a3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1169&q=80"
+              alt=""
+            />
           </div>
           <div class="flex-item-right">
-            <img width="200px" src="https://images.unsplash.com/photo-1605711285791-0219e80e43a3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1169&q=80" alt="">
+            <img
+              width="200px"
+              src="https://images.unsplash.com/photo-1605711285791-0219e80e43a3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1169&q=80"
+              alt=""
+            />
           </div>
           <div class="flex-item-right">
-            <img width="200px" src="https://images.unsplash.com/photo-1605711285791-0219e80e43a3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1169&q=80" alt="">
+            <img
+              width="200px"
+              src="https://images.unsplash.com/photo-1605711285791-0219e80e43a3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1169&q=80"
+              alt=""
+            />
           </div>
           <div class="flex-item-right">
-            <img width="200px" src="https://images.unsplash.com/photo-1605711285791-0219e80e43a3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1169&q=80" alt="">
+            <img
+              width="200px"
+              src="https://images.unsplash.com/photo-1605711285791-0219e80e43a3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1169&q=80"
+              alt=""
+            />
           </div>
         </div>
       </div>
     </div>
   </main>
 </template>
-<script setup>
+<script>
+import { ref, computed } from "vue";
+export default {
+  data() {
+    return {
+      sidenav: "",
+    };
+  },
+
+  methods: {
+    openNav: function () {
+      this.$refs.sidenav.style.backgroundColor = "red";
+      this.$refs.sidenav.style.width = "250px";
+      console.log(this.$refs.sidenav);
+    },
+    closeNav: function () {
+      this.$refs.sidenav.style.width = "0";
+    },
+  },
+};
 </script>
 <style lang="scss">
 .parallax {
@@ -188,6 +253,49 @@
   .flex-container-services,
   .flex-container-head {
     flex-direction: column;
+  }
+}
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+  padding-top: 40px;
+}
+@media screen and (max-height: 450px) {
+  .sidenav {
+    padding-top: 15px;
+  }
+  .sidenav a {
+    font-size: 18px;
   }
 }
 </style>
