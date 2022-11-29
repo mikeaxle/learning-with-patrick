@@ -1,6 +1,6 @@
 <template>
   <main>
-    <div class="parallax">
+    <div class="parallax" style="height: 700px">
       <div class="flex-container navbar">
         <div class="flex-item-left text-left">Learn With Patrick</div>
         <div class="flex-item-right">
@@ -34,22 +34,68 @@
               ratione itaque? Ratione nisi quod, maiores voluptatibus, ullam vel
               ab numquam rem quo, ad similique qui?
             </p>
+            <div class="p-3">
+              <img
+                class="m-2"
+                width="30"
+                src="@/assets/icons/facebook.png"
+                alt=""
+              />
+              <img
+                class="m-2"
+                width="30"
+                src="@/assets/icons/instagram.png"
+                alt=""
+              />
+              <img
+                class="m-2"
+                width="30"
+                src="@/assets/icons/linkedin.png"
+                alt=""
+              />
+              <img href="www.google.com" target="blank"
+                class="m-2"
+                width="30"
+                src="@/assets/icons/twitter.png"
+                alt=""
+              />
+            </div>
           </div>
         </div>
       </div>
       <div class="container">
         <div class="flex-container-head">
           <div class="flex-item-left text-left">
-            <div class="display-4 m-5 text-left">
+            <div class="display-4 mb-5 text-left">
               We are a creative group of people who design influential brands
               and digital experiences.
               <div class="button pt-5">
-                <span class="btn btn-success m-3">Learn More</span>
-                <span class="btn btn-success">Learn More</span>
+                <Button title="Click Here" secondTitle="We are here" />
+                <Button
+                  class="m-2"
+                  title="Click Here"
+                  secondTitle="We are here"
+                />
               </div>
             </div>
           </div>
-          <div class="flex-item-right">Hello</div>
+          <div class="flex-item-right" style="">
+            <a href="">
+              <img class="m-2" width="30" src="@/assets/icons/facebook.png" alt="" />
+            </a>
+            <a href="">
+              <img class="m-2" width="30" src="@/assets/icons/instagram.png" alt="" />
+            </a>
+            <a href="">
+              <img class="m-2" width="30" src="@/assets/icons/linkedin.png" alt="" />
+            </a>
+              <a href="">
+                <img class="m-2" width="30" src="@/assets/icons/twitter.png" alt="">
+              </a>
+            <!-- 
+            
+             -->
+          </div>
         </div>
       </div>
     </div>
@@ -185,8 +231,11 @@
 
 <script lang="ts">
 import { defineComponent } from "vue";
-
+import Button from "../components/Button.vue";
 export default defineComponent({
+  components: {
+    Button,
+  },
   setup() {
     const sidenav: string = "";
 
