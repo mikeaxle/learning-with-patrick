@@ -1,16 +1,16 @@
 <template>
   <main>
     <div class="parallax" style="height: 700px">
-      <div class="flex-container navbar">
-        <div class="flex-item-left text-left">Learn With Patrick</div>
+      <div class="flex-container navbar pt-3">
+        <div class="flex-item-left text-left "><p class="text-white" style="font-size:25px; margin-left: 5%;">Learn With Patrick<span class="text-primary">.</span></p></div>
         <div class="flex-item-right">
           <div class="container">
             <div
-              class="text-right p-5"
-              style="text-align: right; font-size: 1.9rem; cursor: pointer"
+              class="text-right  "
+              style="text-align: right; font-size: 25px; margin-right:5%; cursor: pointer"
               @click="openNav"
             >
-              <span>MENU</span> <span style="font-size: 50px">&#9776; </span>
+              <span class="">MENU</span> <span style="font-size:40px ">&#9776; </span>
             </div>
           </div>
 
@@ -63,19 +63,20 @@
           </div>
         </div>
       </div>
-      <div class="container">
+      <div class="container mt-5">
         <div class="flex-container-head">
           <div class="flex-item-left text-left">
             <div class="display-4 mb-5 text-left">
               We are a creative group of people who design influential brands
               and digital experiences.
               <div class="button pt-5">
-                <Button title="Click Here" secondTitle="We are here" />
-                <Button
+                <Button  title="Click Here" secondTitle="We are here" />
+                
+                <a href="#services"><Button
                   class="m-2"
                   title="Click Here"
                   secondTitle="We are here"
-                />
+                /></a>
               </div>
             </div>
           </div>
@@ -138,7 +139,7 @@
         </div>
       </div>
     </div>
-    <div class="parallax">
+    <div class="parallax" id="services">
       <div class="container">
         <h2 class="text-center" style="font-size: 60px">
           What You Can Get From Me
@@ -257,7 +258,7 @@ export default defineComponent({
 <style lang="scss">
 .parallax {
   /* The image used */
-  background-image: url("https://images.unsplash.com/photo-1620553967189-8c0eddd81c97?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzJ8fGJsdWUlMjBhbmQlMjBncmF5fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=600&q=60");
+  background-image: url("https://images.unsplash.com/photo-1484176141566-3674cda218f0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1174&q=80");
 
   /* Set a specific height */
   height: 500px;
