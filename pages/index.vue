@@ -2,15 +2,25 @@
   <main>
     <div class="parallax" style="height: 700px">
       <div class="flex-container navbar pt-3">
-        <div class="flex-item-left text-left "><p class="text-white" style="font-size:25px; margin-left: 5%;">Learn With Patrick<span class="text-primary">.</span></p></div>
+        <div class="flex-item-left text-left">
+          <p class="text-white" style="font-size: 25px; margin-left: 5%">
+            Learn With Patrick<span class="text-primary">.</span>
+          </p>
+        </div>
         <div class="flex-item-right">
           <div class="container">
             <div
-              class="text-right  "
-              style="text-align: right; font-size: 25px; margin-right:5%; cursor: pointer"
+              class="text-right"
+              style="
+                text-align: right;
+                font-size: 25px;
+                margin-right: 5%;
+                cursor: pointer;
+              "
               @click="openNav"
             >
-              <span class="">MENU</span> <span style="font-size:40px ">&#9776; </span>
+              <span class="">MENU</span>
+              <span style="font-size: 40px">&#9776; </span>
             </div>
           </div>
 
@@ -53,7 +63,9 @@
                 src="@/assets/icons/linkedin.png"
                 alt=""
               />
-              <img href="www.google.com" target="blank"
+              <img
+                href="www.google.com"
+                target="blank"
                 class="m-2"
                 width="30"
                 src="@/assets/icons/twitter.png"
@@ -70,29 +82,50 @@
               We are a creative group of people who design influential brands
               and digital experiences.
               <div class="button pt-5">
-                <Button  title="Click Here" secondTitle="We are here" />
-                
-                <a href="#services"><Button
-                  class="m-2"
-                  title="Click Here"
-                  secondTitle="We are here"
+                <Button title="Click Here" secondTitle="We are here" />
+
+                <a href="#services"
+                  ><Button
+                    class="m-2"
+                    title="Click Here"
+                    secondTitle="We are here"
                 /></a>
               </div>
             </div>
           </div>
           <div class="flex-item-right" style="">
             <a href="">
-              <img class="m-2" width="30" src="@/assets/icons/facebook.png" alt="" />
+              <img
+                class="m-2"
+                width="30"
+                src="@/assets/icons/facebook.png"
+                alt=""
+              />
             </a>
             <a href="">
-              <img class="m-2" width="30" src="@/assets/icons/instagram.png" alt="" />
+              <img
+                class="m-2"
+                width="30"
+                src="@/assets/icons/instagram.png"
+                alt=""
+              />
             </a>
             <a href="">
-              <img class="m-2" width="30" src="@/assets/icons/linkedin.png" alt="" />
+              <img
+                class="m-2"
+                width="30"
+                src="@/assets/icons/linkedin.png"
+                alt=""
+              />
             </a>
-              <a href="">
-                <img class="m-2" width="30" src="@/assets/icons/twitter.png" alt="">
-              </a>
+            <a href="">
+              <img
+                class="m-2"
+                width="30"
+                src="@/assets/icons/twitter.png"
+                alt=""
+              />
+            </a>
             <!-- 
             
              -->
@@ -139,9 +172,9 @@
         </div>
       </div>
     </div>
-    <div class="parallax" id="services">
-      <div class="container">
-        <h2 class="text-center" style="font-size: 60px">
+    <div class="parallax" id="services" style="height:100%">
+      <div class="container text-center">
+        <h2 class="text-justify" style="font-size: 60px">
           What You Can Get From Me
         </h2>
         <p>
@@ -150,31 +183,105 @@
           totam quae!
         </p>
         <div class="flex-container-services">
-          <div class="flex-item-left">Hello world</div>
-          <div class="flex-item-right">Hello world</div>
-          <div class="flex-item-right">Hello world</div>
-          <div class="flex-item-right">Hello world</div>
+          <div class="flex-item-left">
+            <h2>Apprendre l'anglais</h2>
+            <p>
+              Avez-vous déjà raté une opportunité à cause de l'anglais ? Vous
+              écoutez mais trouvez difficile de parler ? Nous avons la solution
+              ! Notre approche est pratique et adaptée pour répondre à vos
+              besoins spécifiques. En plus de vos compétences techniques, parler
+              anglais peut vous ouvrir les portes de nombreuses opportunités.
+            </p>
+          </div>
+          <div class="flex-item-right">
+            <h2>Préparer un entretien</h2>
+            <p>
+              Vous avez un entretien d'embauche qui approche ? Ou une réunion
+              importante avec un client ? Les entretiens peuvent parfois être
+              stressants, mais avec une bonne préparation, vous pourrez vous
+              démarquer et atteindre votre objectif. Laissez-nous vous aider à
+              vous préparer pour cette opportunité.
+            </p>
+          </div>
+          <div class="flex-item-right">
+            <h2>Préparer un discours/une présentation</h2>
+            <p>
+              Des études montrent qu'il faut 7 à 10 secondes pour capter
+              l'attention de votre auditoire lorsque vous commencez un discours.
+              D'où la nécessité de préparer un discours captivant. Laissez-nous
+              vous aider à composer, structurer et pratiquer votre discours ou
+              votre présentation afin que vous soyez prêt à communiquer vos
+              idées plus efficacement et à atteindre vos objectifs.
+            </p>
+          </div>
+          <div class="flex-item-right">
+            <h2>Traduction de documents</h2>
+            <p>
+              Nous fournissons des services de traduction en français et en
+              anglais. Nous pouvons vous aider à traduire vos lettres, CV,
+              présentations et bien d'autres documents et textes commerciaux.
+            </p>
+          </div>
         </div>
       </div>
     </div>
     <div
-      class="text-dark"
+      class="text-dark pb-5 pt-5"
       style="min-height: 300px; height: 100%; background-color: white"
     >
       <div class="container">
+        <h1>Qui est Patrick?</h1>
         <p>
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsa,
-          quisquam debitis hic est sit voluptatibus earum temporibus
-          reprehenderit quas praesentium suscipit corrupti ratione excepturi
-          repudiandae distinctio consequatur minima autem ab! Rem, perferendis
-          modi accusamus suscipit repudiandae saepe expedita quisquam voluptatum
-          nihil deleniti et quos quod ratione fuga aut temporibus aliquid!
+          Titulaire d'un diplôme en administration des affaires, j'apprends des
+          sujets liés à la finance, au marketing, aux ressources humaines et au
+          business en général. En 2015, lorsque j'ai quitté mon pays la RDC pour
+          poursuivre mes études en INDE, j'ai été confrontée à un problème : la
+          communication. Je ne maîtrisais pas l'anglais et cela m'empêchait de
+          bien étudier. Pour résoudre ce problème, j'ai dû appliquer plusieurs
+          techniques d'apprentissage et pratiquer chaque jour. Ce processus m'a
+          aidé à comprendre ce qui marche et ce qui ne marche pas. Au cours de
+          mon parcours universitaire, j'ai également développé une passion pour
+          l'art oratoire. J'ai participé à de nombreux concours et j'ai fait
+          plus d'une centaine de discours et de présentations devant des
+          centaines de personnes et de petits groupes. Grâce à tous ces défis,
+          j'ai appris de nombreuses méthodes et techniques pour capter
+          l'attention de mon auditoire et atteindre l'objectif de mon discours
+          ou de ma présentation. Lorsque je suis retourné dans mon pays en 2019,
+          j'ai obtenu mon tout premier emploi parce qu'au-delà de mes autres
+          compétences, je maîtrisais l'anglais et j'étais capable de bien me
+          défendre lors des entretiens. <br />
+        </p>
+        <ul>
+          Je vois parfois:
+          <li>
+            Des personnes avec plusieurs années d'expérience rater des
+            promotions à cause de l'anglais
+          </li>
+          <li>
+            Des entrepreneurs rater des marchés importants à cause de l'anglais
+          </li>
+          <li>
+            Des chefs d'entreprise souffrir lors d'événements et de réunions à
+            l'étranger à cause de l'anglais
+          </li>
+          <li>
+            Des demandeurs d'emploi souffrir lors d'un entretien en anglais
+          </li>
+        </ul>
+        <p>
+          Je sais combien l'anglais et les compétences en communication sont
+          nécessaires dans le monde professionnel. Voilà pourquoi j'aide les
+          gens à booster leur carrière professionnelle. Au cours des dernières
+          années, mon équipe et moi-même avons aidé des chefs d'entreprises, des
+          cadres, des employés et des étudiants à atteindre leurs objectifs
+          grâce à nos services. Je suis convaincu qu'une communication efficace
+          est un atout majeur pour une carrière réussie.
         </p>
       </div>
     </div>
     <div class="parallex">
       <div class="container text-center">
-        <h2 class="text-dark p-5">Some clients & Partners</h2>
+        <h2 class="text-dark p-5">Ce qu'ils disent de nous</h2>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo
           voluptate quisquam sit voluptas a ab laborum assumenda fugit dolor,
