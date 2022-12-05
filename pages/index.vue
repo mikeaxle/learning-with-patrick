@@ -1,10 +1,10 @@
 <template>
   <main>
-    <div class="parallax" style="height: 700px">
+    <div class="parallax" style="height: 800px">
       <div class="flex-container navbar pt-3">
         <div class="flex-item-left text-left">
           <p class="text-white" style="font-size: 25px; margin-left: 5%">
-            Learn With Patrick<span class="text-primary">.</span>
+            Learn With Patrick<span class="text-primary">...</span>
           </p>
         </div>
         <div class="flex-item-right">
@@ -78,7 +78,7 @@
       <div class="container mt-5">
         <div class="flex-container-head">
           <div class="flex-item-left text-left">
-            <div class="display-4 mb-5 text-left">
+            <div class="display-4 mb-5 mt-5 text-left">
               We are a creative group of people who design influential brands
               and digital experiences.
               <div class="button pt-5">
@@ -93,7 +93,7 @@
               </div>
             </div>
           </div>
-          <div class="flex-item-right" style="">
+          <!-- <div class="flex-item-right" style="">
             <a href="">
               <img
                 class="m-2"
@@ -126,17 +126,12 @@
                 alt=""
               />
             </a>
-            <!-- 
             
-             -->
-          </div>
+          </div> -->
         </div>
       </div>
     </div>
-    <div
-      class="bg-primary p-5"
-      style="min-height: 800px; height: 100%; background-color: #00bfff"
-    >
+    <div class="bg-primary p-5" style="height: 100%; background-color: #00bfff">
       <div class="container text-center">
         <h1 style="font-size: 60px">We Are Glint</h1>
         <p class="p-5 text-center text-dark" style="font-size: 25px">
@@ -172,7 +167,7 @@
         </div>
       </div>
     </div>
-    <div class="parallax" id="services" style="height:100%">
+    <div class="parallax" id="services" style="height: 100%">
       <div class="container text-center">
         <h2 class="text-justify" style="font-size: 60px">
           What You Can Get From Me
@@ -329,6 +324,56 @@
               src="https://images.unsplash.com/photo-1605711285791-0219e80e43a3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1169&q=80"
               alt=""
             />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="text-dark pb-5 pt-5 text-bg-primary"
+      style="min-height: 300px; height: 100%"
+    >
+      <div class="container">
+        <h2 class="text-center text-light">
+          Mince, Un autre coach? un autre centre d'anglais?
+        </h2>
+        <p class="text-justify">
+          Loin de la. Nous vous offrons un service de qualite. Et a la
+          difference des autres, nos cours et nos services peuvent se passer
+          virtuellement sans la presence physique pour ceux qui le desirent.
+          C'est normale n'est-ce pas? nous vivons dans un monde digitale.
+        </p>
+        <h2>Qu'attends-tu? contactes nous</h2>
+        <ul>
+          <li>
+            Envoie un e-mail ici:
+            <a
+              href="mailto:gauthierjorbel@gmail.com?subject = Feedback&body = Message"
+              >mail here</a
+            >
+          </li>
+          <li>Whatsapp ou appel normal: +24396582458</li>
+        </ul>
+      </div>
+    </div>
+    <div
+      class="pb-5 pt-5 text-bg-dark"
+      style="min-height: 300px; height: 100%"
+    >
+      <div class="container">
+        <div class="flex-container text-center">
+          <div class="flex-item-left">
+            <h3>Learn with Patrick...</h3>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+              Praesentium cum officia dolor fugit quas laudantium!
+            </p>
+          </div>
+          <div class="flex-item-right">
+            <h4>Connect with us</h4>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eos in
+              ut corporis. Alias, sequi cum?
+            </p>
           </div>
         </div>
       </div>
