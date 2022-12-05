@@ -355,15 +355,12 @@
         </ul>
       </div>
     </div>
-    <div
-      class="pb-5 pt-5 text-bg-dark"
-      style="min-height: 300px; height: 100%"
-    >
+    <div class="pb-5 pt-5 text-bg-dark" style="min-height: 300px; height: 100%">
       <div class="container">
-        <div class="flex-container text-center">
+        <div class="flex-container">
           <div class="flex-item-left">
             <h3>Learn with Patrick...</h3>
-            <p>
+            <p class="text-justify">
               Lorem ipsum dolor sit, amet consectetur adipisicing elit.
               Praesentium cum officia dolor fugit quas laudantium!
             </p>
@@ -376,6 +373,9 @@
             </p>
           </div>
         </div>
+        <p class="text-center p-5">
+          © Copyright Learn With Patrick... 2022 | Built by Incognito Tech
+        </p>
       </div>
     </div>
   </main>
@@ -390,6 +390,12 @@ export default defineComponent({
     Button,
   },
   setup() {
+    // SEO
+    useHead({
+      title: "Learn With Patrick: votre meilleur coach d'anglais",
+      meta: [{ name: "Votre meilleur coach", content: "My amazing site." }],
+    });
+
     const sidenav: string = "";
 
     function openNav(): void {
