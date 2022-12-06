@@ -4,7 +4,8 @@
       <div class="flex-container navbar pt-3">
         <div class="flex-item-left text-left">
           <p class="text-white" style="font-size: 25px; margin-left: 5%">
-            Learn With Patrick<span class="text-primary">...</span>
+           <p style="font-size:12px; padding-left:2%">Learn With</p>
+           <Patrick/>
           </p>
         </div>
         <div class="flex-item-right">
@@ -78,14 +79,15 @@
       <div class="container mt-5">
         <div class="flex-container-head">
           <div class="flex-item-left text-left">
-            <div class="display-4 mb-5 mt-5 text-left">
-              We are a creative group of people who design influential brands
-              and digital experiences.
+            <div class="display-4 mb-5 mt-5 text-left" style="width:82%">
+              <h2 style="font-size:60px">Aimeriez-vous améliorer votre anglais ?</h2>
+             <p style="font-size:30px">Je vous aide à booster votre carrière professionnelle grâce à l'anglais.</p>  
+              <!-- <Text /> -->
               <div class="button pt-5">
                 <Button title="Click Here" secondTitle="We are here" />
 
-                <a href="#services"
-                  ><Button
+                <a href="#service"
+                   style="cursor:pointer"><Button
                     class="m-2"
                     title="Click Here"
                     secondTitle="We are here"
@@ -359,7 +361,7 @@
       <div class="container">
         <div class="flex-container">
           <div class="flex-item-left">
-            <h3>Learn with Patrick...</h3>
+            <h3>  Learn With Patrick<span class="text-primary">...</span></h3>
             <p class="text-justify">
               Lorem ipsum dolor sit, amet consectetur adipisicing elit.
               Praesentium cum officia dolor fugit quas laudantium!
@@ -370,6 +372,38 @@
             <p>
               Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eos in
               ut corporis. Alias, sequi cum?
+              <a href="">
+                <img
+                  class="m-2"
+                  width="30"
+                  src="@/assets/icons/facebook.png"
+                  alt=""
+                />
+              </a>
+              <a href="">
+                <img
+                  class="m-2"
+                  width="30"
+                  src="@/assets/icons/instagram.png"
+                  alt=""
+                />
+              </a>
+              <a href="">
+                <img
+                  class="m-2"
+                  width="30"
+                  src="@/assets/icons/linkedin.png"
+                  alt=""
+                />
+              </a>
+              <a href="">
+                <img
+                  class="m-2"
+                  width="30"
+                  src="@/assets/icons/twitter.png"
+                  alt=""
+                />
+              </a>
             </p>
           </div>
         </div>
