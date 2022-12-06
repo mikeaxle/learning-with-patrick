@@ -61,7 +61,7 @@ export default {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgb(8, 79, 154);
+  background-color: rgb(8, 79, 154) !important;
   transform-origin: bottom center;
   transition: transform 600ms cubic-bezier(0.48, 0, 0.12, 1);
   transform: skewY(9.3deg) scaleY(0);
