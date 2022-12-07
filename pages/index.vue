@@ -303,14 +303,28 @@ Pour moi, l'apprentissage est en effet un processus sans fin.
           <div class="flex-item-right">
             <img
               width="200px"
-              src="https://images.unsplash.com/photo-1605711285791-0219e80e43a3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1169&q=80"
+              src="../assets/images/rapid_network.png"
               alt=""
             />
           </div>
           <div class="flex-item-right">
             <img
               width="200px"
-              src="https://images.unsplash.com/photo-1605711285791-0219e80e43a3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1169&q=80"
+              src="../assets/images/ideal_industries.png"
+              alt=""
+            />
+          </div>
+          <div class="flex-item-right">
+            <img
+              width="200px"
+              src="../assets/images/electronic_congo.png"
+              alt=""
+            />
+          </div>
+          <div class="flex-item-right">
+            <img
+              width="200px"
+              src="../assets/images/bunker.png"
               alt=""
             />
           </div>
@@ -322,26 +336,7 @@ Pour moi, l'apprentissage est en effet un processus sans fin.
       style="min-height: 300px; height: 100%; background-color:#989898;"
     >
       <div class="container">
-        <h2 class="text-center text-light">
-          Mince, Un autre coach? un autre centre d'anglais?
-        </h2>
-        <p class="text-justify">
-          Loin de la. Nous vous offrons un service de qualite. Et a la
-          difference des autres, nos cours et nos services peuvent se passer
-          virtuellement sans la presence physique pour ceux qui le desirent.
-          C'est normale n'est-ce pas? nous vivons dans un monde digitale.
-        </p>
-        <h2>Qu'attendez-vous? contactez-nous</h2>
-        <ul>
-          <li>
-            Envoie un e-mail ici:
-            <a
-              href="mailto:gauthierjorbel@gmail.com?subject = Feedback&body = Message"
-              >mail here</a
-            >
-          </li>
-          <li>Whatsapp ou appel normal: +24396582458</li>
-        </ul>
+        <Form />
       </div>
     </div>
     <div class="pb-5 pt-5 text-bg-dark" style="min-height: 300px; height: 100%">
