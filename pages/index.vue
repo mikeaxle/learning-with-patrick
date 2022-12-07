@@ -1,27 +1,18 @@
 <template>
   <main>
-    <div class="parallax" style="height: 800px">
+    <!-- First section -->
+    <div class="parallax parallax-header">
       <div class="flex-container navbar pt-3">
         <div class="flex-item-left text-left">
-          <p class="text-white" style="font-size: 25px; margin-left: 5%">
-           <p style="font-size:12px; padding-left:2%">Learn With</p>
-           <Patrick/>
-          </p>
+          <div class="text-white logo">
+            <p>Learn With</p>
+            <Patrick />
+          </div>
         </div>
         <div class="flex-item-right">
           <div class="container">
-            <div
-              class="text-right"
-              style="
-                text-align: right;
-                font-size: 25px;
-                margin-right: 5%;
-                cursor: pointer;
-              "
-              @click="openNav"
-            >
-              <span class="">MENU</span>
-              <span style="font-size: 40px">&#9776; </span>
+            <div class="text-right" @click="openNav">
+              <span class="p-3 text-light">&#9776; </span>
             </div>
           </div>
 
@@ -76,20 +67,25 @@
           </div>
         </div>
       </div>
-      <div class="container mt-5">
+      <div class="container main-content mt-5">
         <div class="flex-container-head">
           <div class="flex-item-left text-left">
-            <div class="display-4 mb-5 mt-5 text-left" style="width:82%">
-              <h2 style="font-size:60px; color:rgb(8, 68, 105);">Aimeriez-vous améliorer votre anglais ?</h2>
-             <p style="font-size:30px; color: rgb(8, 68, 105);">Je vous aide à booster votre carrière professionnelle grâce à l'anglais.</p>  
+            <div class="display-4 mb-5 mt-5 main-text text-left">
+              <h2 class="display-1">Aimeriez-vous améliorer votre anglais ?</h2>
+              <p class="display-4">
+                Je vous aide à booster votre carrière professionnelle grâce à
+                l'anglais.
+              </p>
               <div class="button pt-5">
                 <a href="#contact">
-                  <Button title="Contactez-nous" secondTitle="Disponible pour vous" />
+                  <Button
+                    title="Contactez-nous"
+                    secondTitle="Disponible pour vous"
+                  />
                 </a>
-                
-                <a href="#services"
-                   style="cursor:pointer">
-                   <Button
+
+                <a href="#services">
+                  <Button
                     class="m-2"
                     title="Services"
                     secondTitle="Nos Services"
@@ -100,51 +96,29 @@
         </div>
       </div>
     </div>
-    <div
-      class="text-bg-dark pb-5 pt-5"
-      style="min-height: 300px; height: 100%;"
-    >
+    <!-- Second section -->
+    <div class="text-bg-dark about pb-5 pt-5">
       <div class="container">
         <h1>Qui est Patrick?</h1>
         <p>
-          Entre faire du sport, écouter de la musique et regarder des spectacles de stand up, je ne
-peux pas dire lequel est mon préféré car j'aime tous ces hobbies.
-Je joue souvent au basket ou au football le week-end.
-J'aime chanter mes chansons préférées. J'admets que je n'ai pas la voix de John Legend
-ou d'Ed Sheeran, mais cela ne m'empêche pas de m'amuser.
-Me divertir est ma façon de me récompenser après une journée productive.
-Je suis né dans un petit village de la République démocratique du Congo.
-Grâce à mes parents, j'ai pu déménager dans une grande ville et j'ai eu la chance de
-fréquenter une meilleure école où j'ai étudié en français.
-Lorsque j'ai fini mes études secondaires, mes parents m'ont envoyé en INDE pour mes
-études universitaires et j'ai eu la chance d'étudier en anglais. Je suis donc reconnaissant
-à Dieu de m'avoir donné des parents qui valorisent l'éducation.
-Je considère qu'ill est impossible de progresser sur le plan professionnel ou personnel
-sans améliorer constamment ses compétences et ses connaissances. Et aucun pays ne
-peut progresser sans investir dans l'éducation de sa jeunesse.
-Pour moi, l'apprentissage est en effet un processus sans fin.
-
-
-
-
-          <!-- Titulaire d'un diplôme en administration des affaires, j'apprends des
-          sujets liés à la finance, au marketing, aux ressources humaines et au
-          business en général. En 2015, lorsque j'ai quitté mon pays la RDC pour
-          poursuivre mes études en INDE, j'ai été confrontée à un problème : la
-          communication. Je ne maîtrisais pas l'anglais et cela m'empêchait de
-          bien étudier. Pour résoudre ce problème, j'ai dû appliquer plusieurs
-          techniques d'apprentissage et pratiquer chaque jour. Ce processus m'a
-          aidé à comprendre ce qui marche et ce qui ne marche pas. Au cours de
-          mon parcours universitaire, j'ai également développé une passion pour
-          l'art oratoire. J'ai participé à de nombreux concours et j'ai fait
-          plus d'une centaine de discours et de présentations devant des
-          centaines de personnes et de petits groupes. Grâce à tous ces défis,
-          j'ai appris de nombreuses méthodes et techniques pour capter
-          l'attention de mon auditoire et atteindre l'objectif de mon discours
-          ou de ma présentation. Lorsque je suis retourné dans mon pays en 2019,
-          j'ai obtenu mon tout premier emploi parce qu'au-delà de mes autres
-          compétences, je maîtrisais l'anglais et j'étais capable de bien me
-          défendre lors des entretiens. <br /> -->
+          Entre faire du sport, écouter de la musique et regarder des spectacles
+          de stand up, je ne peux pas dire lequel est mon préféré car j'aime
+          tous ces hobbies. Je joue souvent au basket ou au football le
+          week-end. J'aime chanter mes chansons préférées. J'admets que je n'ai
+          pas la voix de John Legend ou d'Ed Sheeran, mais cela ne m'empêche pas
+          de m'amuser. Me divertir est ma façon de me récompenser après une
+          journée productive. Je suis né dans un petit village de la République
+          démocratique du Congo. Grâce à mes parents, j'ai pu déménager dans une
+          grande ville et j'ai eu la chance de fréquenter une meilleure école où
+          j'ai étudié en français. Lorsque j'ai fini mes études secondaires, mes
+          parents m'ont envoyé en INDE pour mes études universitaires et j'ai eu
+          la chance d'étudier en anglais. Je suis donc reconnaissant à Dieu de
+          m'avoir donné des parents qui valorisent l'éducation. Je considère
+          qu'ill est impossible de progresser sur le plan professionnel ou
+          personnel sans améliorer constamment ses compétences et ses
+          connaissances. Et aucun pays ne peut progresser sans investir dans
+          l'éducation de sa jeunesse. Pour moi, l'apprentissage est en effet un
+          processus sans fin.
         </p>
         <ul>
           Je vois parfois:
@@ -165,56 +139,23 @@ Pour moi, l'apprentissage est en effet un processus sans fin.
         </ul>
         <p>
           Je sais combien l'anglais et les compétences en communication sont
-          nécessaires dans le monde professionnel. <span style="text-decoration: underline">Voilà pourquoi j'aide les
-          gens à booster leur carrière professionnelle.</span> Au cours des dernières
-          années, mon équipe et moi-même avons aidé des chefs d'entreprises, des
-          cadres, des employés et des étudiants à atteindre leurs objectifs
-          grâce à nos services. Je suis convaincu qu'une communication efficace
-          est un atout majeur pour une carrière réussie.
+          nécessaires dans le monde professionnel.
+          <span
+            >Voilà pourquoi j'aide les gens à booster leur carrière
+            professionnelle.</span
+          >
+          Au cours des dernières années, mon équipe et moi-même avons aidé des
+          chefs d'entreprises, des cadres, des employés et des étudiants à
+          atteindre leurs objectifs grâce à nos services. Je suis convaincu
+          qu'une communication efficace est un atout majeur pour une carrière
+          réussie.
         </p>
       </div>
     </div>
-    <!-- <div class="p-5" style="height: 100%; background-color:#0066b2">
+    <!-- Third section -->
+    <div class="parallax services" id="services">
       <div class="container text-center">
-        <h1 style="font-size: 60px">We Are Glint</h1>
-        <p class="p-5 text-center text-dark" style="font-size: 25px">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique
-          deleniti illo alias harum fugiat nobis saepe tempore nemo sequi
-          corrupti! Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-          Voluptatum vitae exercitationem repellat voluptas enim beatae eos
-          deserunt maxime quam! Assumenda!
-        </p>
-        <div class="flex-container m-5">
-          <div class="flex-item-left" style="border-right: 1px solid gray">
-            <h2 style="font-size: 5.4rem">50</h2>
-            <h3 class="text-dark">Projects</h3>
-          </div>
-          <div
-            class="flex-item-right border-right-5"
-            style="border-right: 1px solid gray"
-          >
-            <h2 style="font-size: 5.4rem">100</h2>
-            <h3 class="text-dark">Students</h3>
-          </div>
-          <div
-            class="flex-item-right border-right-5"
-            style="border-right: 1px solid gray"
-          >
-            <h2 style="font-size: 5.4rem">150</h2>
-            <h3 class="text-dark">Countries</h3>
-          </div>
-          <div class="flex-item-right">
-            <h2 style="font-size: 5.4rem">200</h2>
-            <h3 class="text-dark">Partners</h3>
-          </div>
-        </div>
-      </div>
-    </div> -->
-    <div class="parallax" id="services" style="height: 100%">
-      <div class="container text-center">
-        <h2 class="text-justify" style="font-size: 60px; color:rgb(8, 68, 105)">
-          En quoi pourrai-je vous aider?
-        </h2>
+        <h2 class="text-justify title-text">En quoi pourrai-je vous aider?</h2>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. A architecto
           adipisci alias quibusdam eos tenetur, reprehenderit facilis natus
@@ -263,9 +204,12 @@ Pour moi, l'apprentissage est en effet un processus sans fin.
         </div>
       </div>
     </div>
+
+    <!-- Fourth section -->
     <div class="parallex text-bg-dark">
       <div class="container text-center">
         <h2 class="p-5">Ce qu'ils disent de nous</h2>
+        <Testimonial />
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo
           voluptate quisquam sit voluptas a ab laborum assumenda fugit dolor,
@@ -273,77 +217,63 @@ Pour moi, l'apprentissage est en effet un processus sans fin.
           Dicta nulla voluptates possimus. Suscipit esse, iusto laudantium
           exercitationem reprehenderit sed cum saepe voluptates error non
           inventore, nulla quidem dolore. Lorem ipsum dolor sit amet consectetur
-          adipisicing elit. Ipsam voluptates dignissimos explicabo, ab ut
-          ratione suscipit recusandae debitis labore cumque nemo assumenda
-          laboriosam ad ex quasi sunt, adipisci facere quas cupiditate! Ex
-          eveniet eius nemo libero molestiae dolor impedit veritatis, sequi
-          harum fugiat quibusdam ullam sint autem pariatur, minus cupiditate cum
-          aliquid, eaque dolorem dicta. Nulla, quisquam corporis. Rem cumque
-          voluptatem aliquam, nobis culpa quibusdam iure, eaque atque tempore
-          eveniet ipsa dolores explicabo sapiente nihil consequatur consequuntur
-          eum architecto accusantium velit molestias. Quis repellendus dolor
-          quos, repudiandae, vero sint accusantium laborum minus debitis illum
-          in excepturi eius ullam aliquam sequi.
+          adipisicing elit. 
         </p>
+       
         <div class="flex-container">
           <div class="flex-item-left">
             <img
               width="200px"
               src="../assets/images/itot.png"
-              alt=""
+              alt="ITOT Africa"
             />
           </div>
           <div class="flex-item-right">
             <img
               width="200px"
               src="../assets/images/okademy.png"
-              alt=""
+              alt="Okademy"
             />
           </div>
           <div class="flex-item-right">
             <img
               width="200px"
               src="../assets/images/rapid_network.png"
-              alt=""
+              alt="Rapid Network"
             />
           </div>
           <div class="flex-item-right">
             <img
               width="200px"
               src="../assets/images/ideal_industries.png"
-              alt=""
+              alt="Ideal Industries"
             />
           </div>
           <div class="flex-item-right">
             <img
               width="200px"
               src="../assets/images/electronic_congo.png"
-              alt=""
+              alt="Electronic Congo"
             />
           </div>
           <div class="flex-item-right">
-            <img
-              width="200px"
-              src="../assets/images/bunker.png"
-              alt=""
-            />
+            <img width="200px" src="../assets/images/bunker.png" alt="Bunker" />
           </div>
         </div>
       </div>
     </div>
-    <div id="contact"
-      class="pb-5 pt-5"
-      style="min-height: 300px; height: 100%; background-color:#989898;"
-    >
+    <!-- Fifth section -->
+    <div id="contact" class="contact pb-5 pt-5">
       <div class="container">
         <Form />
       </div>
     </div>
-    <div class="pb-5 pt-5 text-bg-dark" style="min-height: 300px; height: 100%">
+    <!-- Sixth section -->
+    <div class="footer pb-5 pt-5 text-bg-dark">
       <div class="container">
         <div class="flex-container">
           <div class="flex-item-left">
-            <h3>  Learn With Patrick<span class="text-primary">...</span></h3>
+            <h3>Learn With Patrick<span class="text-primary">...</span></h3>
             <p class="text-justify">
               Lorem ipsum dolor sit, amet consectetur adipisicing elit.
               Praesentium cum officia dolor fugit quas laudantium!
@@ -397,7 +327,6 @@ Pour moi, l'apprentissage est en effet un processus sans fin.
   </main>
 </template>
 
-
 <script lang="ts">
 import { defineComponent } from "vue";
 import Button from "../components/Button.vue";
@@ -430,6 +359,71 @@ export default defineComponent({
 </script>
 
 <style lang="scss">
+.parallax-header {
+  height: 800px;
+  .navbar {
+    .flex-item-left {
+      .logo {
+        font-size: 25px;
+        margin-left: 5%;
+        p {
+          font-size: 12px;
+          padding-left: 2%;
+        }
+      }
+    }
+    .flex-item-right {
+      .container {
+        div {
+          text-align: right;
+          font-size: 25px;
+          margin-right: 5%;
+          cursor: pointer;
+          span {
+            font-size: 40px;
+            background-color: rgb(8, 68, 105);
+            position: sticky;
+          }
+        }
+      }
+    }
+  }
+  .main-content {
+    .flex-container-head {
+      .flex-item-left {
+        .main-text {
+          width: 82% h2 {
+            font-size: 60px !important;
+            color: rgb(8, 68, 105);
+          }
+          p {
+            font-size: 30px;
+            color: rgb(8, 68, 105);
+          }
+          .button a {
+            cursor: pointer;
+          }
+        }
+      }
+    }
+  }
+}
+.about {
+  .container p span {
+    text-decoration: underline;
+  }
+}
+.services {
+  .container .title-text {
+    font-size: 60px;
+    color: $title_color;
+  }
+}
+.contact {
+  background-color: #989898;
+}
+
+
 .parallax {
   /* The image used */
   background-image: url("../assets/images/patrick_profile.jpg");
@@ -437,7 +431,7 @@ export default defineComponent({
   // filter: grayscale(100%);
 
   /* Set a specific height */
-  height: 500px;
+  // height: 500px;
 
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
