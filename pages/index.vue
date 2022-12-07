@@ -82,18 +82,17 @@
             <div class="display-4 mb-5 mt-5 text-left" style="width:82%">
               <h2 style="font-size:60px; color:rgb(8, 68, 105);">Aimeriez-vous améliorer votre anglais ?</h2>
              <p style="font-size:30px; color: rgb(8, 68, 105);">Je vous aide à booster votre carrière professionnelle grâce à l'anglais.</p>  
-              <!-- <Text /> -->
               <div class="button pt-5">
                 <a href="#contact">
-                  <Button title="Click Here" secondTitle="We are here" />
+                  <Button title="Contactez-nous" secondTitle="Disponible pour vous" />
                 </a>
                 
-                <a href="#service"
+                <a href="#services"
                    style="cursor:pointer">
                    <Button
                     class="m-2"
-                    title="Click Here"
-                    secondTitle="We are here"
+                    title="Services"
+                    secondTitle="Nos Services"
                 /></a>
               </div>
             </div>
@@ -318,9 +317,9 @@ Pour moi, l'apprentissage est en effet un processus sans fin.
         </div>
       </div>
     </div>
-    <div
-      class="text-dark pb-5 pt-5 text-bg-primary"
-      style="min-height: 300px; height: 100%"
+    <div id="contact"
+      class="pb-5 pt-5"
+      style="min-height: 300px; height: 100%; background-color:#989898;"
     >
       <div class="container">
         <h2 class="text-center text-light">
@@ -332,7 +331,7 @@ Pour moi, l'apprentissage est en effet un processus sans fin.
           virtuellement sans la presence physique pour ceux qui le desirent.
           C'est normale n'est-ce pas? nous vivons dans un monde digitale.
         </p>
-        <h2>Qu'attends-tu? contactes nous</h2>
+        <h2>Qu'attendez-vous? contactez-nous</h2>
         <ul>
           <li>
             Envoie un e-mail ici:
@@ -527,7 +526,7 @@ export default defineComponent({
   padding-top: 40px;
 }
 
-.cards:hover{
+.cards:hover {
   background-color: rgb(8, 68, 105);
   transition-timing-function: ease;
   transition: 0.9s;

@@ -1,7 +1,7 @@
 <template>
   <!-- HTML !-->
   <button class="button-57" role="button">
-    <span class="text">{{ title }}}</span><span>{{ secondTitle }}</span>
+    <span class="text">{{ title }}</span><span>{{ secondTitle }}</span>
   </button>
 </template>
 
