@@ -3,10 +3,10 @@
     <div class="box">
       <div class="title">
         <span class="block"></span>
-        <h1>Patrick Mukad<span></span></h1>
+        <h1 class="mb-5 mt-2">Patrick Mukad<span></span></h1>
       </div>
 
-      <div class="role">
+      <div class="role p-1">
         <div class="block"></div>
         <p>English Coach</p>
       </div>

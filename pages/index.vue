@@ -5,7 +5,7 @@
       <div class="flex-container navbar pt-3">
         <div class="flex-item-left text-left">
           <div class="text-white logo">
-            <p>Learn With</p>
+            <p class="pb-3">Learn With</p>
             <Patrick />
           </div>
         </div>
@@ -208,7 +208,6 @@
     <!-- Fourth section -->
     <div class="parallex text-bg-dark">
       <div class="container text-center">
-        <h2 class="p-5">Ce qu'ils disent de nous</h2>
         <Testimonial />
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo
