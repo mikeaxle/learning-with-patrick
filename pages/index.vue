@@ -72,7 +72,7 @@
           <div class="flex-item-left text-left">
             <div class="display-4 mb-5 mt-5 main-text text-left">
               <h2 class="display-1">Aimeriez-vous améliorer votre anglais ?</h2>
-              <p class="display-4">
+              <p class="display-4 text-white font-italic">
                 Je vous aide à booster votre carrière professionnelle grâce à
                 l'anglais.
               </p>
@@ -97,7 +97,7 @@
       </div>
     </div>
     <!-- Second section -->
-    <div class="text-bg-dark about pb-5 pt-5">
+    <div class="text-bg-dark about pb-5 pt-5 about" >
       <div class="container">
         <h1>Qui est Patrick?</h1>
         <p>
@@ -155,12 +155,8 @@
     <!-- Third section -->
     <div class="parallax services" id="services">
       <div class="container text-center">
-        <h2 class="text-justify title-text">En quoi pourrai-je vous aider?</h2>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. A architecto
-          adipisci alias quibusdam eos tenetur, reprehenderit facilis natus
-          totam quae!
-        </p>
+        <h2 class="text-justify title-text text-white">En quoi pourrai-je vous aider?</h2>
+
         <div class="flex-container-services p-5">
           <div class="flex-item-left cards">
             <h2>Apprendre l'anglais</h2>
@@ -216,9 +212,9 @@
           Dicta nulla voluptates possimus. Suscipit esse, iusto laudantium
           exercitationem reprehenderit sed cum saepe voluptates error non
           inventore, nulla quidem dolore. Lorem ipsum dolor sit amet consectetur
-          adipisicing elit. 
+          adipisicing elit.
         </p>
-       
+
         <div class="flex-container">
           <div class="flex-item-left">
             <img
@@ -408,6 +404,11 @@ export default defineComponent({
   }
 }
 .about {
+  // background-image: url('../assets/images/patrick_black_and_white.jpg');
+  // background-size: contain;
+  // background-color: black;
+  // filter: grayscale(70%);
+  // background-repeat: no-repeat;
   .container p span {
     text-decoration: underline;
   }
@@ -415,17 +416,15 @@ export default defineComponent({
 .services {
   .container .title-text {
     font-size: 60px;
-    color: $title_color;
   }
 }
 .contact {
   background-color: #989898;
 }
 
-
 .parallax {
   /* The image used */
-  background-image: url("../assets/images/patrick_profile.jpg");
+  background-image: url("../assets/images/patrick_black_and_white.jpg");
   // filter: opacity(20%);
   // filter: grayscale(100%);
 
