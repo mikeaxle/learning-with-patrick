@@ -21,7 +21,7 @@
           ></textarea>
           <br />
           <input
-            class="form-control btn btn-primary"
+            class="form-control submit-button"
             type="submit"
             value="Send"
           />
@@ -32,21 +32,21 @@
           <h4>CONTACT INFO</h4>
         </div>
         <div class="container">
-          <h4 class="text-primary">Where to Find Us</h4>
+          <h4 class="title_color">Where to Find Us</h4>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut
             dignissimos incidunt similique dolore animi vero?
           </p>
         </div>
         <div class="container">
-          <h4 class="text-primary">Email Us At</h4>
+          <h4 class="title_color">Email Us At</h4>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim
             corporis iusto exercitationem, minus ad error.
           </p>
         </div>
         <div class="container">
-          <h4 class="text-primary">Call Us At</h4>
+          <h4 class="title_color">Call Us At</h4>
           <ul>
             <li>Phone: +24396582458</li>
             <li>Whatsapp: +24396582458</li>
@@ -79,6 +79,15 @@ export default {};
     padding: 5px;
     background-color: $title_color;
   }
+}
+
+.submit-button {
+  background-color: $title_color;
+  color: white;
+  border: 1px solid rgb(8, 68, 105);
+}
+.title_color {
+  color: $form_first;
 }
 /* Responsive layout - makes a one column-layout instead of two-column layout */
 @media (max-width: 800px) {
