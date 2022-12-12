@@ -287,7 +287,7 @@
               ut corporis. Alias, sequi cum?
               <a href="">
                 <img
-                  class="m-2"
+                  class="m-2 facebook"
                   width="30"
                   src="@/assets/icons/facebook.png"
                   alt=""
@@ -295,7 +295,7 @@
               </a>
               <a href="">
                 <img
-                  class="m-2"
+                  class="m-2 instagram"
                   width="30"
                   src="@/assets/icons/instagram.png"
                   alt=""
@@ -303,7 +303,7 @@
               </a>
               <a href="">
                 <img
-                  class="m-2"
+                  class="m-2 linkedin"
                   width="30"
                   src="@/assets/icons/linkedin.png"
                   alt=""
@@ -311,7 +311,7 @@
               </a>
               <a href="">
                 <img
-                  class="m-2"
+                  class="m-2 twitter"
                   width="30"
                   src="@/assets/icons/twitter.png"
                   alt=""
@@ -522,6 +522,21 @@ export default defineComponent({
   border-radius: 1s ease-n 1s;
   cursor: pointer;
 }
+.footer{
+  .facebook:hover{
+    transform: scale(1.2);
+  }
+  .instagram:hover{
+    transform: scale(1.2);
+  }
+  .linkedin:hover{
+    transform: scale(1.2);
+  }
+  .twitter:hover{
+    transform: scale(1.2);
+  }
+}
+
 @media screen and (max-height: 450px) {
   .sidenav {
     padding-top: 15px;
