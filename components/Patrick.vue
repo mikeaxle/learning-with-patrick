@@ -8,7 +8,7 @@
 
       <div class="role p-1">
         <div class="block"></div>
-        <p>English Coach</p>
+        <p class="font-italic mini-title">English Coach</p>
       </div>
     </div>
   </div>
@@ -94,6 +94,10 @@ export default {};
       align-items: center;
       height: 30px;
       margin-top: -10px;
+      .mini-title {
+        color: white;
+        font-weight: 900;
+      }
 
       .block {
         width: 0%;

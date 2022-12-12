@@ -1,7 +1,7 @@
 <template>
   <main>
     <!-- First section -->
-    <div class="parallax parallax-header">
+    <div class="parallax parallax-header" id="home">
       <div class="flex-container navbar pt-3">
         <div class="flex-item-left text-left">
           <div class="text-white logo">
@@ -16,7 +16,7 @@
             </div>
           </div>
 
-          <div id="mySidenav" class="sidenav text-bg-dark" ref="sidenav">
+          <div id="mySidenav" class="sidenav" ref="sidenav">
             <div class="container p-3">
               <a href="javascript:void(0)" class="closebtn" @click="closeNav">
                 &times;</a
@@ -26,10 +26,10 @@
             <div class="flex-container">
               <div class="flex-item-right"></div>
             </div>
-            <a href="#">About</a>
-            <a href="#">Services</a>
-            <a href="#">Clients</a>
-            <a href="#">Contact</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#testimonials">Clients</a>
+            <a href="#contact">Contact</a>
             <p class="p-3">
               Lorem ipsum dolor sit amet. Odio, alias?, amet consectetur
               adipisicing elit. Vero fugit ab, delectus repellendus dolores
@@ -97,7 +97,7 @@
       </div>
     </div>
     <!-- Second section -->
-    <div class="text-bg-dark about pb-5 pt-5 about" >
+    <div class="text-bg-dark about pb-5 pt-5 about" id="about">
       <div class="container">
         <h1>Qui est Patrick?</h1>
         <p>
@@ -155,7 +155,9 @@
     <!-- Third section -->
     <div class="parallax services" id="services">
       <div class="container text-center">
-        <h2 class="text-justify title-text text-white">En quoi pourrai-je vous aider?</h2>
+        <h2 class="text-justify title-text text-white">
+          En quoi pourrai-je vous aider?
+        </h2>
 
         <div class="flex-container-services p-5">
           <div class="flex-item-left cards">
@@ -202,7 +204,7 @@
     </div>
 
     <!-- Fourth section -->
-    <div class="parallex text-bg-dark">
+    <div class="parallex text-bg-dark" id="testimonials">
       <div class="container text-center">
         <Testimonial />
         <p>
@@ -268,7 +270,11 @@
       <div class="container">
         <div class="flex-container">
           <div class="flex-item-left">
-            <h3>Learn With Patrick<span class="text-primary">...</span></h3>
+            <a href="#home"
+              ><h3 class="font-italic">
+                Learn with Patrick<span class="text-primary">...</span>
+              </h3></a
+            >
             <p class="text-justify">
               Lorem ipsum dolor sit, amet consectetur adipisicing elit.
               Praesentium cum officia dolor fugit quas laudantium!
@@ -404,11 +410,6 @@ export default defineComponent({
   }
 }
 .about {
-  // background-image: url('../assets/images/patrick_black_and_white.jpg');
-  // background-size: contain;
-  // background-color: black;
-  // filter: grayscale(70%);
-  // background-repeat: no-repeat;
   .container p span {
     text-decoration: underline;
   }
@@ -485,7 +486,7 @@ export default defineComponent({
   z-index: 1;
   top: 0;
   right: 0;
-  background-color: #111;
+  background-color: $bg_nav !important;
   overflow-x: hidden;
   transition: 0.5s;
   padding-top: 60px;
@@ -495,13 +496,14 @@ export default defineComponent({
   padding: 8px 8px 8px 32px;
   text-decoration: none;
   font-size: 25px;
-  color: #818181;
+  color: white;
   display: block;
   transition: 0.3s;
+  cursor: pointer;
 }
 
 .sidenav a:hover {
-  color: #f1f1f1;
+  color: #012433;
 }
 
 .sidenav .closebtn {
@@ -516,7 +518,9 @@ export default defineComponent({
 .cards:hover {
   background-color: rgb(8, 68, 105);
   transition-timing-function: ease;
-  transition: 0.9s;
+  transition: background 0.2s linear;
+  border-radius: 1s ease-n 1s;
+  cursor: pointer;
 }
 @media screen and (max-height: 450px) {
   .sidenav {
