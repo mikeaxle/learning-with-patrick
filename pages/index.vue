@@ -271,8 +271,8 @@
         <div class="flex-container">
           <div class="flex-item-left">
             <a href="#home"
-              ><h3 class="font-italic">
-                Learn with Patrick<span class="text-primary">...</span>
+              ><h3 class="font-italic title_color">
+                Learn with Patrick<span >...</span>
               </h3></a
             >
             <p class="text-justify">
@@ -469,6 +469,13 @@ export default defineComponent({
   .flex-item-right {
     flex: 20%;
   }
+}
+a {
+   color: $form_first;
+}
+
+a:hover {
+  color: $bg_nav;
 }
 /* Responsive layout - makes a one column-layout instead of two-column layout */
 @media (max-width: 800px) {
