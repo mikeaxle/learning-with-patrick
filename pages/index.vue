@@ -19,8 +19,7 @@
           <div id="mySidenav" class="sidenav" ref="sidenav">
             <div class="container p-3">
               <a href="javascript:void(0)" class="closebtn" @click="closeNav">
-                &times;</a
-              >
+                &times;</a>
             </div>
 
             <div class="flex-container">
@@ -37,32 +36,11 @@
               ab numquam rem quo, ad similique qui?
             </p>
             <div class="p-3">
-              <img
-                class="m-2"
-                width="30"
-                src="@/assets/icons/facebook.png"
-                alt=""
-              />
-              <img
-                class="m-2"
-                width="30"
-                src="@/assets/icons/instagram.png"
-                alt=""
-              />
-              <img
-                class="m-2"
-                width="30"
-                src="@/assets/icons/linkedin.png"
-                alt=""
-              />
-              <img
-                href="www.google.com"
-                target="blank"
-                class="m-2"
-                width="30"
-                src="@/assets/icons/twitter.png"
-                alt=""
-              />
+              <img class="m-2" width="30" src="@/assets/icons/facebook.png" alt="" />
+              <img class="m-2" width="30" src="@/assets/icons/instagram.png" alt="" />
+              <img class="m-2" width="30" src="@/assets/icons/linkedin.png" alt="" />
+              <img href="www.google.com" target="blank" class="m-2" width="30" src="@/assets/icons/twitter.png"
+                alt="" />
             </div>
           </div>
         </div>
@@ -78,18 +56,11 @@
               </p>
               <div class="button pt-5">
                 <a href="#contact">
-                  <Button
-                    title="Contactez-nous"
-                    secondTitle="Disponible pour vous"
-                  />
+                  <Button title="Contactez-nous" secondTitle="Disponible pour vous" />
                 </a>
 
                 <a href="#services">
-                  <Button
-                    class="m-2"
-                    title="Services"
-                    secondTitle="Nos Services"
-                /></a>
+                  <Button class="m-2" title="Services" secondTitle="Nos Services" /></a>
               </div>
             </div>
           </div>
@@ -140,10 +111,8 @@
         <p>
           Je sais combien l'anglais et les compétences en communication sont
           nécessaires dans le monde professionnel.
-          <span
-            >Voilà pourquoi j'aide les gens à booster leur carrière
-            professionnelle.</span
-          >
+          <span>Voilà pourquoi j'aide les gens à booster leur carrière
+            professionnelle.</span>
           Au cours des dernières années, mon équipe et moi-même avons aidé des
           chefs d'entreprises, des cadres, des employés et des étudiants à
           atteindre leurs objectifs grâce à nos services. Je suis convaincu
@@ -219,39 +188,19 @@
 
         <div class="flex-container">
           <div class="flex-item-left">
-            <img
-              width="200px"
-              src="../assets/images/itot.png"
-              alt="ITOT Africa"
-            />
+            <img width="200px" src="../assets/images/itot.png" alt="ITOT Africa" />
           </div>
           <div class="flex-item-right">
-            <img
-              width="200px"
-              src="../assets/images/okademy.png"
-              alt="Okademy"
-            />
+            <img width="200px" src="../assets/images/okademy.png" alt="Okademy" />
           </div>
           <div class="flex-item-right">
-            <img
-              width="200px"
-              src="../assets/images/rapid_network.png"
-              alt="Rapid Network"
-            />
+            <img width="200px" src="../assets/images/rapid_network.png" alt="Rapid Network" />
           </div>
           <div class="flex-item-right">
-            <img
-              width="200px"
-              src="../assets/images/ideal_industries.png"
-              alt="Ideal Industries"
-            />
+            <img width="200px" src="../assets/images/ideal_industries.png" alt="Ideal Industries" />
           </div>
           <div class="flex-item-right">
-            <img
-              width="200px"
-              src="../assets/images/electronic_congo.png"
-              alt="Electronic Congo"
-            />
+            <img width="200px" src="../assets/images/electronic_congo.png" alt="Electronic Congo" />
           </div>
           <div class="flex-item-right">
             <img width="200px" src="../assets/images/bunker.png" alt="Bunker" />
@@ -270,11 +219,11 @@
       <div class="container">
         <div class="flex-container">
           <div class="flex-item-left">
-            <a href="#home"
-              ><h3 class="font-italic title_color">
-               Learn With Patrick<span ></span>
-              </h3></a
-            >
+            <a href="#home">
+              <h3 class="font-italic title_color">
+                Learn With Patrick<span></span>
+              </h3>
+            </a>
             <p class="text-justify">
               Lorem ipsum dolor sit, amet consectetur adipisicing elit.
               Praesentium cum officia dolor fugit quas laudantium!
@@ -285,37 +234,17 @@
             <p>
               Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eos in
               ut corporis. Alias, sequi cum?
-              <a href="https://www.facebook.com/profile.php?id=100006056104626"  target="blank">
-                <img
-                  class="m-2 facebook"
-                  width="30"
-                  src="@/assets/icons/facebook.png"
-                  alt=""
-                />
+              <a href="https://www.facebook.com/profile.php?id=100006056104626" target="blank">
+                <img class="m-2 facebook" width="30" src="@/assets/icons/facebook.png" alt="" />
               </a>
-              <a href="https://www.instagram.com/patrick_mukad/"  target="blank">
-                <img
-                  class="m-2 instagram"
-                  width="30"
-                  src="@/assets/icons/instagram.png"
-                  alt=""
-                />
+              <a href="https://www.instagram.com/patrick_mukad/" target="blank">
+                <img class="m-2 instagram" width="30" src="@/assets/icons/instagram.png" alt="" />
               </a>
-              <a href="https://www.linkedin.com/in/patrick-mukad-91a96a1b6/"  target="blank">
-                <img
-                  class="m-2 linkedin"
-                  width="30"
-                  src="@/assets/icons/linkedin.png"
-                  alt=""
-                />
+              <a href="https://www.linkedin.com/in/patrick-mukad-91a96a1b6/" target="blank">
+                <img class="m-2 linkedin" width="30" src="@/assets/icons/linkedin.png" alt="" />
               </a>
               <a href="https://twitter.com/Patrick_Mukad?t=hRYcyL6RqoHklRk2MZi_NQ&s=08" target="blank">
-                <img
-                  class="m-2 twitter"
-                  width="30"
-                  src="@/assets/icons/twitter.png"
-                  alt=""
-                />
+                <img class="m-2 twitter" width="30" src="@/assets/icons/twitter.png" alt="" />
               </a>
             </p>
           </div>
@@ -362,17 +291,20 @@ export default defineComponent({
 <style lang="scss">
 .parallax-header {
   height: 800px;
+
   .navbar {
     .flex-item-left {
       .logo {
         font-size: 25px;
         margin-left: 5%;
+
         p {
           font-size: 12px;
           padding-left: 2%;
         }
       }
     }
+
     .flex-item-right {
       .container {
         div {
@@ -380,6 +312,7 @@ export default defineComponent({
           font-size: 25px;
           margin-right: 5%;
           cursor: pointer;
+
           span {
             font-size: 40px;
             background-color: rgb(8, 68, 105);
@@ -389,6 +322,7 @@ export default defineComponent({
       }
     }
   }
+
   .main-content {
     .flex-container-head {
       .flex-item-left {
@@ -397,10 +331,12 @@ export default defineComponent({
             font-size: 60px !important;
             color: rgb(8, 68, 105);
           }
+
           p {
             font-size: 30px;
             color: rgb(8, 68, 105);
           }
+
           .button a {
             cursor: pointer;
           }
@@ -409,18 +345,24 @@ export default defineComponent({
     }
   }
 }
+
 .about {
   .container p span {
     text-decoration: underline;
   }
 }
+
 .services {
   .container .title-text {
     font-size: 60px;
   }
 }
+
 .contact {
-  background-color: #989898;
+  // background-color: #989898;
+  background-image: url(https://images.unsplash.com/photo-1540597224397-b6c6496e996a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1374&q=80);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .parallax {
@@ -438,9 +380,11 @@ export default defineComponent({
   background-repeat: no-repeat;
   background-size: cover;
 }
+
 .flex-container {
   display: flex;
   flex-direction: row;
+
   // flex-wrap: wrap;
   .flex-item-left,
   .flex-item-right {
@@ -448,37 +392,45 @@ export default defineComponent({
     padding: 10px;
   }
 }
+
 .flex-container-services {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+
   .flex-item-left,
   .flex-item-right {
     flex: 50%;
     padding: 5%;
   }
 }
+
 .flex-container-head {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+
   .flex-item-left {
     font-size: 35px;
     flex: 80%;
   }
+
   .flex-item-right {
     flex: 20%;
   }
 }
+
 a {
-   color: $form_first;
+  color: $form_first;
 }
 
 a:hover {
   color: $bg_nav;
 }
+
 /* Responsive layout - makes a one column-layout instead of two-column layout */
 @media (max-width: 800px) {
+
   .flex-container,
   .flex-container-services,
   .flex-container-head {
@@ -529,17 +481,21 @@ a:hover {
   border-radius: 1s ease-n 1s;
   cursor: pointer;
 }
-.footer{
-  .facebook:hover{
+
+.footer {
+  .facebook:hover {
     transform: scale(1.2);
   }
-  .instagram:hover{
+
+  .instagram:hover {
     transform: scale(1.2);
   }
-  .linkedin:hover{
+
+  .linkedin:hover {
     transform: scale(1.2);
   }
-  .twitter:hover{
+
+  .twitter:hover {
     transform: scale(1.2);
   }
 }
@@ -548,6 +504,7 @@ a:hover {
   .sidenav {
     padding-top: 15px;
   }
+
   .sidenav a {
     font-size: 18px;
   }

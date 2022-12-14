@@ -31,6 +31,8 @@ export default {
   user-select: none;
   -webkit-user-select: none;
   touch-action: manipulation;
+  width: 140px;
+  height: 60px;
 }
 
 .button-57 span:first-child {
