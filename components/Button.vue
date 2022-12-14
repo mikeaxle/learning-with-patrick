@@ -1,6 +1,6 @@
 <template>
   <!-- HTML !-->
-  <button class="button-57" role="button">
+  <button class="button-57 btn" role="button">
     <span class="text">{{ title }}</span><span>{{ secondTitle }}</span>
   </button>
 </template>
