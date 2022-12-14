@@ -86,6 +86,9 @@ export default {};
   color: white;
   border: 1px solid rgb(8, 68, 105);
 }
+.submit-button:hover{
+  background-color: $form_first ;
+}
 .title_color {
   color: $form_first;
 }
