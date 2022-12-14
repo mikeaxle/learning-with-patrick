@@ -272,7 +272,7 @@
           <div class="flex-item-left">
             <a href="#home"
               ><h3 class="font-italic title_color">
-                Learn with Patrick<span >...</span>
+               Learn With Patrick<span ></span>
               </h3></a
             >
             <p class="text-justify">
@@ -285,7 +285,7 @@
             <p>
               Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eos in
               ut corporis. Alias, sequi cum?
-              <a href="">
+              <a href="https://www.facebook.com/profile.php?id=100006056104626"  target="blank">
                 <img
                   class="m-2 facebook"
                   width="30"
@@ -293,7 +293,7 @@
                   alt=""
                 />
               </a>
-              <a href="">
+              <a href="https://www.instagram.com/patrick_mukad/"  target="blank">
                 <img
                   class="m-2 instagram"
                   width="30"
@@ -301,7 +301,7 @@
                   alt=""
                 />
               </a>
-              <a href="">
+              <a href="https://www.linkedin.com/in/patrick-mukad-91a96a1b6/"  target="blank">
                 <img
                   class="m-2 linkedin"
                   width="30"
@@ -309,7 +309,7 @@
                   alt=""
                 />
               </a>
-              <a href="">
+              <a href="https://twitter.com/Patrick_Mukad?t=hRYcyL6RqoHklRk2MZi_NQ&s=08" target="blank">
                 <img
                   class="m-2 twitter"
                   width="30"
