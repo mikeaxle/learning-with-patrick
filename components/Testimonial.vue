@@ -10,7 +10,6 @@
             <div class="testimonial">
               <img src="../assets/images/testimonial/samy.jpg" alt="" />
               <h3 class="name">Samy Mwamba</h3>
-              <!-- <h6 class="text-small">CEO - ITOT Africa</h6> -->
               <footer class="blockquote-footer">CEO - ITOT Africa</footer>
               <p>
                 Je devais ameliorer ma communication en English très rapidement.
@@ -93,7 +92,6 @@ export default {};
 <style lang="scss" scoped>
 .testimonials {
   padding: 40px 0;
-  // background: #f1f1f1;
   color: #434343;
   text-align: center;
 }
@@ -128,7 +126,7 @@ export default {};
 .testimonial {
   color: white;
   // background: lightslategray;
-  padding: 30px;
+  // padding: 30px;
 }
 .testimonial:hover {
   background-color: $title_color;
@@ -151,5 +149,8 @@ export default {};
     flex: 100%;
     max-width: 80%;
   }
+}
+@media screen and (max-width: 700px) {
+  
 }
 </style>
