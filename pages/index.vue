@@ -155,9 +155,9 @@
     <!-- Third section -->
     <div class="parallax services" id="services">
       <div class="container text-center">
-        <h2 class="text-justify title-text text-white">
+        <h1 class="text-justify  text-white">
           En quoi pourrai-je vous aider?
-        </h2>
+        </h1>
 
         <div class="flex-container-services p-5">
           <div class="flex-item-left cards">
