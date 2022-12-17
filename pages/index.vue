@@ -124,7 +124,7 @@
     <!-- Third section -->
     <div class="parallax services" id="services">
       <div class="container text-center">
-        <h1 class="text-justify  text-white">
+        <h1 class="text-justify  text-white pt-5">
           En quoi pourrai-je vous aider?
         </h1>
 
@@ -186,7 +186,7 @@
           adipisicing elit.
         </p>
 
-        <div class="flex-container">
+        <div class="flex-container logos">
           <div class="flex-item-left">
             <img width="200px" src="../assets/images/itot.png" alt="ITOT Africa" />
           </div>
@@ -317,6 +317,8 @@ export default defineComponent({
             font-size: 40px;
             background-color: rgb(8, 68, 105);
             position: sticky;
+            border: 2px solid black;
+            border-radius: 50px 20px;
           }
         }
       }
@@ -359,7 +361,6 @@ export default defineComponent({
 }
 
 .contact {
-  // background-color: #989898;
   background-image: url(https://images.unsplash.com/photo-1540597224397-b6c6496e996a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1374&q=80);
   background-repeat: no-repeat;
   background-size: cover;
@@ -368,11 +369,6 @@ export default defineComponent({
 .parallax {
   /* The image used */
   background-image: url("../assets/images/patrick_black_and_white.jpg");
-  // filter: opacity(20%);
-  // filter: grayscale(100%);
-
-  /* Set a specific height */
-  // height: 500px;
 
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
@@ -438,11 +434,13 @@ a:hover {
   }
 }
 
+
+
 .sidenav {
   height: 100%;
   width: 0;
   position: fixed;
-  z-index: 1;
+  z-index: 100;
   top: 0;
   right: 0;
   background-color: $bg_nav !important;
@@ -507,6 +505,23 @@ a:hover {
 
   .sidenav a {
     font-size: 18px;
+  }
+}
+
+@media screen and (max-height: 700px) {
+  .logos {
+    flex-wrap: wrap;
+  }
+
+  .about {
+    text-align: center !important;
+  }
+
+}
+
+@media screen and (max-height: 400px) {
+  .testimonial {
+    background-color: red !important;
   }
 }
 </style>
