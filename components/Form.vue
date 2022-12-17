@@ -1,7 +1,7 @@
 <template>
   <div class="container">
     <div class="flex-container container-wrapper">
-      <div class="flex-item-left p-5 text-bg-dark">
+      <div class="flex-item-left p-4 text-bg-dark">
         <h4>SEND US A MESSAGE</h4>
         <form class="" action="">
           <input class="form-control" type="text" placeholder="Your Name" />
