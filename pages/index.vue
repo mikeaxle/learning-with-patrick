@@ -323,7 +323,14 @@
 								v-for="locale in availableLocales"
 								:key="locale.code"
 								:to="switchLocalePath(locale.code)"
-								>{{ locale.name }}</NuxtLink
+								>{{ locale.name  }} 
+								<img
+									class="m-2 linkedin"
+									width="30"
+									src="@/assets/images/worldwide.png"
+									alt=""
+								/>
+							</NuxtLink
 							>
 						</div>
 					</div>
@@ -500,7 +507,7 @@ export default defineComponent({
 }
 
 a {
-	color: $form_first;
+	color: rgb(138 209 254);
 }
 
 a:hover {
