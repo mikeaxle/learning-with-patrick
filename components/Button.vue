@@ -1,6 +1,6 @@
 <template>
   <!-- HTML !-->
-  <button class="button-57" role="button">
+  <button class="button-57 btn" role="button">
     <span class="text">{{ title }}</span><span>{{ secondTitle }}</span>
   </button>
 </template>
@@ -31,6 +31,8 @@ export default {
   user-select: none;
   -webkit-user-select: none;
   touch-action: manipulation;
+  width: 140px;
+  height: 60px;
 }
 
 .button-57 span:first-child {

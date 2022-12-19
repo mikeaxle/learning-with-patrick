@@ -5,7 +5,7 @@
 			<div class="flex-container navbar pt-3">
 				<div class="flex-item-left text-left">
 					<div class="text-white logo">
-						<p class="pb-3">Learn With</p>
+						<p class="pb-3">{{ $t("home.learn") }}</p>
 						<Patrick />
 					</div>
 				</div>
@@ -318,7 +318,14 @@
 								/>
 							</a>
 						</p>
-						<div>Language here</div>
+						<div>
+							<NuxtLink
+								v-for="locale in availableLocales"
+								:key="locale.code"
+								:to="switchLocalePath(locale.code)"
+								>{{ locale.name }}</NuxtLink
+							>
+						</div>
 					</div>
 				</div>
 				<p class="text-center p-5">
@@ -345,6 +352,13 @@ export default defineComponent({
 
 		const sidenav: string = "";
 
+		const { locale, locales } = useI18n();
+		const switchLocalePath = useSwitchLocalePath();
+
+		const availableLocales = computed(() => {
+			return locales.value.filter((i) => i.code !== locale.value);
+		});
+
 		function openNav(): void {
 			this.$refs.sidenav.style.backgroundColor = "red";
 			this.$refs.sidenav.style.width = "250px";
@@ -353,24 +367,15 @@ export default defineComponent({
 			this.$refs.sidenav.style.width = "0";
 		}
 
-		// const availableLocales = computed(() => {
-		// 	// return this.$i18n.locales.filter((i) => i.code !== this.$i18n.locale);
-		// });
-		// function SetLanguage(code: any): void {
-		// 	// this.$i18n.setLocale(code);
-		// }
-		// function getFlagIcon(code: any): void {
-		// 	// if (code) {
-		// 	// 	const selectedLanguage = this.$i18n.locales.find(lang => lang.code === code);
-		// 	// 	if (selectedLanguage) {
-		// 	// 		return `fi fi-${selectedLanguage.flag}`;
-		// 	// 	}
-		// 	// }
-		// 	// return `flag-icon flag-icon-${code}`;
-		// }
+		
+
 		return {
 			openNav,
 			closeNav,
+			availableLocales,
+			locale,
+			locales
+
 		};
 	},
 });
@@ -426,16 +431,19 @@ export default defineComponent({
 		}
 	}
 }
+
 .about {
 	.container p span {
 		text-decoration: underline;
 	}
 }
+
 .services {
 	.container .title-text {
 		font-size: 60px;
 	}
 }
+
 .contact {
 	background-color: #989898;
 }
@@ -455,6 +463,7 @@ export default defineComponent({
 	background-repeat: no-repeat;
 	background-size: cover;
 }
+
 .flex-container {
 	display: flex;
 	flex-direction: row;
@@ -465,6 +474,7 @@ export default defineComponent({
 		padding: 10px;
 	}
 }
+
 .flex-container-services {
 	display: flex;
 	flex-direction: row;
@@ -475,6 +485,7 @@ export default defineComponent({
 		padding: 5%;
 	}
 }
+
 .flex-container-head {
 	display: flex;
 	flex-direction: row;
@@ -487,6 +498,7 @@ export default defineComponent({
 		flex: 20%;
 	}
 }
+
 a {
 	color: $form_first;
 }
@@ -494,6 +506,7 @@ a {
 a:hover {
 	color: $bg_nav;
 }
+
 /* Responsive layout - makes a one column-layout instead of two-column layout */
 @media (max-width: 800px) {
 	.flex-container,
@@ -567,6 +580,22 @@ a:hover {
 	}
 	.sidenav a {
 		font-size: 18px;
+	}
+}
+
+@media screen and (max-height: 700px) {
+	.logos {
+		flex-wrap: wrap;
+	}
+
+	.about {
+		text-align: center !important;
+	}
+}
+
+@media screen and (max-height: 400px) {
+	.testimonial {
+		background-color: red !important;
 	}
 }
 </style>

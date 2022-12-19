@@ -10,7 +10,6 @@
             <div class="testimonial">
               <img src="../assets/images/testimonial/samy.jpg" alt="" />
               <h3 class="name">Samy Mwamba</h3>
-              <!-- <h6 class="text-small">CEO - ITOT Africa</h6> -->
               <footer class="blockquote-footer">CEO - ITOT Africa</footer>
               <p>
                 Je devais ameliorer ma communication en English très rapidement.
@@ -80,6 +79,42 @@
               </p>
             </div>
           </div>
+
+          <div class="col">
+            <div class="testimonial">
+              <img src="../assets/images/testimonial/Evariste.jpg" alt="" />
+              <h3 class="name">Evariste Liyele</h3>
+              <footer class="blockquote-footer">-Co-founder & CEO - Ferme Azur</footer>
+              <p>
+                Lorsque notre projet a été sélectionné dans le cadre d'un concours de financement des entreprises à
+                Kinshasa, je devais faire un discours le jour de l'annonce des prix.
+
+                J'étais inquiet, alors j'ai demandé de l'aide à Patrick. Il a compris mes besoins et m'a aidé tel un
+                médecin avec ses patients.
+                Il m'a non seulement aidé à écrire mon discours, mais m'a aussi montré comment capter l'attention du
+                public.
+
+                Le jour J, j'ai pu faire un excellent discours. Cette expérience a impacté ma façon de communiquer et
+                j'en suis très reconnaissant.
+              </p>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="testimonial">
+              <img src="../assets/images/testimonial/Gloire.jpg" alt="" />
+              <h3 class="name">Gloire Kitenge</h3>
+              <footer class="blockquote-footer">-HR Manager</footer>
+              <p>
+                Les cours d'anglais interactifs que j'ai suivis avec Patrick m'ont beaucoup aidé.
+
+                J'avais l'habitude de me sentir mal à l'aise, mais après quelques mois, j'ai pu m'exprimer avec
+                confiance. J'ai également amélioré ma grammaire et mon vocabulaire.
+
+                Si vous souhaitez également améliorer votre anglais, je vous recommande de contacter Patrick.
+              </p>
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -93,7 +128,6 @@ export default {};
 <style lang="scss" scoped>
 .testimonials {
   padding: 40px 0;
-  // background: #f1f1f1;
   color: #434343;
   text-align: center;
 }
@@ -128,8 +162,9 @@ export default {};
 .testimonial {
   color: white;
   // background: lightslategray;
-  padding: 30px;
+  // padding: 30px;
 }
+
 .testimonial:hover {
   background-color: $title_color;
 }

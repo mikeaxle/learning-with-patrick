@@ -1,7 +1,7 @@
 <template>
   <div class="container">
     <div class="flex-container container-wrapper">
-      <div class="flex-item-left p-5 text-bg-dark">
+      <div class="flex-item-left p-4 text-bg-dark">
         <h4>SEND US A MESSAGE</h4>
         <form class="" action="">
           <input class="form-control" type="text" placeholder="Your Name" />
@@ -85,6 +85,9 @@ export default {};
   background-color: $title_color;
   color: white;
   border: 1px solid rgb(8, 68, 105);
+}
+.submit-button:hover{
+  background-color: $form_first ;
 }
 .title_color {
   color: $form_first;
