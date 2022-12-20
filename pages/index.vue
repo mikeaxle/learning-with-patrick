@@ -458,12 +458,6 @@ export default defineComponent({
 .parallax {
 	/* The image used */
 	background-image: url("../assets/images/patrick_black_and_white.jpg");
-	// filter: opacity(20%);
-	// filter: grayscale(100%);
-
-	/* Set a specific height */
-	// height: 500px;
-
 	/* Create the parallax scrolling effect */
 	background-attachment: fixed;
 	background-position: center;
