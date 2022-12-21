@@ -3,9 +3,16 @@
     <div class="testimonials">
       <div class="testimonial-inner">
         <h1 class="text-white">Ce Qu'ils Disent De Nous</h1>
-        <div class="border"></div>
-
-        <div class="row">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo
+          voluptate quisquam sit voluptas a ab laborum assumenda fugit dolor,
+          enim illum quo dicta quas, cum et provident recusandae quos inventore?
+          Dicta nulla voluptates possimus. Suscipit esse, iusto laudantium
+          exercitationem reprehenderit sed cum saepe voluptates error non
+          inventore, nulla quidem dolore. Lorem ipsum dolor sit amet consectetur
+          adipisicing elit.
+        </p>
+        <div class="row mt-5">
           <div class="col">
             <div class="testimonial">
               <img src="../assets/images/testimonial/samy.jpg" alt="" />
@@ -149,20 +156,17 @@ export default {};
 .row {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
 }
 
 .col {
   flex: 33.33%;
-  max-width: 33.33%;
+  width: 100%;
   box-sizing: border-box;
-  padding: 15px;
 }
 
 .testimonial {
   color: white;
-  // background: lightslategray;
-  // padding: 30px;
+  padding: 5%;
 }
 
 .testimonial:hover {
@@ -185,6 +189,14 @@ export default {};
   .col {
     flex: 100%;
     max-width: 80%;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .col[data-v-63dfa6cb] {
+    flex: 100%;
+    max-width: 100%;
+    margin-top: 5%;
   }
 }
 </style>
