@@ -3,14 +3,12 @@
     <div class="testimonials">
       <div class="testimonial-inner">
         <h1 class="text-white">Ce Qu'ils Disent De Nous</h1>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo
-          voluptate quisquam sit voluptas a ab laborum assumenda fugit dolor,
-          enim illum quo dicta quas, cum et provident recusandae quos inventore?
-          Dicta nulla voluptates possimus. Suscipit esse, iusto laudantium
-          exercitationem reprehenderit sed cum saepe voluptates error non
-          inventore, nulla quidem dolore. Lorem ipsum dolor sit amet consectetur
-          adipisicing elit.
+        <p class=" text-white pt-4">
+          Notre satisfaction provient principalement du fait de voir nos clients réussir.
+          Nous nous surpassons pour les aider à atteindre leurs objectifs.
+
+          Nous croyons au progrès plutôt qu'au mouvement, c'est pourquoi nous cherchons le moyen le plus efficace
+          d'aider nos clients à atteindre leurs objectifs.
         </p>
         <div class="row mt-5">
           <div class="col">

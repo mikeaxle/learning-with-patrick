@@ -25,6 +25,7 @@
             <div class="flex-container">
               <div class="flex-item-right"></div>
             </div>
+            <a href="#home">Home</a>
             <a href="#about">About</a>
             <a href="#services">Services</a>
             <a href="#testimonials">Clients</a>
@@ -45,7 +46,7 @@
           </div>
         </div>
       </div>
-      <div class="container main-content mt-3">
+      <div class="container main-content mt-3" id="home">
         <div class="flex-container-head">
           <div class="flex-item-left text-left">
             <div class="display-4 mb-5 mt-5 main-text text-left">
