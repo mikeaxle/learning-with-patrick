@@ -82,12 +82,12 @@ export default {};
 }
 
 .submit-button {
-  background-color: $title_color;
+  background-color: $form_first;
   color: white;
   border: 1px solid rgb(8, 68, 105);
 }
 .submit-button:hover{
-  background-color: $form_first ;
+  background-color: $title_color ;
 }
 .title_color {
   color: $form_first;

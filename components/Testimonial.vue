@@ -167,9 +167,6 @@ export default {};
   padding: 5%;
 }
 
-.testimonial:hover {
-  background-color: #004c64;
-}
 
 .testimonial img {
   width: 100px;
@@ -195,6 +192,16 @@ export default {};
     flex: 100%;
     max-width: 100%;
     margin-top: 5%;
+  }
+}
+
+@media (max-width: 600px) {
+  .testimonial[data-v-63dfa6cb] {
+    color: black;
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+    border: 2px solid white;
+    border-radius: 5px;
   }
 }
 </style>
