@@ -25,6 +25,7 @@
             <div class="flex-container">
               <div class="flex-item-right"></div>
             </div>
+            <a href="#home">Home</a>
             <a href="#about">About</a>
             <a href="#services">Services</a>
             <a href="#testimonials">Clients</a>
@@ -45,7 +46,7 @@
           </div>
         </div>
       </div>
-      <div class="container main-content mt-3">
+      <div class="container main-content mt-3" id="home">
         <div class="flex-container-head">
           <div class="flex-item-left text-left">
             <div class="display-4 mb-5 mt-5 main-text text-left">
@@ -68,7 +69,7 @@
       </div>
     </div>
     <!-- Second section -->
-    <div class="text-bg-dark about pb-5 pt-5 about" id="about">
+    <div class="text-white about pb-5 pt-5 about" id="about">
       <div class="container">
         <h1>Qui est Patrick?</h1>
         <p>
@@ -173,37 +174,18 @@
     </div>
 
     <!-- Fourth section -->
-    <div class="parallex text-bg-dark" id="testimonials">
+    <div class="parallex testimonials" id="testimonials">
       <div class="container text-center">
         <Testimonial />
-       
-        <div class="container">
-          <h1 class="mt-5 mb-5">Sponsors & Partners</h1>
-        <div class="flex-container logos">
-
-          <div class="flex-item-left">
-            <img width="200px" src="../assets/images/itot.png" alt="ITOT Africa" />
-          </div>
-          <div class="flex-item-right">
-            <img width="200px" src="../assets/images/okademy.png" alt="Okademy" />
-          </div>
-          <div class="flex-item-right">
-            <img width="200px" src="../assets/images/rapid_network.png" alt="Rapid Network" />
-          </div>
-          <div class="flex-item-right">
-            <img width="200px" src="../assets/images/ideal_industries.png" alt="Ideal Industries" />
-          </div>
-          <div class="flex-item-right">
-            <img width="200px" src="../assets/images/electronic_congo.png" alt="Electronic Congo" />
-          </div>
-          <div class="flex-item-right">
-            <img width="200px" src="../assets/images/bunker.png" alt="Bunker" />
-          </div>
-        </div>
-        </div>
-      
       </div>
     </div>
+    <div id="sponsors" class="sponsors pb-5 pt-5 text-bg-white">
+      <div class="container">
+        <Sponsors/>
+      </div>
+    </div>
+   
+
     <!-- Fifth section -->
     <div id="contact" class="contact pb-5 pt-5">
       <div class="container">
@@ -370,6 +352,7 @@ export default defineComponent({
   .container p span {
     text-decoration: underline;
   }
+ background-color: $title_color;
 }
 
 .services {
@@ -382,9 +365,12 @@ export default defineComponent({
   background-color: #989898;
 }
 
+.sponsors{
+  background-color: white;
+}
 .parallax {
   /* The image used */
-  background-image: url("../assets/images/patrick_black_and_white.jpg");
+  background-image: url("../assets/images/patrick_profile.jpg");
   // filter: opacity(20%);
   // filter: grayscale(100%);
 
@@ -397,7 +383,9 @@ export default defineComponent({
   background-repeat: no-repeat;
   background-size: cover;
 }
-
+.testimonials{
+  background-color: $title_color;
+}
 .flex-container {
   display: flex;
   flex-direction: row;
