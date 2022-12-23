@@ -69,7 +69,7 @@
       </div>
     </div>
     <!-- Second section -->
-    <div class="text-bg-dark about pb-5 pt-5 about" id="about">
+    <div class="text-white about pb-5 pt-5 about" id="about">
       <div class="container">
         <h1>Qui est Patrick?</h1>
         <p>
@@ -174,12 +174,17 @@
     </div>
 
     <!-- Fourth section -->
-    <div class="parallex text-bg-dark" id="testimonials">
+    <div class="parallex testimonials" id="testimonials">
       <div class="container text-center">
         <Testimonial />
       </div>
     </div>
-    <Sponsors />
+    <div id="sponsors" class="sponsors pb-5 pt-5 text-bg-white">
+      <div class="container">
+        <Sponsors/>
+      </div>
+    </div>
+   
 
     <!-- Fifth section -->
     <div id="contact" class="contact pb-5 pt-5">
@@ -347,6 +352,7 @@ export default defineComponent({
   .container p span {
     text-decoration: underline;
   }
+ background-color: $title_color;
 }
 
 .services {
@@ -359,9 +365,12 @@ export default defineComponent({
   background-color: #989898;
 }
 
+.sponsors{
+  background-color: white;
+}
 .parallax {
   /* The image used */
-  background-image: url("../assets/images/patrick_black_and_white.jpg");
+  background-image: url("../assets/images/patrick_profile.jpg");
   // filter: opacity(20%);
   // filter: grayscale(100%);
 
@@ -374,7 +383,9 @@ export default defineComponent({
   background-repeat: no-repeat;
   background-size: cover;
 }
-
+.testimonials{
+  background-color: $title_color;
+}
 .flex-container {
   display: flex;
   flex-direction: row;

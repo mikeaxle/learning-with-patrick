@@ -168,7 +168,7 @@ export default {};
 }
 
 .testimonial:hover {
-  background-color: $title_color;
+  background-color: #004c64;
 }
 
 .testimonial img {
