@@ -52,10 +52,11 @@
                {{ $t("home.introDescription") }}
               </p>
               <div class="button pt-5">
+                <a href="#services">
+                  <Button class="m-2" title="Services" secondTitle="Nos Services" /></a>
                 <a href="#contact">
                   <Button :title="$t('home.contactButton')" :secondTitle="$t('home.contacButtontHover')" />
                 </a>
-
                 <a href="#services">
                   <Button class="m-2" :title="$t('home.servicesButton')" :secondTitle="$t('home.ServicesButtomHover')" /></a>
               </div>
@@ -135,10 +136,10 @@
     </div>
     <div id="sponsors" class="sponsors pb-5 pt-5 text-bg-white">
       <div class="container">
-        <Sponsors/>
+        <Sponsors />
       </div>
     </div>
-   
+
 
     <!-- Fifth section -->
     <div id="contact" class="contact pb-5 pt-5">
@@ -151,11 +152,14 @@
       <div class="container">
         <div class="flex-container">
           <div class="flex-item-left">
-            <a href="#home">
+            <!-- <a href="#home">
               <h3 class="font-italic title_color">
                 Learn with Patrick<span>...</span>
+                
+                 Home
               </h3>
-            </a>
+            </a> -->
+            <h3>Votre Compagnon de qualite</h3>
             <p class="text-justify">
               Lorem ipsum dolor sit, amet consectetur adipisicing elit.
               Praesentium cum officia dolor fugit quas laudantium!
@@ -189,7 +193,7 @@
           </div>
         </div>
         <p class="text-center p-5">
-          © Copyright Learn With Patrick... 2022 | Built by Incognito Tech
+          © Copyright Learn With Patrick... 2022 | Built by Incognito Software
         </p>
       </div>
     </div>
@@ -271,8 +275,8 @@ export default defineComponent({
             background-color: rgb(8, 68, 105);
             position: sticky;
             border: 2px solid white;
-    padding: 10px;
-    border-radius: 50px 30px;
+            padding: 10px;
+            border-radius: 50px 30px;
           }
         }
       }
@@ -306,7 +310,8 @@ export default defineComponent({
   .container p span {
     text-decoration: underline;
   }
- background-color: $title_color;
+
+  background-color: $title_color;
 }
 
 .services {
@@ -316,12 +321,13 @@ export default defineComponent({
 }
 
 .contact {
-  background-color: #989898;
+  background-color: $title_color;
 }
 
-.sponsors{
+.sponsors {
   background-color: white;
 }
+
 .parallax {
   /* The image used */
   background-image: url("../assets/images/patrick_profile.jpg");
@@ -337,9 +343,11 @@ export default defineComponent({
   background-repeat: no-repeat;
   background-size: cover;
 }
-.testimonials{
+
+.testimonials {
   background-color: $title_color;
 }
+
 .flex-container {
   display: flex;
   flex-direction: row;
@@ -403,9 +411,15 @@ a:hover {
     text-align: center;
   }
 
+  .about {
+    text-align: center;
+  }
+
   .flex-container-services .flex-item-left,
   .flex-container-services .flex-item-right {
-    background-color: rgb(4 5 6);
+    border: 2px solid rgb(4 35 65);
+    border-radius: 5px;
+    background-color: rgb(4 35 65);
     margin-top: 5%;
   }
 
@@ -415,8 +429,13 @@ a:hover {
     background-color: #222222;
   }
 
-  .about {
-    text-align: center;
+  .parallax-header .main-content .flex-container-head .flex-item-left .main-text p {
+    font-size: 20px;
+    margin-top: 15%;
+  }
+
+  .sidenav {
+    z-index: 100 !important;
   }
 }
 
