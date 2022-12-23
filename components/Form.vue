@@ -2,51 +2,51 @@
   <div class="container">
     <div class="flex-container container-wrapper">
       <div class="flex-item-left p-4 text-bg-dark">
-        <h4>SEND US A MESSAGE</h4>
+        <h4>{{ $t("contacts.intro") }}</h4>
         <form class="" action="">
-          <input class="form-control" type="text" placeholder="Your Name" />
+          <input class="form-control" type="text" :placeholder="$t('contacts.name')" />
           <input
             class="form-control mt-4"
             type="text"
-            placeholder="Your Email"
+            :placeholder="$t('contacts.email')"
           />
-          <input class="form-control mt-4" type="text" placeholder="Suject" />
+          <input class="form-control mt-4" type="text" :placeholder="$t('contacts.subject')" />
           <textarea
             class="form-control mt-4"
             name=""
             id=""
             cols="30"
             rows="10"
-            placeholder="Your Message"
+           :placeholder="$t('contacts.message')"
           ></textarea>
           <br />
           <input
             class="form-control submit-button"
             type="submit"
-            value="Send"
+            :value="$t('contacts.send')"
           />
         </form>
       </div>
       <div class="flex-item-right p-5 text-bg-dark">
         <div class="container">
-          <h4>CONTACT INFO</h4>
+          <h4>{{ $t("contacts.contactInfo") }}</h4>
         </div>
         <div class="container">
-          <h4 class="title_color">Where to Find Us</h4>
+          <h4 class="title_color">{{ $t("contacts.findUs") }}</h4>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut
             dignissimos incidunt similique dolore animi vero?
           </p>
         </div>
         <div class="container">
-          <h4 class="title_color">Email Us At</h4>
+          <h4 class="title_color">{{ $t("contacts.emailUs") }}</h4>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim
             corporis iusto exercitationem, minus ad error.
           </p>
         </div>
         <div class="container">
-          <h4 class="title_color">Call Us At</h4>
+          <h4 class="title_color">{{ $t("contacts.callus") }}</h4>
           <ul>
             <li>Phone: +24396582458</li>
             <li>Whatsapp: +24396582458</li>
