@@ -22,24 +22,14 @@ export default {};
 @import url("https://fonts.googleapis.com/css?family=Lato:300,400|Poppins:300,400,800&display=swap");
 
 .container {
-  //   width: 100%;
-  //   height: 100vh;
-  //   background: #232323;
-
   display: flex;
-  //   justify-content: center;
   align-items: center;
 
   .box {
-    // width: 250px;
-    // height: 250px;
-    // position: relative;
     display: flex;
-    // justify-content: center;
     flex-direction: column;
 
     .title {
-      //   width: 100%;
       position: relative;
       display: flex;
       align-items: center;
@@ -74,8 +64,7 @@ export default {};
           -moz-border-radius: 50%;
           border-radius: 50%;
           background: #ffb510;
-          -webkit-animation: load 0.6s cubic-bezier(0.74, 0.06, 0.4, 0.92)
-            forwards;
+          -webkit-animation: load 0.6s cubic-bezier(0.74, 0.06, 0.4, 0.92) forwards;
           animation: popIn 0.8s cubic-bezier(0.74, 0.06, 0.4, 0.92) forwards;
           animation-delay: 2s;
           margin-left: 5px;
@@ -94,6 +83,7 @@ export default {};
       align-items: center;
       height: 30px;
       margin-top: -10px;
+
       .mini-title {
         color: white;
         font-weight: 900;
@@ -129,10 +119,12 @@ export default {};
     width: 0%;
     left: 0;
   }
+
   50% {
     width: 100%;
     left: 0;
   }
+
   100% {
     width: 0;
     left: 100%;
@@ -144,10 +136,12 @@ export default {};
     width: 0%;
     left: 0;
   }
+
   50% {
     width: 100%;
     left: 0;
   }
+
   100% {
     width: 0;
     left: 100%;
@@ -158,6 +152,7 @@ export default {};
   0% {
     opacity: 0;
   }
+
   100% {
     opacity: 1;
   }
@@ -171,6 +166,7 @@ export default {};
     border: 0px solid #ddd;
     opacity: 0;
   }
+
   50% {
     width: 10px;
     height: 10px;
@@ -178,17 +174,20 @@ export default {};
     opacity: 1;
     bottom: 45px;
   }
+
   65% {
     width: 7px;
     height: 7px;
     bottom: 0px;
     width: 15px;
   }
+
   80% {
     width: 10px;
     height: 10px;
     bottom: 20px;
   }
+
   100% {
     width: 7px;
     height: 7px;
@@ -202,8 +201,21 @@ export default {};
   0% {
     opacity: 0;
   }
+
   100% {
     opacity: 0.5;
   }
+}
+
+@media screen and (max-width: 450px) {
+  .container .box .role .mini-title[data-v-d035dc27] {
+    font-weight: 600;
+    margin-top: 5%;
+  }
+
+  .container .box .title h1[data-v-d035dc27] {
+    font-size: 27px;
+  }
+
 }
 </style>
