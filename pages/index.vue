@@ -53,12 +53,10 @@
               </p>
               <div class="button pt-5">
                 <a href="#services">
-                  <Button class="m-2" title="Services" secondTitle="Nos Services" /></a>
+                  <Button class="m-2" :title="$t('home.servicesButton')" :secondTitle="$t('home.ServicesButtomHover')" /></a>
                 <a href="#contact">
                   <Button :title="$t('home.contactButton')" :secondTitle="$t('home.contacButtontHover')" />
                 </a>
-                <a href="#services">
-                  <Button class="m-2" :title="$t('home.servicesButton')" :secondTitle="$t('home.ServicesButtomHover')" /></a>
               </div>
             </div>
           </div>
