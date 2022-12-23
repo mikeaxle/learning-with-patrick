@@ -25,16 +25,13 @@
             <div class="flex-container">
               <div class="flex-item-right"></div>
             </div>
-            <a href="#home">Home</a>
-            <a href="#about">About</a>
-            <a href="#services">Services</a>
-            <a href="#testimonials">Clients</a>
-            <a href="#contact">Contact</a>
+            <a href="#home">{{ $t("Navigation.home") }}</a>
+            <a href="#about">{{ $t("Navigation.about") }}</a>
+            <a href="#services">{{ $t("Navigation.services") }}</a>
+            <a href="#testimonials">{{ $t("Navigation.clients") }}</a>
+            <a href="#contact">{{ $t("Navigation.contact") }}</a>
             <p class="p-3">
-              Lorem ipsum dolor sit amet. Odio, alias?, amet consectetur
-              adipisicing elit. Vero fugit ab, delectus repellendus dolores
-              ratione itaque? Ratione nisi quod, maiores voluptatibus, ullam vel
-              ab numquam rem quo, ad similique qui?
+              {{ $t("Navigation.text") }}
             </p>
             <div class="p-3">
               <img class="m-2" width="30" src="@/assets/icons/facebook.png" alt="" />
@@ -50,18 +47,17 @@
         <div class="flex-container-head">
           <div class="flex-item-left text-left">
             <div class="display-4 mb-5 mt-5 main-text text-left">
-              <h2 class="display-1">Aimeriez-vous améliorer votre anglais ?</h2>
+              <h2 class="display-1"> {{ $t("home.intro") }}</h2>
               <p class="display-4 text-white font-italic">
-                Je vous aide à booster votre carrière professionnelle grâce à
-                l'anglais.
+               {{ $t("home.introDescription") }}
               </p>
               <div class="button pt-5">
                 <a href="#contact">
-                  <Button title="Contactez-nous" secondTitle="Disponible pour vous" />
+                  <Button :title="$t('home.contactButton')" :secondTitle="$t('home.contacButtontHover')" />
                 </a>
 
                 <a href="#services">
-                  <Button class="m-2" title="Services" secondTitle="Nos Services" /></a>
+                  <Button class="m-2" :title="$t('home.servicesButton')" :secondTitle="$t('home.ServicesButtomHover')" /></a>
               </div>
             </div>
           </div>
@@ -71,102 +67,60 @@
     <!-- Second section -->
     <div class="text-white about pb-5 pt-5 about" id="about">
       <div class="container">
-        <h1>Qui est Patrick?</h1>
+        <h1> {{ $t("description.intro") }}</h1>
         <p>
-          Entre faire du sport, écouter de la musique et regarder des spectacles
-          de stand up, je ne peux pas dire lequel est mon préféré car j'aime
-          tous ces hobbies. Je joue souvent au basket ou au football le
-          week-end. J'aime chanter mes chansons préférées. J'admets que je n'ai
-          pas la voix de John Legend ou d'Ed Sheeran, mais cela ne m'empêche pas
-          de m'amuser. Me divertir est ma façon de me récompenser après une
-          journée productive. Je suis né dans un petit village de la République
-          démocratique du Congo. Grâce à mes parents, j'ai pu déménager dans une
-          grande ville et j'ai eu la chance de fréquenter une meilleure école où
-          j'ai étudié en français. Lorsque j'ai fini mes études secondaires, mes
-          parents m'ont envoyé en INDE pour mes études universitaires et j'ai eu
-          la chance d'étudier en anglais. Je suis donc reconnaissant à Dieu de
-          m'avoir donné des parents qui valorisent l'éducation. Je considère
-          qu'ill est impossible de progresser sur le plan professionnel ou
-          personnel sans améliorer constamment ses compétences et ses
-          connaissances. Et aucun pays ne peut progresser sans investir dans
-          l'éducation de sa jeunesse. Pour moi, l'apprentissage est en effet un
-          processus sans fin.
+         {{ $t("description.description1") }}
         </p>
         <ul>
-          Je vois parfois:
+         {{ $t("description.bulletIntro") }}
           <li>
-            Des personnes avec plusieurs années d'expérience rater des
-            promotions à cause de l'anglais
+            {{ $t("description.bullet1") }}
           </li>
           <li>
-            Des entrepreneurs rater des marchés importants à cause de l'anglais
+           {{ $t("description.bullet2") }}
           </li>
           <li>
-            Des chefs d'entreprise souffrir lors d'événements et de réunions à
-            l'étranger à cause de l'anglais
+           {{ $t("description.bullet3") }}
           </li>
           <li>
-            Des demandeurs d'emploi souffrir lors d'un entretien en anglais
+             {{ $t("description.bullet4") }}
           </li>
         </ul>
         <p>
-          Je sais combien l'anglais et les compétences en communication sont
-          nécessaires dans le monde professionnel.
-          <span>Voilà pourquoi j'aide les gens à booster leur carrière
-            professionnelle.</span>
-          Au cours des dernières années, mon équipe et moi-même avons aidé des
-          chefs d'entreprises, des cadres, des employés et des étudiants à
-          atteindre leurs objectifs grâce à nos services. Je suis convaincu
-          qu'une communication efficace est un atout majeur pour une carrière
-          réussie.
-        </p>
+          {{ $t("description.description2") }}
+        </p> 
       </div>
     </div>
     <!-- Third section -->
     <div class="parallax services" id="services">
       <div class="container text-center">
         <h1 class="text-justify text-white pt-5">
-          En quoi pourrai-je vous aider?
+          {{ $t("services.intro") }}
         </h1>
 
         <div class="flex-container-services p-5">
           <div class="flex-item-left cards">
-            <h2>Apprendre l'anglais</h2>
+            <h2> {{ $t("services.service1Title") }}</h2>
             <p>
-              Avez-vous déjà raté une opportunité à cause de l'anglais ? Vous
-              écoutez mais trouvez difficile de parler ? Nous avons la solution
-              ! Notre approche est pratique et adaptée pour répondre à vos
-              besoins spécifiques. En plus de vos compétences techniques, parler
-              anglais peut vous ouvrir les portes de nombreuses opportunités.
+             {{ $t("services.service1Description") }}
             </p>
           </div>
           <div class="flex-item-right cards">
-            <h2>Préparer un entretien</h2>
+            <h2>{{ $t("services.service2Title") }}</h2>
             <p>
-              Vous avez un entretien d'embauche qui approche ? Ou une réunion
-              importante avec un client ? Les entretiens peuvent parfois être
-              stressants, mais avec une bonne préparation, vous pourrez vous
-              démarquer et atteindre votre objectif. Laissez-nous vous aider à
-              vous préparer pour cette opportunité.
+              {{ $t("services.service2Description") }}
             </p>
           </div>
           <div class="flex-item-right cards">
-            <h2>Préparer un discours/une présentation</h2>
+            <h2>{{ $t("services.service3Title") }}</h2>
             <p>
-              Des études montrent qu'il faut 7 à 10 secondes pour capter
-              l'attention de votre auditoire lorsque vous commencez un discours.
-              D'où la nécessité de préparer un discours captivant. Laissez-nous
-              vous aider à composer, structurer et pratiquer votre discours ou
-              votre présentation afin que vous soyez prêt à communiquer vos
-              idées plus efficacement et à atteindre vos objectifs.
+             {{ $t("services.service3Description") }}
             </p>
           </div>
           <div class="flex-item-right cards">
-            <h2>Traduction de documents</h2>
+            <h2>  {{ $t("services.service4Title") }}</h2>
             <p>
-              Nous fournissons des services de traduction en français et en
-              anglais. Nous pouvons vous aider à traduire vos lettres, CV,
-              présentations et bien d'autres documents et textes commerciaux.
+              {{ $t("services.service4Description") }}
             </p>
           </div>
         </div>
@@ -208,7 +162,7 @@
             </p>
           </div>
           <div class="flex-item-right">
-            <h4>Connect with us</h4>
+            <h4> {{ $t("footer.connect") }}</h4>
             <p>
               Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eos in
               ut corporis. Alias, sequi cum?

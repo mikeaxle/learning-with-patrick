@@ -1,6 +1,6 @@
 <template>
     <div class="container sponsors">
-        <h1 class="mb-2 title text-center">Sponsors & Partners</h1>
+        <h1 class="mb-2 title text-center">{{ $t("sponsors.intro") }}</h1>
         <div class="flex-container logos mt-5">
             <div class="flex-item-left">
                 <img width="200px" src="../assets/images/itot.png" alt="ITOT Africa" />
