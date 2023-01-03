@@ -1,88 +1,82 @@
 {
-   "home": {
-<<<<<<< HEAD
-      "learn": "Learn With"
-   }
+	"home": {
+		"learn": "Learn With",
+		"intro": "Would you like to improve your English?",
+		"introDescription": "I help you boost your professional career through English.",
+		"contactButton": "Contact Us",
+		"servicesButton": "Services",
+		"contacButtontHover": "Available to you",
+		"ServicesButtomHover": "Our Services"
+	},
+	"description": {
+		"intro": "Who is Patrick?",
+		"description1": "Between playing sports, listening to music and watching stand up shows, I can't really say which one is my favorite because I enjoy all of them. I usually play basketball or soccer on weekends. I like to sing my favorite songs. I will admit that I don't have John Legend or Ed Sheeran's voice, but that doesn't stop me from enjoying myself. Entertainment is my way of rewarding myself after a productive day. I was born in a small village in the Democratic Republic of Congo. Thanks to my parents, I was able to move to a big city and was lucky enough to attend a better school where I studied in French. When I finished high school, my parents sent me to INDIA for my university studies and I had the opportunity to study in English. So I am grateful to God for giving me parents who value education. I consider that it is impossible to progress professionally or personally without constantly improving one's skills and knowledge. And no country can progress without investing in the education of its youth. For me, learning is indeed a never-ending process. ● My mission: To help people capitalize on professional opportunities. With a degree in business administration, I learn topics related to finance, marketing, human resources and business in general. In 2015, when I left my country, Congo, to pursue my studies in India, I was challenged with one problem: Communication. I wasn't fluent in English and this prevented me from studying well. To solve this problem, I had to apply several learning techniques and practice every day. This process helped me to understand what works and what doesn't. During my university years, I also developed a passion for public speaking. I participated in several competitions and gave over 100 speeches and presentations to hundreds of people and small groups. Through all these challenges, I have learned many methods and techniques to capture my audience's attention and achieve the goal of my speech or presentation. When I returned to my country in 2019, I got my very first job because beyond my other skills, I was proficient in English and was able to defend myself very well during interviews.",
+		"description2": "I know how valuable English and communication skills are in today's business world. That's why I help people boost their professional careers. Over the past few years, my team and I have helped business owners, executives, employees and students achieve their goals through our services. I believe that effective communication is a major asset to a successful career.",
+		"bulletIntro": "I sometimes see :",
+		"bullet1": "People with many years of experience miss out on promotions because of English;",
+		"bullet2": "Entrepreneurs miss out on important deals because of English;",
+		"bullet3": "Business leaders struggling at events and meetings abroad because of English;",
+		"bullet4": "Job seekers struggling during interviews in English;"
+	},
+	"services": {
+		"intro": "Our services",
+		"service1Title": "Learning English",
+		"service1Description": "Have you ever missed out on an opportunity because of English? Do you listen but find it difficult to speak?  We have the solution! Our approach is practical and tailored to meet your specific needs. In addition to your technical skills, speaking English can open doors to many opportunities.",
+		"service2Title": "Prepare for an interview",
+		"service2Description": "Do you have a job interview coming up? Or an important meeting with a client? Interviews can sometimes be stressful, but with the right preparation, you can stand out and achieve your goal. Let us help you get ready for that opportunity.",
+		"service3Title": "Prepare a speech/presentation.",
+		"service3Description": "Studies show that it takes 7 to 10 seconds to capture your audience's attention when you start a speech. Hence the need to prepare a captivating speech. We will help you write, structure and practice your speech or presentation to get you ready to communicate your ideas more effectively and achieve your goals.",
+		"service4Title": "Document translation.",
+		"service4Description": "We provide translation services in French and English. We can help you translate your letters, resumes, presentations and many other business documents and business documents and texts."
+	},
+	"testimonials": {
+		"intro": "Ce Qu'ils Disent De Nous",
+		"description": "Our satisfaction comes mainly from seeing our clients succeed. We go the extra mile to help them achieve their goals. We believe in progress rather than motion, so we look for the most effective way to help our clients achieve their goals.",
+		"testimonial1Name": "SAMY MWAMBA",
+		"testimonial1Title": "CEO - Itot Africa",
+		"testimonial1Description": "I had to improve my communication in English very quickly. I had to do it to be able to present Itot Africa to investors who do not speak French. So I called Patrick. He started coaching the entire Itot Africa team. Thanks to his coaching, I presented Itot Africa well, explained our financial model,etc. We received the loan we needed. We know that you also need his coaching.",
+		"testimonial2Name": "HERVÉ KAPUYA",
+		"testimonial2Title": "Administrateur - Electronic Congo Development (e-CD)",
+		"testimonial2Description": "It was and will always be a great pleasure for me to work with you guys ! Thank you for the English training, which allowed me to progress and take a new step in my life. I wish you to be well-known as the best English coach in our country. Keep doing a good job, keep assessing work, keep moving forward. Tell your students this quote from Denzel Washignton: “To get something you never had, you have to do something you never did.",
+		"testimonial3Name": "MARIAMA SIRA",
+		"testimonial3Title": "Happy Customer",
+		"testimonial3Description": "When I contacted Patrick on LinkedIn, it was just to prepare for a job interview, but when we started, I immediately realized that he was not just an English coach, he was also a personal development coach. Thanks to him, I overcame my shyness and was able to communicate easily after a few sessions. I discovered skills I didn't know I had before. He uses a very effective coaching method that is accessible to everyone. I also appreciate the availability and the good relationship that we have kept after the contract. PS: My job interview went so well that the recruiter called me the next day for the rest of the process. Thank you so much Patrick.",
+		"testimonial4Name": "CRIL SELEMANI",
+		"testimonial4Title": "Happy Customer",
+		"testimonial4Description": "Being one of your first students makes me proud of you because we have come a long way. Your English training gave me a good start to my MBA at Southern Utah University.It could have been much more difficult if you had not been there for me.",
+		"testimonial5Name": "EVARISTE LIYELE",
+		"testimonial5Title": "Co-founder & CEO - Ferme Azur",
+		"testimonial5Description": "When our project was selected in a business funding competition in Kinshasa, I had to give a speech on the award announcement day. I was worried, so I asked Patrick for help. He understood my needs and helped me like a doctor with his patients. He not only helped me write my speech, but also showed me how to connect with my audience. On the big day, I was able to give a great speech. This experience has impacted the way I communicate and I am very grateful for that",
+		"testimonial6Name": "GLOIRE KITENGE",
+		"testimonial6Title": "HR Manager",
+		"testimonial6Description": "The interactive English classes I took with Patrick helped me a lot. I used to feel uncomfortable, but after a few months I was able to express myself with confidence. I also improved my grammar and vocabulary. If you are also interested in improving your English, I recommend that you contact Patrick."
+	},
+	"sponsors": {
+		"intro": "Sponsors & Partners"
+	},
+	"contacts": {
+		"intro": "SEND US A MESSAGE",
+		"name": "Your Name",
+		"email": "Your Email",
+		"subject": "Subject",
+		"message": "Your Message",
+		"contactInfo": "Contact Info",
+		"findUs": "Where to Find Us",
+		"emailUs": "Email Us At",
+		"callus": "Call Us At",
+		"lorem": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut dignissimos incidunt similique dolore animi vero?",
+		"send": "Send"
+	},
+	"footer": {
+		"connect": "Connect with us",
+		"copyright": " Copyright Learn With Patrick... 2022"
+	},
+	"Navigation": {
+		"home": "Home",
+		"about": "About",
+		"services": "Services",
+		"clients": "Clients",
+		"contact": "Contact",
+		"text": "Lorem ipsum dolor sit amet. Odio, alias?, amet consectetur adipisicing elit. Vero fugit ab, delectus repellendus dolores ratione itaque? Ratione nisi quod, maiores voluptatibus, ullam vel ab numquam rem quo, ad similique qui?"
+	}
 }
-=======
-      "learn": "Learn With",
-      "intro": "Aimeriez-vous améliorer votre anglais ?",
-      "introDescription": "Je vous aide à booster votre carrière professionnelle grâce à l'anglais.",
-      "contactButton": "Contactez-nous",
-      "servicesButton": "Services",
-      "contacButtontHover": "Disponible pour vous",
-      "ServicesButtomHover": "Nos Services"
-   },
-   "description": {
-     "intro": "Who is Patrick?",
-     "description1": "Between playing sports, listening to music and watching stand up shows, I can't really say which one is my favorite because I enjoy all of them. I usually play basketball or soccer on weekends. I like to sing my favorite songs. I will admit that I don't have John Legend or Ed Sheeran's voice, but that doesn't stop me from enjoying myself. Entertainment is my way of rewarding myself after a productive day. I was born in a small village in the Democratic Republic of Congo. Thanks to my parents, I was able to move to a big city and was lucky enough to attend a better school where I studied in French. When I finished high school, my parents sent me to INDIA for my university studies and I had the opportunity to study in English. So I am grateful to God for giving me parents who value education. I consider that it is impossible to progress professionally or personally without constantly improving one's skills and knowledge. And no country can progress without investing in the education of its youth. For me, learning is indeed a never-ending process. ● My mission: To help people capitalize on professional opportunities. With a degree in business administration, I learn topics related to finance, marketing, human resources and business in general. In 2015, when I left my country, Congo, to pursue my studies in India, I was challenged with one problem: Communication. I wasn't fluent in English and this prevented me from studying well. To solve this problem, I had to apply several learning techniques and practice every day. This process helped me to understand what works and what doesn't. During my university years, I also developed a passion for public speaking. I participated in several competitions and gave over 100 speeches and presentations to hundreds of people and small groups. Through all these challenges, I have learned many methods and techniques to capture my audience's attention and achieve the goal of my speech or presentation. When I returned to my country in 2019, I got my very first job because beyond my other skills, I was proficient in English and was able to defend myself very well during interviews.",
-     "description2": "I know how valuable English and communication skills are in today's business world. That's why I help people boost their professional careers. Over the past few years, my team and I have helped business owners, executives, employees and students achieve their goals through our services. I believe that effective communication is a major asset to a successful career.",
-     "bulletIntro": "I sometimes see :",
-     "bullet1": "People with many years of experience miss out on promotions because of English;",
-     "bullet2": "Entrepreneurs miss out on important deals because of English;",
-     "bullet3": "Business leaders struggling at events and meetings abroad because of English;",
-     "bullet4": "Job seekers struggling during interviews in English;"
-   },
-   "services": {
-     "intro": "Our services",
-     "service1Title": "Learning English",
-     "service1Description": "Have you ever missed out on an opportunity because of English? Do you listen but find it difficult to speak?  We have the solution! Our approach is practical and tailored to meet your specific needs. In addition to your technical skills, speaking English can open doors to many opportunities.",
-     "service2Title": "Prepare for an interview",
-     "service2Description": "Do you have a job interview coming up? Or an important meeting with a client? Interviews can sometimes be stressful, but with the right preparation, you can stand out and achieve your goal. Let us help you get ready for that opportunity.",
-     "service3Title": "Prepare a speech/presentation.",
-     "service3Description": "Studies show that it takes 7 to 10 seconds to capture your audience's attention when you start a speech. Hence the need to prepare a captivating speech. We will help you write, structure and practice your speech or presentation to get you ready to communicate your ideas more effectively and achieve your goals.",
-     "service4Title": "Document translation.",
-     "service4Description": "We provide translation services in French and English. We can help you translate your letters, resumes, presentations and many other business documents and business documents and texts."
-   },
-   "testimonials": {
-     "intro": "Ce Qu'ils Disent De Nous",
-     "description": "Notre satisfaction provient principalement du fait de voir nos clients réussir. Nous nous surpassons pour les aider à atteindre leurs objectifs. Nous croyons au progrès plutôt qu'au mouvement, c'est pourquoi nous cherchons le moyen le plus efficace d'aider nos clients à atteindre leurs objectifs.",
-     "testimonial1Name": "SAMY MWAMBA",
-     "testimonial1Title": "CEO - ITOT Africa",
-     "testimonial1Description": "Je devais ameliorer ma communication en English très rapidement. Je devais le faire pour pouvoir presenter Itot Africa à des investisseurs qui ne parle pas français. Alors j'avais fait appel à Patrick. Il à commencer à coacher toute l'equipe Itot Africa. Grâce à son coaching, j'avais bien présenté Itot Africa, expliqué notre model financier, etc. On a obtenu le prêt qu'on voulait. Nous savons que vous aussi avez besoins de son coaching.",
-     "testimonial2Name": "HERVÉ KAPUYA",
-     "testimonial2Title": "Administrateur - Electronic Congo Development (e-CD)",
-     "testimonial2Description": "C'était et ce sera toujours un plaisir pour moi de travailler avec vous. Merci pour la formation en anglais, car elle m'a permis de progresser et de franchir une nouvelle étape dans ma vie. Je vous souhaite d'être reconnu comme le meilleur coach d'anglais de notre pays. Continuez à faire du bon travail, continuez à évaluer le travail, continuez à aller de l'avant. Dites à vos apprenants cette citation de Denzel Washington : 'Pour obtenir quelque chose que vous n'avez jamais eu, vous devez faire quelque chose que vous n'avez jamais fait'",
-     "testimonial3Name": "MARIAMA SIRA",
-     "testimonial3Title": "Happy Customer",
-     "testimonial3Description": "Quand j'ai contacté Patrick sur LinkedIn, c'était juste pour préparer un entretien d'embauche en anglais, mais quand nous avons commencé, j'ai tout de suite compris qu'il n'était pas simplement un coach d'anglais, c'est aussi un coach en développement personnel. Grâce à lui, je suis sorti de ma timidité et je suis parvenue à communiquer aisément au bout de quelques séances. J'ai découvert des talents en moi que je ne connaissais pas jusque-là. Il utilise une méthode de coaching très efficace et accessible à tous. J'apprécie également la disponibilité et les bonnes relations que nous avons gardé après le contrat.",
-     "testimonial4Name": "CRIL SELEMANI",
-     "testimonial4Title": "Happy Customer",
-     "testimonial4Description": "Le fait d'être l'un de tes premiers étudiants me rend fier de toi car nous sommes venus de loin. Ta formation d'anglais m'a permis de bien commencer mon MBA à Southern Utah University. Cela aurait pu être beaucoup plus difficile si tu n'avais pas été là pour moi.",
-     "testimonial5Name": "EVARISTE LIYELE",
-     "testimonial5Title": "Co-founder & CEO - Ferme Azur",
-     "testimonial5Description": "Lorsque notre projet a été sélectionné dans le cadre d'un concours de financement des entreprises à Kinshasa, je devais faire un discours le jour de l'annonce des prix. J'étais inquiet, alors j'ai demandé de l'aide à Patrick. Il a compris mes besoins et m'a aidé tel un médecin avec ses patients. Il m'a non seulement aidé à écrire mon discours, mais m'a aussi montré comment capter l'attention du public. Le jour J, j'ai pu faire un excellent discours. Cette expérience a impacté ma façon de communiquer et j'en suis très reconnaissant.",
-     "testimonial6Name": "GLOIRE KITENGE",
-     "testimonial6Title": "HR Manager",
-     "testimonial6Description": "Les cours d'anglais interactifs que j'ai suivis avec Patrick m'ont beaucoup aidé. J'avais l'habitude de me sentir mal à l'aise, mais après quelques mois, j'ai pu m'exprimer avec confiance. J'ai également amélioré ma grammaire et mon vocabulaire. Si vous souhaitez également améliorer votre anglais, je vous recommande de contacter Patrick."
-   },
-   "sponsors" : {
-     "intro": "Sponsors & Partners"
-   },
-   "contacts": {
-     "intro": "SEND US A MESSAGE",
-     "name": "Your Name",
-     "email": "Your Email",
-     "subject": "Suject",
-     "message": "Your Message",
-     "contactInfo": "Contact Info",
-     "findUs": "Where to Find Us",
-     "emailUs": "Email Us At",
-     "callus": "Call Us At",
-     "lorem": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut dignissimos incidunt similique dolore animi vero?",
-     "send": "Send"
-   },
-   "footer": {
-     "connect": "Connect with us",
-     "copyright": " Copyright Learn With Patrick... 2022"
-   },
-   "Navigation": {
-     "home": "Home",
-     "about": "About",
-     "services": "Services",
-     "clients": "Clients",
-     "contact": "Contact",
-     "text": "Lorem ipsum dolor sit amet. Odio, alias?, amet consectetur adipisicing elit. Vero fugit ab, delectus repellendus dolores ratione itaque? Ratione nisi quod, maiores voluptatibus, ullam vel ab numquam rem quo, ad similique qui?"
-   }
-  }
->>>>>>> 89ec19122824d07977ad30ccde0417368b8821d9

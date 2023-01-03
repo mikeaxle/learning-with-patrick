@@ -1,12 +1,12 @@
 {
     "home": {
-       "learn": "Learn With",
-       "intro": "Aimeriez-vous améliorer votre anglais ?",
-       "introDescription": "Je vous aide à booster votre carrière professionnelle grâce à l'anglais.",
-       "contactButton": "Contactez-nous",
-       "servicesButton": "Services",
-       "contacButtontHover": "Disponible pour vous",
-       "ServicesButtomHover": "Nos Services"
+      "learn": "Learn With",
+      "intro": "Aimeriez-vous améliorer votre anglais?",
+      "introDescription": "Je vous aide à booster votre carrière professionnelle grâce à l'anglais.",
+      "contactButton": "Contactez-nous",
+      "servicesButton": "Services",
+      "contacButtontHover": "Disponible pour vous",
+      "ServicesButtomHover": "Nos Services"
     },
     "description": {
       "intro": "Qui est Patrick?",
@@ -33,7 +33,7 @@
       "intro": "Ce Qu'ils Disent De Nous",
       "description": "Notre satisfaction provient principalement du fait de voir nos clients réussir. Nous nous surpassons pour les aider à atteindre leurs objectifs. Nous croyons au progrès plutôt qu'au mouvement, c'est pourquoi nous cherchons le moyen le plus efficace d'aider nos clients à atteindre leurs objectifs.",
       "testimonial1Name": "SAMY MWAMBA",
-      "testimonial1Title": "CEO - ITOT Africa",
+      "testimonial1Title": "CEO - Itot Africa",
       "testimonial1Description": "Je devais ameliorer ma communication en English très rapidement. Je devais le faire pour pouvoir presenter Itot Africa à des investisseurs qui ne parle pas français. Alors j'avais fait appel à Patrick. Il à commencer à coacher toute l'equipe Itot Africa. Grâce à son coaching, j'avais bien présenté Itot Africa, expliqué notre model financier, etc. On a obtenu le prêt qu'on voulait. Nous savons que vous aussi avez besoins de son coaching.",
       "testimonial2Name": "HERVÉ KAPUYA",
       "testimonial2Title": "Administrateur - Electronic Congo Development (e-CD)",
@@ -52,28 +52,28 @@
       "testimonial6Description": "Les cours d'anglais interactifs que j'ai suivis avec Patrick m'ont beaucoup aidé. J'avais l'habitude de me sentir mal à l'aise, mais après quelques mois, j'ai pu m'exprimer avec confiance. J'ai également amélioré ma grammaire et mon vocabulaire. Si vous souhaitez également améliorer votre anglais, je vous recommande de contacter Patrick."
     },
     "sponsors" : {
-      "intro": "Sponsors & Partners"
+      "intro": "Sponsors & Partenaires"
     },
     "contacts": {
-      "intro": "SEND US A MESSAGE",
-      "name": "Your Name",
-      "email": "Your Email",
+      "intro": "ENVOYEZ-NOUS UN MESSAGE",
+      "name": "Votre nom",
+      "email": "Votre E-mail",
       "subject": "Suject",
-      "message": "Your Message",
-      "contactInfo": "Contact Info",
-      "findUs": "Where to Find Us",
-      "emailUs": "Email Us At",
-      "callus": "Call Us At",
+      "message": "Votre Message",
+      "contactInfo": "Informations de contact",
+      "findUs": "Où nous trouver",
+      "emailUs": "Envoyez-nous un e-mail à",
+      "callus": "Appelez-nous au",
       "lorem": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut dignissimos incidunt similique dolore animi vero?",
-      "send": "Send"
+      "send": "Envoyer"
     },
     "footer": {
-      "connect": "Connect with us",
+      "connect": "Connectez-vous avec nous",
       "copyright": " Copyright Learn With Patrick... 2022"
     },
     "Navigation": {
-      "home": "Home",
-      "about": "About",
+      "home": "Accueil",
+      "about": "À propos",
       "services": "Services",
       "clients": "Clients",
       "contact": "Contact",
