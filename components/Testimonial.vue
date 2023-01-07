@@ -4,29 +4,29 @@
       <div class="testimonial-inner">
         <h1 class="text-white">{{ $t("testimonials.intro") }}</h1>
         <p class=" text-white pt-4">
-         {{ $t("testimonials.description") }}
+          {{ $t("testimonials.description") }}
         </p>
         <div class="row mt-5">
           <div class="col">
             <div class="testimonial">
-              <img src="../assets/images/testimonial/samy.jpg" alt="" />
-              <h3 class="name">  {{ $t("testimonials.testimonial1Name") }}</h3>
-              <footer class="blockquote-footer">  {{ $t("testimonials.testimonial1Title") }}</footer>
+              <img src="../assets/images/testimonial/Herve.jpg" alt="" />
+              <h3 class="name"> {{ $t("testimonials.testimonial2Name") }}</h3>
+              <footer class="blockquote-footer">
+                {{ $t("testimonials.testimonial2Title") }}
+              </footer>
               <p>
-                 {{ $t("testimonials.testimonial1Description") }}
+                {{ $t("testimonials.testimonial2Description") }}
               </p>
             </div>
           </div>
 
           <div class="col">
             <div class="testimonial">
-              <img src="../assets/images/testimonial/Herve.jpg" alt="" />
-              <h3 class="name"> {{ $t("testimonials.testimonial2Name") }}</h3>
-              <footer class="blockquote-footer">
-              {{ $t("testimonials.testimonial2Title") }}
-              </footer>
+              <img src="../assets/images/testimonial/samy.jpg" alt="" />
+              <h3 class="name"> {{ $t("testimonials.testimonial1Name") }}</h3>
+              <footer class="blockquote-footer"> {{ $t("testimonials.testimonial1Title") }}</footer>
               <p>
-               {{ $t("testimonials.testimonial2Description") }}
+                {{ $t("testimonials.testimonial1Description") }}
               </p>
             </div>
           </div>
@@ -47,7 +47,7 @@
               <h3 class="name"> {{ $t("testimonials.testimonial4Name") }}</h3>
               <footer class="blockquote-footer"> {{ $t("testimonials.testimonial4Title") }}</footer>
               <p>
-               {{ $t("testimonials.testimonial4Description") }}
+                {{ $t("testimonials.testimonial4Description") }}
               </p>
             </div>
           </div>
@@ -69,7 +69,7 @@
               <h3 class="name"> {{ $t("testimonials.testimonial6Name") }}</h3>
               <footer class="blockquote-footer"> {{ $t("testimonials.testimonial6Title") }}r</footer>
               <p>
-               {{ $t("testimonials.testimonial6Description") }}
+                {{ $t("testimonials.testimonial6Description") }}
               </p>
             </div>
           </div>

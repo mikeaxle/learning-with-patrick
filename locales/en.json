@@ -38,7 +38,7 @@
 		"testimonial2Name": "HERVÉ KAPUYA",
 		"testimonial2Title": "Administrateur - Electronic Congo Development (e-CD)",
 		"testimonial2Description": "It was and will always be a great pleasure for me to work with you guys ! Thank you for the English training, which allowed me to progress and take a new step in my life. I wish you to be well-known as the best English coach in our country. Keep doing a good job, keep assessing work, keep moving forward. Tell your students this quote from Denzel Washignton: “To get something you never had, you have to do something you never did.",
-		"testimonial3Name": "MARIAMA SIRA",
+		"testimonial3Name": "MARIAMA SIRA SOW",
 		"testimonial3Title": "Happy Customer",
 		"testimonial3Description": "When I contacted Patrick on LinkedIn, it was just to prepare for a job interview, but when we started, I immediately realized that he was not just an English coach, he was also a personal development coach. Thanks to him, I overcame my shyness and was able to communicate easily after a few sessions. I discovered skills I didn't know I had before. He uses a very effective coaching method that is accessible to everyone. I also appreciate the availability and the good relationship that we have kept after the contract. PS: My job interview went so well that the recruiter called me the next day for the rest of the process. Thank you so much Patrick.",
 		"testimonial4Name": "CRIL SELEMANI",
@@ -75,6 +75,7 @@
 	},
 	"footer": {
 		"connect": "Connect with us",
+		"connectText":"",
 		"copyright": " Copyright Learn With Patrick... 2022"
 	},
 	"Navigation": {

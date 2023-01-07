@@ -33,12 +33,23 @@
             <p class="p-3">
               {{ $t("Navigation.text") }}
             </p>
-            <div class="p-3">
-              <img class="m-2" width="30" src="@/assets/icons/facebook.png" alt="" />
-              <img class="m-2" width="30" src="@/assets/icons/instagram.png" alt="" />
-              <img class="m-2" width="30" src="@/assets/icons/linkedin.png" alt="" />
-              <img href="www.google.com" target="blank" class="m-2" width="30" src="@/assets/icons/twitter.png"
-                alt="" />
+            <div class="social">
+              <a href="https://www.linkedin.com/in/patrick-mukad-91a96a1b6/" target="blank">
+                <img class="m-1 linkedin" width="25" src="@/assets/icons/linkedin.png" alt="" />
+              </a>
+              <a href="https://t.me/LearnWithPatrick" target="blank"> <img class="m-1 telegram" width="25"
+                  src="@/assets/icons/telegram.png" alt="" /></a>
+              <a href="https://www.facebook.com/profile.php?id=100006056104626" target="blank">
+                <img class="m-1 facebook" width="25" src="@/assets/icons/facebook.png" alt="" />
+              </a>
+              <a href="https://www.instagram.com/patrick_mukad/" target="blank">
+                <img class="m-1 instagram" width="25" src="@/assets/icons/instagram.png" alt="" />
+              </a>
+
+              <a href="https://twitter.com/Patrick_Mukad?t=hRYcyL6RqoHklRk2MZi_NQ&s=08" target="blank">
+                <img class="m-1 twitter" width="25" src="@/assets/icons/twitter.png" alt="" />
+              </a>
+
             </div>
           </div>
         </div>
@@ -169,15 +180,18 @@
             <p>
               Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eos in
               ut corporis. Alias, sequi cum?
+              <a href="https://www.linkedin.com/in/patrick-mukad-91a96a1b6/" target="blank">
+                <img class="m-2 linkedin" width="30" src="@/assets/icons/linkedin.png" alt="" />
+              </a>
+              <a href="https://t.me/LearnWithPatrick" target="blank"> <img class="m-2 telegram" width="30"
+                  src="@/assets/icons/telegram.png" alt="" /></a>
               <a href="https://www.facebook.com/profile.php?id=100006056104626" target="blank">
                 <img class="m-2 facebook" width="30" src="@/assets/icons/facebook.png" alt="" />
               </a>
               <a href="https://www.instagram.com/patrick_mukad/" target="blank">
                 <img class="m-2 instagram" width="30" src="@/assets/icons/instagram.png" alt="" />
               </a>
-              <a href="https://www.linkedin.com/in/patrick-mukad-91a96a1b6/" target="blank">
-                <img class="m-2 linkedin" width="30" src="@/assets/icons/linkedin.png" alt="" />
-              </a>
+
               <a href="https://twitter.com/Patrick_Mukad?t=hRYcyL6RqoHklRk2MZi_NQ&s=08" target="blank">
                 <img class="m-2 twitter" width="30" src="@/assets/icons/twitter.png" alt="" />
               </a>
@@ -476,8 +490,12 @@ a:hover {
   cursor: pointer;
 }
 
-.footer {
+.footer, .social {
   .facebook:hover {
+    transform: scale(1.2);
+  }
+
+  .telegram:hover {
     transform: scale(1.2);
   }
 
