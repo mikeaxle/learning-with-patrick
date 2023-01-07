@@ -7,12 +7,11 @@
 
 <script>
 
-head:[
-  {rel: 'icon', type:'image/png', href: './favicon.ico'}
+head: [
+  { rel: 'icon', type: 'image/x-icon', href: '~/public/favicon.ico' }
 ]
- 
+
 </script>
 <style>
-
 
 </style>
