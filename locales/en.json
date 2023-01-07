@@ -65,7 +65,13 @@
 		"emailUs": "Email Us At",
 		"callus": "Call Us At",
 		"lorem": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut dignissimos incidunt similique dolore animi vero?",
-		"send": "Send"
+		"send": "Send",
+		"subject0":"Select a Subject",
+		"subject1":"Learning English",
+		"subject2":"Prepare for an interview",
+		"subject3":"Prepare a speech/presentation",
+		"subject4":"Document translation",
+		"subject5":"Other"
 	},
 	"footer": {
 		"connect": "Connect with us",

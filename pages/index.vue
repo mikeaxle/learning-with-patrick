@@ -49,11 +49,12 @@
             <div class="display-4 mb-5 mt-5 main-text text-left">
               <h2 class="display-1"> {{ $t("home.intro") }}</h2>
               <p class="display-4 text-white font-italic">
-               {{ $t("home.introDescription") }}
+                {{ $t("home.introDescription") }}
               </p>
               <div class="button pt-5">
                 <a href="#services">
-                  <Button class="m-2" :title="$t('home.servicesButton')" :secondTitle="$t('home.ServicesButtomHover')" /></a>
+                  <Button class="m-2" :title="$t('home.servicesButton')"
+                    :secondTitle="$t('home.ServicesButtomHover')" /></a>
                 <a href="#contact">
                   <Button :title="$t('home.contactButton')" :secondTitle="$t('home.contacButtontHover')" />
                 </a>
@@ -68,26 +69,26 @@
       <div class="container">
         <h1> {{ $t("description.intro") }}</h1>
         <p>
-         {{ $t("description.description1") }}
+          {{ $t("description.description1") }}
         </p>
         <ul>
-         {{ $t("description.bulletIntro") }}
+          {{ $t("description.bulletIntro") }}
           <li>
             {{ $t("description.bullet1") }}
           </li>
           <li>
-           {{ $t("description.bullet2") }}
+            {{ $t("description.bullet2") }}
           </li>
           <li>
-           {{ $t("description.bullet3") }}
+            {{ $t("description.bullet3") }}
           </li>
           <li>
-             {{ $t("description.bullet4") }}
+            {{ $t("description.bullet4") }}
           </li>
         </ul>
         <p>
           {{ $t("description.description2") }}
-        </p> 
+        </p>
       </div>
     </div>
     <!-- Third section -->
@@ -101,7 +102,7 @@
           <div class="flex-item-left cards">
             <h2> {{ $t("services.service1Title") }}</h2>
             <p>
-             {{ $t("services.service1Description") }}
+              {{ $t("services.service1Description") }}
             </p>
           </div>
           <div class="flex-item-right cards">
@@ -113,11 +114,11 @@
           <div class="flex-item-right cards">
             <h2>{{ $t("services.service3Title") }}</h2>
             <p>
-             {{ $t("services.service3Description") }}
+              {{ $t("services.service3Description") }}
             </p>
           </div>
           <div class="flex-item-right cards">
-            <h2>  {{ $t("services.service4Title") }}</h2>
+            <h2> {{ $t("services.service4Title") }}</h2>
             <p>
               {{ $t("services.service4Description") }}
             </p>
@@ -183,7 +184,7 @@
             </p>
             <div>
               <NuxtLink v-for="locale in availableLocales" :key="locale.code" :to="switchLocalePath(locale.code)">{{
-                  locale.name
+                locale.name
               }}
                 <img class="m-2 linkedin" width="30" src="@/assets/images/worldwide.png" alt="" />
               </NuxtLink>
