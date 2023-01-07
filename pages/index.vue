@@ -33,24 +33,6 @@
             <p class="p-3">
               {{ $t("Navigation.text") }}
             </p>
-            <div class="social">
-              <a href="https://www.linkedin.com/in/patrick-mukad-91a96a1b6/" target="blank">
-                <img class="m-1 linkedin" width="25" src="@/assets/icons/linkedin.png" alt="" />
-              </a>
-              <a href="https://t.me/LearnWithPatrick" target="blank"> <img class="m-1 telegram" width="25"
-                  src="@/assets/icons/telegram.png" alt="" /></a>
-              <a href="https://www.facebook.com/profile.php?id=100006056104626" target="blank">
-                <img class="m-1 facebook" width="25" src="@/assets/icons/facebook.png" alt="" />
-              </a>
-              <a href="https://www.instagram.com/patrick_mukad/" target="blank">
-                <img class="m-1 instagram" width="25" src="@/assets/icons/instagram.png" alt="" />
-              </a>
-
-              <a href="https://twitter.com/Patrick_Mukad?t=hRYcyL6RqoHklRk2MZi_NQ&s=08" target="blank">
-                <img class="m-1 twitter" width="25" src="@/assets/icons/twitter.png" alt="" />
-              </a>
-
-            </div>
           </div>
         </div>
       </div>
@@ -490,7 +472,8 @@ a:hover {
   cursor: pointer;
 }
 
-.footer, .social {
+.footer,
+.social {
   .facebook:hover {
     transform: scale(1.2);
   }
