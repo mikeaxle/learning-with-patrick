@@ -65,7 +65,13 @@
       "emailUs": "Envoyez-nous un e-mail à",
       "callus": "Appelez-nous au",
       "lorem": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut dignissimos incidunt similique dolore animi vero?",
-      "send": "Envoyer"
+      "send": "Envoyer",
+      "subject0":"Selectionnez un sujet",
+      "subject1":"Apprendre l'anglais",
+      "subject2":"Préparer un entretien",
+      "subject3":"Préparer un discours/une présentation",
+      "subject4":"Traduction de documents",
+      "subject5":"Autre"
     },
     "footer": {
       "connect": "Connectez-vous avec nous",

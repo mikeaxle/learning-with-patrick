@@ -3,28 +3,22 @@
     <div class="flex-container container-wrapper">
       <div class="flex-item-left p-4 text-bg-dark">
         <h4>{{ $t("contacts.intro") }}</h4>
-        <form class="" action="">
+        <form method="POST" data-netlify="true">
           <input class="form-control" type="text" :placeholder="$t('contacts.name')" />
-          <input
-            class="form-control mt-4"
-            type="text"
-            :placeholder="$t('contacts.email')"
-          />
-          <input class="form-control mt-4" type="text" :placeholder="$t('contacts.subject')" />
-          <textarea
-            class="form-control mt-4"
-            name=""
-            id=""
-            cols="30"
-            rows="10"
-           :placeholder="$t('contacts.message')"
-          ></textarea>
+          <input class="form-control mt-4" type="text" :placeholder="$t('contacts.email')" />
+          <select class="form-select mt-4" :placeholder="$t('contacts.subject')" :name="$t('contacts.subject')" id=""
+            required>
+            <option>{{ $t('contacts.subject0') }}</option>
+            <option :value="$t('contacts.subject1')">{{ $t('contacts.subject1') }}</option>
+            <option :value="$t('contacts.subject2')">{{ $t('contacts.subject2') }}</option>
+            <option :value="$t('contacts.subject3')">{{ $t('contacts.subject3') }}</option>
+            <option :value="$t('contacts.subject4')">{{ $t('contacts.subject4') }}</option>
+            <option :value="$t('contacts.subject5')">{{ $t('contacts.subject5') }}</option>
+          </select>
+          <textarea class="form-control mt-4" name="" id="" cols="30" rows="10"
+            :placeholder="$t('contacts.message')"></textarea>
           <br />
-          <input
-            class="form-control submit-button"
-            type="submit"
-            :value="$t('contacts.send')"
-          />
+          <input class="form-control submit-button" type="submit" :value="$t('contacts.send')" />
         </form>
       </div>
       <div class="flex-item-right p-5 text-bg-dark">
@@ -66,14 +60,17 @@ export default {};
   border: 5px solid #212529;
   border-radius: 10px 10px 10px 10px;
 }
+
 .flex-container {
   display: flex;
   flex-direction: row;
+
   // flex-wrap: wrap;
   .flex-item-left {
     flex: 70%;
     background-color: $form_first;
   }
+
   .flex-item-right {
     flex: 30%;
     padding: 5px;
@@ -86,12 +83,15 @@ export default {};
   color: white;
   border: 1px solid rgb(8, 68, 105);
 }
-.submit-button:hover{
+
+.submit-button:hover {
   background-color: $title_color ;
 }
+
 .title_color {
   color: $form_first;
 }
+
 /* Responsive layout - makes a one column-layout instead of two-column layout */
 @media (max-width: 800px) {
   .flex-container {
