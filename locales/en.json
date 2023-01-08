@@ -75,8 +75,13 @@
 	},
 	"footer": {
 		"connect": "Connect with us",
-		"connectText":"",
-		"copyright": " Copyright Learn With Patrick... 2022"
+		"connectText":"Have you seen the tips we share on social media? I'm sure you'll like them. Subscribe here: ",
+		"copyright": " Copyright Learn With Patrick... 2022", 
+		"quoteTitle":"Our best quotes",
+		"quoteText1":"An investment in knowledge pays the best interest",
+		"quoteSource1":"Benjamin Franklin",
+		"quoteText2":"If knowledge is power, then learning is a superpower",
+		"quoteSource2":"Jim Kwik"
 	},
 	"Navigation": {
 		"home": "Home",
@@ -84,6 +89,6 @@
 		"services": "Services",
 		"clients": "Clients",
 		"contact": "Contact",
-		"text": "Lorem ipsum dolor sit amet. Odio, alias?, amet consectetur adipisicing elit. Vero fugit ab, delectus repellendus dolores ratione itaque? Ratione nisi quod, maiores voluptatibus, ullam vel ab numquam rem quo, ad similique qui?"
+		"text": "Thank you for visiting our website. Our team is ready to assist you."
 	}
 }

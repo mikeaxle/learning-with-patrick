@@ -39,7 +39,7 @@
       <div class="container main-content mt-3" id="home">
         <div class="flex-container-head">
           <div class="flex-item-left text-left">
-            <div class="display-4 mb-5 mt-5 main-text text-left">
+            <div class="mb-5 mt-5 main-text text-left">
               <h2 class="display-1"> {{ $t("home.intro") }}</h2>
               <p class="display-4 text-white font-italic">
                 {{ $t("home.introDescription") }}
@@ -144,24 +144,28 @@
       <div class="container">
         <div class="flex-container">
           <div class="flex-item-left">
-            <!-- <a href="#home">
-              <h3 class="font-italic title_color">
-                Learn with Patrick<span>...</span>
-                
-                 Home
-              </h3>
-            </a> -->
-            <h3>Votre Compagnon de qualite</h3>
-            <p class="text-justify">
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-              Praesentium cum officia dolor fugit quas laudantium!
-            </p>
+            <h3>{{$t("footer.quoteTitle")}}</h3>
+            <figure>
+              <blockquote class="blockquote">
+                <q>{{ $t("footer.quoteText1") }}</q>
+              </blockquote>
+              <figcaption class="blockquote-footer">
+                {{ $t("footer.quoteSource1") }}
+              </figcaption>
+            </figure>
+            <figure>
+              <blockquote class="blockquote">
+                <q>{{ $t("footer.quoteText2") }}</q>
+              </blockquote>
+              <figcaption class="blockquote-footer">
+                {{ $t("footer.quoteSource2") }}
+              </figcaption>
+            </figure>
           </div>
           <div class="flex-item-right">
             <h4> {{ $t("footer.connect") }}</h4>
             <p>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eos in
-              ut corporis. Alias, sequi cum?
+              {{ $t("footer.connectText") }}
               <a href="https://www.linkedin.com/in/patrick-mukad-91a96a1b6/" target="blank">
                 <img class="m-2 linkedin" width="30" src="@/assets/icons/linkedin.png" alt="" />
               </a>
@@ -300,7 +304,11 @@ export default defineComponent({
     }
   }
 }
-
+#home{
+  .display-1{
+    color: $title_color;
+  }
+}
 .about {
   .container p span {
     text-decoration: underline;
@@ -336,7 +344,11 @@ export default defineComponent({
 .testimonials {
   background-color: $title_color;
 }
-
+.footer{
+  q{
+    font-size:17px;
+  }
+}
 .flex-container {
   display: flex;
   flex-direction: row;

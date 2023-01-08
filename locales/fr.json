@@ -75,7 +75,14 @@
     },
     "footer": {
       "connect": "Connectez-vous avec nous",
-      "copyright": " Copyright Learn With Patrick... 2022"
+      "connectText":"Avez-vous vu les astuces que nous partageons sur les réseaux sociaux ? Je suis sûr que vous allez aimer. Abonnez-vous ici: ",
+      "copyright": " Copyright Learn With Patrick... 2022",
+      "quoteTitle":"Nos meilleures citations",
+      "quoteText1":"Un investissement dans la connaissance rapporte les meilleurs intérêts.",
+		  "quoteSource1":"Benjamin Franklin",
+      "quoteText2":"Si la connaissance est un pouvoir, alors l'apprentissage est un super pouvoir",
+      "quoteSource2":"Jim Kwik"
+      
     },
     "Navigation": {
       "home": "Accueil",
@@ -83,6 +90,6 @@
       "services": "Services",
       "clients": "Clients",
       "contact": "Contact",
-      "text": "Lorem ipsum dolor sit amet. Odio, alias?, amet consectetur adipisicing elit. Vero fugit ab, delectus repellendus dolores ratione itaque? Ratione nisi quod, maiores voluptatibus, ullam vel ab numquam rem quo, ad similique qui?"
+      "text": "Merci de visiter notre site web. Notre équipe est prête à vous servir."
     }
    }
