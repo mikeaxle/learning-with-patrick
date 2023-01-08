@@ -28,8 +28,7 @@
         <div class="container">
           <h4 class="title_color">{{ $t("contacts.findUs") }}</h4>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut
-            dignissimos incidunt similique dolore animi vero?
+            195 Biayi, Lubumbashi, DRC
           </p>
         </div>
         <div class="container">
@@ -42,8 +41,8 @@
         <div class="container">
           <h4 class="title_color">{{ $t("contacts.callus") }}</h4>
           <ul>
-            <li>Phone: +24396582458</li>
-            <li>Whatsapp: +24396582458</li>
+            <li>Phone: +243 831 679 222</li>
+            <li>Whatsapp: +243 831 679 222</li>
           </ul>
         </div>
       </div>
