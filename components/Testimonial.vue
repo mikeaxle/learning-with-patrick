@@ -14,9 +14,9 @@
               <footer class="blockquote-footer">
                 {{ $t("testimonials.testimonial2Title") }}
               </footer>
-              <p>
+              <q>
                 {{ $t("testimonials.testimonial2Description") }}
-              </p>
+              </q>
             </div>
           </div>
 
@@ -25,9 +25,9 @@
               <img src="../assets/images/testimonial/samy.jpg" alt="" />
               <h3 class="name"> {{ $t("testimonials.testimonial1Name") }}</h3>
               <footer class="blockquote-footer"> {{ $t("testimonials.testimonial1Title") }}</footer>
-              <p>
+              <q>
                 {{ $t("testimonials.testimonial1Description") }}
-              </p>
+              </q>
             </div>
           </div>
 
@@ -36,9 +36,9 @@
               <img src="../assets/images/testimonial/sira.jpg" alt="" />
               <h3 class="name"> {{ $t("testimonials.testimonial3Name") }}</h3>
               <footer class="blockquote-footer"> {{ $t("testimonials.testimonial3Title") }}</footer>
-              <p>
+              <q>
                 {{ $t("testimonials.testimonial3Description") }}
-              </p>
+              </q>
             </div>
           </div>
           <div class="col">
@@ -46,9 +46,9 @@
               <img src="../assets/images/testimonial/cril.jpg" alt="" />
               <h3 class="name"> {{ $t("testimonials.testimonial4Name") }}</h3>
               <footer class="blockquote-footer"> {{ $t("testimonials.testimonial4Title") }}</footer>
-              <p>
+              <q>
                 {{ $t("testimonials.testimonial4Description") }}
-              </p>
+              </q>
             </div>
           </div>
 
@@ -57,9 +57,9 @@
               <img src="../assets/images/testimonial/Evariste.jpg" alt="" />
               <h3 class="name"> {{ $t("testimonials.testimonial5Name") }}</h3>
               <footer class="blockquote-footer"> {{ $t("testimonials.testimonial5Title") }}</footer>
-              <p>
+              <q>
                 {{ $t("testimonials.testimonial5Description") }}
-              </p>
+              </q>
             </div>
           </div>
 
@@ -68,9 +68,9 @@
               <img src="../assets/images/testimonial/Gloire.jpg" alt="" />
               <h3 class="name"> {{ $t("testimonials.testimonial6Name") }}</h3>
               <footer class="blockquote-footer"> {{ $t("testimonials.testimonial6Title") }}r</footer>
-              <p>
+              <q>
                 {{ $t("testimonials.testimonial6Description") }}
-              </p>
+              </q>
             </div>
           </div>
         </div>
@@ -106,11 +106,11 @@ export default {};
 
 .row {
   display: flex;
-  flex-wrap: wrap;
+  // flex-wrap: wrap;
 }
 
 .col {
-  flex: 33.33%;
+  flex: 50%;
   width: 100%;
   box-sizing: border-box;
 }
@@ -142,7 +142,6 @@ export default {};
 
 @media screen and (max-width: 960px) {
   .col[data-v-63dfa6cb] {
-    flex: 100%;
     max-width: 100%;
     margin-top: 5%;
   }
@@ -150,11 +149,8 @@ export default {};
 
 @media (max-width: 600px) {
   .testimonial[data-v-63dfa6cb] {
-    color: black;
+    color: white;
     padding: 10px;
-    background-color: rgb(255, 255, 255);
-    border: 2px solid white;
-    border-radius: 5px;
   }
 }
 </style>
