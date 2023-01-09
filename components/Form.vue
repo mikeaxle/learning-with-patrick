@@ -5,10 +5,8 @@
         <h4>{{ $t("contacts.intro") }}</h4>
         <form method="POST" action="POST" data-netlify="true">
           <input class="form-control" name="name" type="text" :placeholder="$t('contacts.name')" required />
-          <input class="form-control mt-4" name="text" type="email" :placeholder="$t('contacts.email')"
-            required />
-            <input class="form-control mt-4" name="tel" type="tel" :placeholder="$t('contacts.phone')"
-            required />
+          <input class="form-control mt-4" name="text" type="email" :placeholder="$t('contacts.email')" required />
+          <input class="form-control mt-4" name="tel" type="tel" :placeholder="$t('contacts.phone')" required />
           <select class="form-select mt-4" :placeholder="$t('contacts.subject')" :name="$t('contacts.subject')"
             id="subject" required>
             <option name="subject">{{ $t('contacts.subject0') }}</option>
@@ -32,24 +30,17 @@
           <h4>{{ $t("contacts.contactInfo") }}</h4>
         </div>
         <div class="container">
-          <h4 class="title_color">{{ $t("contacts.findUs") }}</h4>
-          <p>
-            195 Biayi, Lubumbashi, DRC
-          </p>
-        </div>
-        <div class="container">
-          <h4 class="title_color">{{ $t("contacts.emailUs") }}</h4>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim
-            corporis iusto exercitationem, minus ad error.
-          </p>
-        </div>
-        <div class="container">
           <h4 class="title_color">{{ $t("contacts.callus") }}</h4>
           <ul>
             <li>Phone: +243 831 679 222</li>
             <li>Whatsapp: +243 831 679 222</li>
           </ul>
+        </div>
+        <div class="container">
+          <h4 class="title_color">{{ $t("contacts.findUs") }}</h4>
+          <p>
+            195 Biayi, Lubumbashi, DRC
+          </p>
         </div>
       </div>
     </div>
