@@ -144,7 +144,7 @@
       <div class="container">
         <div class="flex-container">
           <div class="flex-item-left">
-            <h3>{{$t("footer.quoteTitle")}}</h3>
+            <h3>{{ $t("footer.quoteTitle") }}</h3>
             <figure>
               <blockquote class="blockquote">
                 <q>{{ $t("footer.quoteText1") }}</q>
@@ -304,11 +304,13 @@ export default defineComponent({
     }
   }
 }
-#home{
-  .display-1{
+
+#home {
+  .display-1 {
     color: $title_color;
   }
 }
+
 .about {
   .container p span {
     text-decoration: underline;
@@ -344,11 +346,13 @@ export default defineComponent({
 .testimonials {
   background-color: $title_color;
 }
-.footer{
-  q{
-    font-size:17px;
+
+.footer {
+  q {
+    font-size: 17px;
   }
 }
+
 .flex-container {
   display: flex;
   flex-direction: row;
@@ -422,12 +426,6 @@ a:hover {
     border-radius: 5px;
     background-color: rgb(4 35 65);
     margin-top: 5%;
-  }
-
-  .testimonial[data-v-63dfa6cb] {
-    color: white;
-    padding: 10px;
-    background-color: #222222;
   }
 
   .parallax-header .main-content .flex-container-head .flex-item-left .main-text p {
@@ -528,9 +526,11 @@ a:hover {
   }
 }
 
-@media screen and (max-height: 400px) {
-  .testimonial {
-    background-color: red !important;
+@media screen and (max-width: 450px) {
+  .container .box .role .mini-title[data-v-d035dc27][data-v-d035dc27] {
+    font-weight: 600;
+    margin-top: 5%;
+    margin-left: 3%;
   }
 }
 </style>
