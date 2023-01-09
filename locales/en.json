@@ -58,6 +58,7 @@
 		"intro": "SEND US A MESSAGE",
 		"name": "Your Name",
 		"email": "Your Email",
+		"phone":"Your Phone Number",
 		"subject": "Subject",
 		"message": "Your Message",
 		"contactInfo": "Contact Info",

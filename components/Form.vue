@@ -5,7 +5,9 @@
         <h4>{{ $t("contacts.intro") }}</h4>
         <form method="POST" action="POST" data-netlify="true">
           <input class="form-control" name="name" type="text" :placeholder="$t('contacts.name')" required />
-          <input class="form-control mt-4" name="email" id="email" type="email" :placeholder="$t('contacts.email')"
+          <input class="form-control mt-4" name="text" type="email" :placeholder="$t('contacts.email')"
+            required />
+            <input class="form-control mt-4" name="tel" type="tel" :placeholder="$t('contacts.phone')"
             required />
           <select class="form-select mt-4" :placeholder="$t('contacts.subject')" :name="$t('contacts.subject')"
             id="subject" required>
