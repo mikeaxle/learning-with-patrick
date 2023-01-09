@@ -16,11 +16,12 @@
             <option name="subject" :value="$t('contacts.subject4')">{{ $t('contacts.subject4') }}</option>
             <option name="subject" :value="$t('contacts.subject5')">{{ $t('contacts.subject5') }}</option>
           </select>
+
+          <textarea class="form-control mt-4" name="message" id="message" cols="30" rows="10"
+            :placeholder="$t('contacts.message')"></textarea>
           <div class="field">
             <div data-netlify-recaptcha="true"></div>
           </div>
-          <textarea class="form-control mt-4" name="message" id="message" cols="30" rows="10"
-            :placeholder="$t('contacts.message')"></textarea>
           <br />
           <input class="form-control submit-button" type="submit" :value="$t('contacts.send')" />
         </form>
