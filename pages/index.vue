@@ -33,6 +33,13 @@
             <p class="p-3">
               {{ $t("Navigation.text") }}
             </p>
+            <div class="text-bg-primary mt-5" >
+              <NuxtLink style="font-size:15px !important;" v-for="locale in availableLocales" :key="locale.code" :to="switchLocalePath(locale.code)">{{
+                locale.name
+              }}
+                <img class="m-2 linkedin" width="80" src="@/assets/icons/language.png" alt="" />
+              </NuxtLink>
+            </div>
           </div>
         </div>
       </div>
@@ -165,7 +172,7 @@
           <div class="flex-item-right">
             <h4> {{ $t("footer.connect") }}</h4>
             <p>
-              {{ $t("footer.connectText") }}
+              {{ $t("footer.connectText") }} <br>
               <a href="https://www.linkedin.com/in/patrick-mukad-91a96a1b6/" target="blank">
                 <img class="m-2 linkedin" width="30" src="@/assets/icons/linkedin.png" alt="" />
               </a>
@@ -182,13 +189,6 @@
                 <img class="m-2 twitter" width="30" src="@/assets/icons/twitter.png" alt="" />
               </a>
             </p>
-            <div>
-              <NuxtLink v-for="locale in availableLocales" :key="locale.code" :to="switchLocalePath(locale.code)">{{
-                locale.name
-              }}
-                <img class="m-2 linkedin" width="30" src="@/assets/images/worldwide.png" alt="" />
-              </NuxtLink>
-            </div>
           </div>
         </div>
         <p class="text-center p-5">
@@ -528,9 +528,15 @@ a:hover {
 
 @media screen and (max-width: 450px) {
   .container .box .role .mini-title[data-v-d035dc27][data-v-d035dc27] {
-    font-weight: 600;
+    font-weight: 100;
     margin-top: 5%;
-    margin-left: 3%;
+    margin-left: 3% !important;
   }
+}
+.parallax-header .navbar .flex-item-right .container div span {
+    font-size: 30px;
+    border: 1px solid white;
+    padding: 10px;
+    border-radius: 50px 30px;
 }
 </style>
