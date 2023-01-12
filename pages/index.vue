@@ -33,10 +33,11 @@
             <p class="p-3">
               {{ $t("Navigation.text") }}
             </p>
-            <div class="text-bg-primary mt-5" >
-              <NuxtLink style="font-size:15px !important;" v-for="locale in availableLocales" :key="locale.code" :to="switchLocalePath(locale.code)">{{
-                locale.name
-              }}
+            <div class="text-bg-primary mt-5">
+              <NuxtLink style="font-size:15px !important;" v-for="locale in availableLocales" :key="locale.code"
+                :to="switchLocalePath(locale.code)">{{
+                  locale.name
+                }}
                 <img class="m-2 linkedin" width="80" src="@/assets/icons/language.png" alt="" />
               </NuxtLink>
             </div>
@@ -100,28 +101,28 @@
 
         <div class="flex-container-services p-5">
           <div class="flex-item-left cards">
-            <img class="mb-5" src="https://cdn-icons-png.flaticon.com/512/4185/4185714.png" alt="" width="100">
+            <img class="mb-5" src="https://cdn-icons-png.flaticon.com/512/4185/4185714.png" alt="">
             <h2> {{ $t("services.service1Title") }}</h2>
             <p>
               {{ $t("services.service1Description") }}
             </p>
           </div>
           <div class="flex-item-right cards">
-            <img class="mb-5" src="https://cdn-icons-png.flaticon.com/512/3454/3454898.png" alt="" width="100">
+            <img class="mb-5" src="https://cdn-icons-png.flaticon.com/512/3454/3454898.png" alt="">
             <h2>{{ $t("services.service2Title") }}</h2>
             <p>
               {{ $t("services.service2Description") }}
             </p>
           </div>
           <div class="flex-item-right cards">
-            <img class="mb-5" src="https://cdn-icons-png.flaticon.com/512/609/609001.png" alt="" width="100">
+            <img class="mb-5" src="https://cdn-icons-png.flaticon.com/512/609/609001.png" alt="">
             <h2>{{ $t("services.service3Title") }}</h2>
             <p>
               {{ $t("services.service3Description") }}
             </p>
           </div>
           <div class="flex-item-right cards">
-            <img class="mb-5" src="https://cdn-icons-png.flaticon.com/512/4951/4951698.png" alt="" width="100">
+            <img class="mb-5" src="https://cdn-icons-png.flaticon.com/512/4951/4951698.png" alt="">
             <h2> {{ $t("services.service4Title") }}</h2>
             <p>
               {{ $t("services.service4Description") }}
@@ -193,13 +194,13 @@
                 <img class="m-2 twitter" width="30" src="@/assets/icons/twitter.png" alt="" />
               </a>
             </p>
-          
+
           </div>
           <!-- <a href="#home">
             <img width="30" height="30" src="../assets/icons/up-arrow.png" alt=""><p class="text-right pt-5 mt-5"></p>
           </a> -->
-          
-          
+
+
         </div>
         <p class="text-center p-5">
           © Copyright Learn With Patrick... 2022 | Built by Incognito Software
@@ -332,6 +333,11 @@ export default defineComponent({
 .services {
   .container .title-text {
     font-size: 60px;
+
+  }
+
+  img {
+    width: 100px;
   }
 }
 
@@ -513,6 +519,7 @@ a:hover {
   .twitter:hover {
     transform: scale(1.2);
   }
+
 }
 
 @media screen and (max-height: 450px) {
@@ -542,11 +549,20 @@ a:hover {
     margin-top: 5%;
     margin-left: 3% !important;
   }
+
+  .services {
+
+    img {
+      width: 80px !important;
+      margin-top:5%;
+    }
+  }
 }
+
 .parallax-header .navbar .flex-item-right .container div span {
-    font-size: 30px;
-    border: 1px solid white;
-    padding: 10px;
-    border-radius: 50px 30px;
+  font-size: 30px;
+  border: 1px solid white;
+  padding: 10px;
+  border-radius: 50px 30px;
 }
 </style>
