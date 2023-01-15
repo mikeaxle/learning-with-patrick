@@ -8,15 +8,31 @@
 		"contacButtontHover": "Available to you",
 		"ServicesButtomHover": "Our Services"
 	},
-	"description": {
+	"about": {
 		"intro": "Who is Patrick?",
-		"description1": "Between playing sports, listening to music and watching stand up shows, I can't really say which one is my favorite because I enjoy all of them. I usually play basketball or soccer on weekends. I like to sing my favorite songs. I will admit that I don't have John Legend or Ed Sheeran's voice, but that doesn't stop me from enjoying myself. Entertainment is my way of rewarding myself after a productive day. I was born in a small village in the Democratic Republic of Congo. Thanks to my parents, I was able to move to a big city and was lucky enough to attend a better school where I studied in French. When I finished high school, my parents sent me to INDIA for my university studies and I had the opportunity to study in English. So I am grateful to God for giving me parents who value education. I consider that it is impossible to progress professionally or personally without constantly improving one's skills and knowledge. And no country can progress without investing in the education of its youth. For me, learning is indeed a never-ending process. ● My mission: To help people capitalize on professional opportunities. With a degree in business administration, I learn topics related to finance, marketing, human resources and business in general. In 2015, when I left my country, Congo, to pursue my studies in India, I was challenged with one problem: Communication. I wasn't fluent in English and this prevented me from studying well. To solve this problem, I had to apply several learning techniques and practice every day. This process helped me to understand what works and what doesn't. During my university years, I also developed a passion for public speaking. I participated in several competitions and gave over 100 speeches and presentations to hundreds of people and small groups. Through all these challenges, I have learned many methods and techniques to capture my audience's attention and achieve the goal of my speech or presentation. When I returned to my country in 2019, I got my very first job because beyond my other skills, I was proficient in English and was able to defend myself very well during interviews.",
-		"description2": "I know how valuable English and communication skills are in today's business world. That's why I help people boost their professional careers. Over the past few years, my team and I have helped business owners, executives, employees and students achieve their goals through our services. I believe that effective communication is a major asset to a successful career.",
-		"bulletIntro": "I sometimes see :",
-		"bullet1": "People with many years of experience miss out on promotions because of English;",
-		"bullet2": "Entrepreneurs miss out on important deals because of English;",
-		"bullet3": "Business leaders struggling at events and meetings abroad because of English;",
-		"bullet4": "Job seekers struggling during interviews in English;"
+		"description":{
+			"firstParagraph":"Between playing sports, listening to music and watching stand up shows, I can't really say which one is my favorite because I enjoy all of them. ",
+			"secondParagraph":"I usually play basketball or soccer on weekends. I like to sing my favorite songs. I will admit that I don't have John Legend or Ed Sheeran's voice, but that doesn't stop me from enjoying myself.",
+			"thirdParagraph":"Entertainment is my way of rewarding myself after a productive day.",
+			"fourthParagraph": "I was born in a small village in the Democratic Republic of Congo. Thanks to my parents, I was able to move to a big city and was lucky enough to attend a better school where I studied in French.",
+			"fifthParagraph":"When I finished high school, my parents sent me to INDIA for my university studies and I had the opportunity to study in English. So I am grateful to God for giving me parents who value education.",
+			"sixthParagraph":"I consider that it is impossible to progress professionally or personally without constantly improving one's skills and knowledge. And no country can progress without investing in the education of its youth.",
+			"seventhParagraph":"For me, learning is indeed a never-ending process.",
+			"titleMission":"My mission: To help people capitalize on professional opportunities",
+			"eightParagraph":"With a degree in business administration, I learn topics related to finance, marketing, human resources and business in general.",
+			"ninthParagraph":"In 2015, when I left my country, Congo, to pursue my studies in India, I was challenged with one problem: Communication.",
+			"tenthParagraph":"I wasn't fluent in English and this prevented me from studying well. To solve this problem, I had to apply several learning techniques and practice every day. This process helped me to understand what works and what doesn't.",
+			"eleventhParagraph":"During my university years, I also developed a passion for public speaking. I participated in several competitions and gave over 100 speeches and presentations to hundreds of people and small groups.",
+			"twelvethParagraph":"Through all these challenges, I have learned many methods and techniques to capture my audience's attention and achieve the goal of my speech or presentation.",
+			"thirteenthParagraph":"When I returned to my country in 2019, I got my very first job because beyond my other skills, I was proficient in English and was able to defend myself very well during interviews.",
+			"forteenthParagraph":"I sometime see:",
+			"bullet1":"People with many years of experience miss out on promotions because of English",
+			"bullet2":"Entrepreneurs miss out on important deals because of English",
+			"bullet3":"Business owners struggling at events and meetings abroad because of English",
+			"bullet4":"Job seekers struggling during interviews in English",
+			"fifteenthParagraph":"I know how valuable English and communication skills are in today's business world. That's why I help people boost their professional careers. Over the past few years, my team and I have helped business owners, executives, employees and students achieve their goals through our services.",
+			"sixteenthParagraph":"I believe that effective communication is a major asset to a successful career."
+		}
 	},
 	"services": {
 		"intro": "Our services",

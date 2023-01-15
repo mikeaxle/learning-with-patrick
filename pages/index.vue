@@ -68,11 +68,36 @@
     <!-- Second section -->
     <div class="text-white about pb-5 pt-5 about" id="about">
       <div class="container">
-        <h1> {{ $t("description.intro") }}</h1>
-        <p>
-          {{ $t("description.description1") }}
-        </p>
+        <h1> {{ $t("about.intro") }}</h1>
+        <div class="mt-5">
+          <p>{{ $t("about.description.firstParagraph") }}</p>
+          <p>{{ $t("about.description.secondParagraph") }}</p>
+          <p>{{ $t("about.description.thirdParagraph") }}</p>
+          <p>{{ $t("about.description.fourthParagraph") }}</p>
+          <p>{{ $t("about.description.fifthParagraph") }}</p>
+          <p >{{ $t("about.description.seventhParagraph") }}</p>
+          <h4 class="font-weight-bold" style="">{{ $t("about.description.titleMission") }}</h4>
+          <p>{{ $t("about.description.eightParagraph") }}</p>
+          <p>{{ $t("about.description.ninthParagraph") }}</p>
+          <p>{{ $t("about.description.tenthParagraph") }}</p>
+          <p>{{ $t("about.description.eleventhParagraph") }}</p>
+          <p>{{ $t("about.description.twelvethParagraph") }}</p>
+          <p>{{ $t("about.description.thirteenthParagraph") }}</p>
+          <p>{{ $t("about.description.forteenthParagraph") }}</p>
         <ul>
+          <li>{{ $t("about.description.bullet1") }}</li>
+          <li>{{ $t("about.description.bullet2") }}</li>
+          <li>{{ $t("about.description.bullet3") }}</li>
+          <li>{{ $t("about.description.bullet4") }}</li>
+        </ul>
+        <p>{{ $t("about.description.fifteenthParagraph") }}</p>
+        <p>{{ $t("about.description.sixteenthParagraph") }}</p>
+        </div>
+
+        <!-- <p>
+          {{ $t("description.description1") }}
+        </p> -->
+        <!-- <ul>
           {{ $t("description.bulletIntro") }}
           <li>
             {{ $t("description.bullet1") }}
@@ -86,10 +111,10 @@
           <li>
             {{ $t("description.bullet4") }}
           </li>
-        </ul>
-        <p>
+        </ul> -->
+        <!-- <p>
           {{ $t("description.description2") }}
-        </p>
+        </p> -->
       </div>
     </div>
     <!-- Third section -->
