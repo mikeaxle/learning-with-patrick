@@ -75,7 +75,7 @@
           <p>{{ $t("about.description.thirdParagraph") }}</p>
           <p>{{ $t("about.description.fourthParagraph") }}</p>
           <p>{{ $t("about.description.fifthParagraph") }}</p>
-          <p >{{ $t("about.description.seventhParagraph") }}</p>
+          <p>{{ $t("about.description.seventhParagraph") }}</p>
           <h4 class="font-weight-bold" style="">{{ $t("about.description.titleMission") }}</h4>
           <p>{{ $t("about.description.eightParagraph") }}</p>
           <p>{{ $t("about.description.ninthParagraph") }}</p>
@@ -84,14 +84,14 @@
           <p>{{ $t("about.description.twelvethParagraph") }}</p>
           <p>{{ $t("about.description.thirteenthParagraph") }}</p>
           <p>{{ $t("about.description.forteenthParagraph") }}</p>
-        <ul>
-          <li>{{ $t("about.description.bullet1") }}</li>
-          <li>{{ $t("about.description.bullet2") }}</li>
-          <li>{{ $t("about.description.bullet3") }}</li>
-          <li>{{ $t("about.description.bullet4") }}</li>
-        </ul>
-        <p>{{ $t("about.description.fifteenthParagraph") }}</p>
-        <p>{{ $t("about.description.sixteenthParagraph") }}</p>
+          <ul>
+            <li>{{ $t("about.description.bullet1") }}</li>
+            <li>{{ $t("about.description.bullet2") }}</li>
+            <li>{{ $t("about.description.bullet3") }}</li>
+            <li>{{ $t("about.description.bullet4") }}</li>
+          </ul>
+          <p>{{ $t("about.description.fifteenthParagraph") }}</p>
+          <p>{{ $t("about.description.sixteenthParagraph") }}</p>
         </div>
       </div>
     </div>
@@ -198,12 +198,13 @@
               </a>
             </p>
           </div>
- 
+
         </div>
         <p class="text-center p-5">
           © Copyright Learn With Patrick 2023 | Built by Incognito Software
         </p>
-        <div><a href="#home">{{ $t("Navigation.home") }} <img width="20" height="20" style="padding-left:4px;" src="../assets/icons/up-arrow.png" alt=""> </a></div>
+        <div><a href="#home">{{ $t("Navigation.home") }} <img width="20" height="20" style="padding-left:4px;"
+              src="../assets/icons/up-arrow.png" alt=""> </a></div>
       </div>
     </div>
   </main>
@@ -318,7 +319,7 @@ export default defineComponent({
 #home {
   .display-1 {
     color: $title_color;
-     font-family: 'Merienda', cursive;
+    font-family: 'Merienda', cursive;
   }
 }
 
@@ -548,13 +549,13 @@ a:hover {
     font-weight: 100;
     margin-top: 5%;
     margin-left: 3% !important;
+    display: none;
   }
 
   .services {
-
     img {
       width: 80px !important;
-      margin-top:5%;
+      margin-top: 5%;
     }
   }
 }
