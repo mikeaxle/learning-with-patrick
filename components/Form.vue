@@ -8,10 +8,7 @@
           <input class="form-control mt-4" name="text" type="email" :placeholder="$t('contacts.email')" required />
           <textarea class="form-control mt-4" name="message" id="message" cols="30" rows="10"
             :placeholder="$t('contacts.message')"></textarea>
-          <div class="field">
-            <div data-netlify-recaptcha="true"></div>
-          </div>
-          <br />
+            <br>
           <input class="form-control submit-button" type="submit" :value="$t('contacts.send')" />
         </form>
       </div>
