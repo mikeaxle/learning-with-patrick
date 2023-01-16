@@ -6,8 +6,8 @@
       <p class=" text-white pt-4">
         {{ $t("testimonials.description") }}
       </p>
-      <div class="flex-container p-5">
-        <div class="flex-item-left ">
+      <div class="flex-container ">
+        <div class="flex-item-left cards mt-5">
           <div class="testimonial">
             <img src="../assets/images/testimonial/Herve.jpg" alt="" />
             <h3 class="name"> {{ $t("testimonials.testimonial2Name") }}</h3>
@@ -15,57 +15,72 @@
               {{ $t("testimonials.testimonial2Title") }}
             </footer>
             <q>
-              {{ $t("testimonials.testimonial2Description") }}
+              <p>{{ $t("testimonials.testimonial2Desc2Paragraph1") }}</p>
+              <p>{{ $t("testimonials.testimonial2Desc2Paragraph2") }}</p>
+              <p>{{ $t("testimonials.testimonial2Desc2Paragraph3") }}</p>
             </q>
           </div>
         </div>
-        <div class="flex-item-right ">
+        <div class="flex-item-right cards mt-5">
           <div class="testimonial">
             <img src="../assets/images/testimonial/samy.jpg" alt="" />
             <h3 class="name"> {{ $t("testimonials.testimonial1Name") }}</h3>
             <footer class="blockquote-footer"> {{ $t("testimonials.testimonial1Title") }}</footer>
             <q>
-              {{ $t("testimonials.testimonial1Description") }}
+              <p>{{ $t("testimonials.testimonial1Desc1Paragraph1") }}</p>
+              <p>{{ $t("testimonials.testimonial1Desc1Paragraph2") }}</p>
+              <p>{{ $t("testimonials.testimonial1Desc1Paragraph3") }}</p>
+              <p>{{ $t("testimonials.testimonial1Desc1Paragraph4") }}</p>
             </q>
           </div>
         </div>
-        <div class="flex-item-right ">
+        <div class="flex-item-right cards mt-5">
           <div class="testimonial">
             <img src="../assets/images/testimonial/sira.jpg" alt="" />
             <h3 class="name"> {{ $t("testimonials.testimonial3Name") }}</h3>
             <footer class="blockquote-footer"> {{ $t("testimonials.testimonial3Title") }}</footer>
             <q>
-              {{ $t("testimonials.testimonial3Description") }}
+              <p>{{ $t("testimonials.testimonial3Desc3Paragraph1") }}</p>
+              <p>{{ $t("testimonials.testimonial3Desc3Paragraph2") }}</p>
+              <p>{{ $t("testimonials.testimonial3Desc3Paragraph3") }}</p>
+              <p> {{ $t("testimonials.testimonial3Desc3Paragraph4") }}</p>
+              <p> {{ $t("testimonials.testimonial3Desc3Paragraph5") }}</p>
             </q>
           </div>
         </div>
-        <div class="flex-item-right ">
-          <div class="testimonial">
-            <img src="../assets/images/testimonial/cril.jpg" alt="" />
-            <h3 class="name"> {{ $t("testimonials.testimonial4Name") }}</h3>
-            <footer class="blockquote-footer"> {{ $t("testimonials.testimonial4Title") }}</footer>
-            <q>
-              {{ $t("testimonials.testimonial4Description") }}
-            </q>
-          </div>
-        </div>
-        <div class="flex-item-right ">
+
+        <div class="flex-item-right cards mt-5">
           <div class="testimonial">
             <img src="../assets/images/testimonial/Evariste.jpg" alt="" />
             <h3 class="name"> {{ $t("testimonials.testimonial5Name") }}</h3>
             <footer class="blockquote-footer"> {{ $t("testimonials.testimonial5Title") }}</footer>
             <q>
-              {{ $t("testimonials.testimonial5Description") }}
+              <p>{{ $t("testimonials.testimonial5Desc5Paragraph1") }}</p>
+              <p>{{ $t("testimonials.testimonial5Desc5Paragraph2") }}</p>
+              <p>{{ $t("testimonials.testimonial5Desc5Paragraph3") }}</p>
             </q>
           </div>
         </div>
-        <div class="flex-item-right ">
+        <div class="flex-item-right cards mt-5 ">
+          <div class="testimonial">
+            <img src="../assets/images/testimonial/cril.jpg" alt="" />
+            <h3 class="name"> {{ $t("testimonials.testimonial4Name") }}</h3>
+            <footer class="blockquote-footer"> {{ $t("testimonials.testimonial4Title") }}</footer>
+            <q>
+              <p>{{ $t("testimonials.testimonial4Desc4Paragraph1") }}</p>
+              <p>{{ $t("testimonials.testimonial4Desc4Paragraph2") }}</p>
+            </q>
+          </div>
+        </div>
+        <div class="flex-item-right cards mt-5 mb-5">
           <div class="testimonial">
             <img src="../assets/images/testimonial/Gloire.jpg" alt="" />
             <h3 class="name"> {{ $t("testimonials.testimonial6Name") }}</h3>
             <footer class="blockquote-footer"> {{ $t("testimonials.testimonial6Title") }}r</footer>
             <q>
-              {{ $t("testimonials.testimonial6Description") }}
+              <p> {{ $t("testimonials.testimonial6Desc6Paragraph1") }} </p>
+              <p>{{ $t("testimonials.testimonial6Desc6Paragraph2") }}</p>
+              <p>{{ $t("testimonials.testimonial6Desc6Paragraph3") }}</p>
             </q>
           </div>
         </div>
@@ -96,6 +111,10 @@ export default {};
   overflow: hidden;
 }
 
+.cards:hover {
+  background-color: #082948;
+}
+
 .testimonial {
   color: white;
 }
@@ -124,6 +143,10 @@ export default {};
     width: 100px;
     height: 100px;
     border-radius: 50%;
+  }
+
+  .cards {
+    background-color: #082948;
   }
 }
 </style>

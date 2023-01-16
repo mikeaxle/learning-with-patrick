@@ -8,15 +8,31 @@
       "contacButtontHover": "Disponible pour vous",
       "ServicesButtomHover": "Nos Services"
     },
-    "description": {
+    "about": {
       "intro": "Qui est Patrick?",
-      "description1": "Entre faire du sport, écouter de la musique et regarder des spectacles de stand up, je ne peux pas dire lequel est mon préféré car j'aime tous ces hobbies. Je joue souvent au basket ou au football le week-end. J'aime chanter mes chansons préférées. J'admets que je n'ai pas la voix de John Legend ou d'Ed Sheeran, mais cela ne m'empêche pas de m'amuser. Me divertir est ma façon de me récompenser après une journée productive. Je suis né dans un petit village de la République démocratique du Congo. Grâce à mes parents, j'ai pu déménager dans une grande ville et j'ai eu la chance de fréquenter une meilleure école où j'ai étudié en français. Lorsque j'ai fini mes études secondaires, mes parents m'ont envoyé en INDE pour mes études universitaires et j'ai eu la chance d'étudier en anglais. Je suis donc reconnaissant à Dieu de m'avoir donné des parents qui valorisent l'éducation. Je considère qu'ill est impossible de progresser sur le plan professionnel ou personnel sans améliorer constamment ses compétences et ses connaissances. Et aucun pays ne peut progresser sans investir dans l'éducation de sa jeunesse. Pour moi, l'apprentissage est en effet un processus sans fin.",
-      "description2": "Je sais combien l'anglais et les compétences en communication sont nécessaires dans le monde professionnel. Voilà pourquoi j'aide les gens à booster leur carrière professionnelle. Au cours des dernières années, mon équipe et moi-même avons aidé des chefs d'entreprises, des cadres, des employés et des étudiants à atteindre leurs objectifs grâce à nos services. Je suis convaincu qu'une communication efficace est un atout majeur pour une carrière réussie.",
-      "bulletIntro": "Je vois parfois:",
-      "bullet1": "Des personnes avec plusieurs années d'expérience rater des promotions à cause de l'anglais",
-      "bullet2": "Des entrepreneurs rater des marchés importants à cause de l'anglais",
-      "bullet3": "Des chefs d'entreprise souffrir lors d'événements et de réunions à l'étranger à cause de l'anglais",
-      "bullet4": "Des demandeurs d'emploi souffrir lors d'un entretien en anglais"
+      "description":{
+        "firstParagraph":"Entre faire du sport, écouter de la musique et regarder des spectacles de stand up, je ne  peux pas dire lequel est mon préféré car j'aime tous ces hobbies.",
+        "secondParagraph":"Je joue souvent au basket ou au football le week-end. J'aime chanter mes chansons préférées. J'admets que je n'ai pas la voix de John Legend  ou d'Ed Sheeran, mais cela ne m'empêche pas de m'amuser.",
+        "thirdParagraph":"Me divertir est ma façon de me récompenser après une journée productive.",
+        "fourthParagraph": "Me divertir est ma façon de me récompenser après une journée productive.",
+        "fifthParagraph":"Lorsque j'ai fini mes études secondaires, mes parents m'ont envoyé en INDE pour mes  études universitaires et j'ai eu la chance d'étudier en anglais.Je suis donc reconnaissant  à Dieu de m'avoir donné des parents qui valorisent l'éducation.",
+        "sixthParagraph":"Je considère qu'il est impossible de progresser sur le plan professionnel ou personnel  sans améliorer constamment ses compétences et ses connaissances. Et aucun pays ne  peut progresser sans investir dans l'éducation de sa jeunesse. ",
+        "seventhParagraph":"Pour moi, l'apprentissage est en effet un processus sans fin.",
+        "titleMission":"Ma mission : Aider les gens à saisir les opportunités professionnelles",
+        "eightParagraph":"Titulaire d'un diplôme en administration des affaires, j'apprends des sujets liés à la finance, au marketing, aux ressources humaines et au business en général.",
+        "ninthParagraph":"En 2015, lorsque j'ai quitté mon pays la RDC pour poursuivre mes études en INDE, j'ai été confrontée à  un problème : la communication.",
+        "tenthParagraph":"Je ne maîtrisais pas l'anglais et cela m'empêchait de bien étudier. Pour résoudre ce problème, j'ai dû appliquer plusieurs techniques d'apprentissage et pratiquer chaque  jour. Ce processus m'a aidé à comprendre ce qui marche et ce qui ne marche pas.",
+        "eleventhParagraph":"Au cours de mon parcours universitaire, j'ai également développé une passion pour l'art oratoire. J'ai  participé à de nombreux concours et j'ai fait plus d'une centaine de discours et de présentations devant  des centaines de personnes et de petits groupes.",
+        "twelvethParagraph":"Grâce à tous ces défis, j'ai appris de nombreuses méthodes et techniques pour capter l'attention de mon  auditoire et atteindre l'objectif de mon discours ou de ma présentation.",
+        "thirteenthParagraph":"Lorsque je suis retourné dans mon pays en 2019, j'ai obtenu mon tout premier emploi parce qu'au-delà  de mes autres compétences, je ne maîtrisais l'anglais et j'étais capable de bien me défendre lors des  entretiens.",
+        "forteenthParagraph":"Je vois parfois:",
+        "bullet1":"Des personnes avec plusieurs années d'expérience rater des promotions à cause de l'anglais",
+        "bullet2":"Des entrepreneurs rater des marchés importants à cause de l'anglais",
+        "bullet3":"Des chefs d'entreprise souffrir lors d'événements et de réunions à l'étranger à cause de l'anglais",
+        "bullet4":"Des demandeurs d'emploi souffrir lors d'un entretien en anglais",
+        "fifteenthParagraph":"Je sais combien l'anglais et les compétences en communication sont nécessaires dans le monde  professionnel.  Voilà pourquoi j'aide les gens à booster leur carrière professionnelle. Je sais combien l'anglais et les compétences en communication sont nécessaires dans le monde  professionnel.  Voilà pourquoi j'aide les gens à booster leur carrière professionnelle",
+        "sixteenthParagraph":"Je suis convaincu qu'une communication efficace est un atout majeur pour une carrière réussie."
+      }
     },
     "services": {
       "intro": "En quoi pourrai-je vous aider?",
@@ -34,22 +50,45 @@
       "description": "Notre satisfaction provient principalement du fait de voir nos clients réussir. Nous nous surpassons pour les aider à atteindre leurs objectifs. Nous croyons au progrès plutôt qu'au mouvement, c'est pourquoi nous cherchons le moyen le plus efficace d'aider nos clients à atteindre leurs objectifs.",
       "testimonial1Name": "SAMY MWAMBA",
       "testimonial1Title": "CEO - Itot Africa",
-      "testimonial1Description": "Je devais ameliorer ma communication en English très rapidement. Je devais le faire pour pouvoir presenter Itot Africa à des investisseurs qui ne parle pas français. Alors j'avais fait appel à Patrick. Il à commencer à coacher toute l'equipe Itot Africa. Grâce à son coaching, j'avais bien présenté Itot Africa, expliqué notre model financier, etc. On a obtenu le prêt qu'on voulait. Nous savons que vous aussi avez besoins de son coaching.",
+      "testimonial1Desc1Paragraph1":"Je devais améliorer ma communication en English très rapidement.",
+		  "testimonial1Desc1Paragraph2":"Je devais le faire pour pouvoir présenter Itot Africa à des investisseurs qui ne parlent pas  français. Alors j'ai fait appel à Patrick.",
+	  	"testimonial1Desc1Paragraph3":"Il à commencé à coacher toute l'équipe Itot Africa. Grâce à son coaching, j'avais bien présenté Itot Africa, expliqué notre modèle financier, etc. On a obtenu le prêt qu'on voulait.",
+		  "testimonial1Desc1Paragraph4":"Nous savons que vous aussi avez besoin de son coaching.",
+      
+      
+      
       "testimonial2Name": "HERVÉ KAPUYA",
       "testimonial2Title": "Administrateur - Electronic Congo Development (e-CD)",
-      "testimonial2Description": "C'était et ce sera toujours un plaisir pour moi de travailler avec vous. Merci pour la formation en anglais, car elle m'a permis de progresser et de franchir une nouvelle étape dans ma vie. Je vous souhaite d'être reconnu comme le meilleur coach d'anglais de notre pays. Continuez à faire du bon travail, continuez à évaluer le travail, continuez à aller de l'avant. Dites à vos apprenants cette citation de Denzel Washington : 'Pour obtenir quelque chose que vous n'avez jamais eu, vous devez faire quelque chose que vous n'avez jamais fait'",
+      "testimonial2Desc2Paragraph1":"C'était et ce sera toujours un plaisir pour moi de travailler avec vous. Merci pour la  formation en anglais, car elle m'a permis de progresser et de franchir une nouvelle  étape dans ma vie. ",
+      "testimonial2Desc2Paragraph2":"Je te souhaite d'être reconnu comme le meilleur coach d'anglais de notre pays.  Continuez à faire du bon travail, continuez à évaluer le travail, continuez à aller de  l'avant.",
+      "testimonial2Desc2Paragraph3":"Dites à vos apprenants cette citation de Denzel Washington : 'Pour obtenir quelque  chose que vous n'avez jamais eu, vous devez faire quelque chose que vous n'avez jamais  fait'.",
+
+     
       "testimonial3Name": "MARIAMA SIRA SOW",
       "testimonial3Title": "Public Relations Manager",
-      "testimonial3Description": "Quand j'ai contacté Patrick sur LinkedIn, c'était juste pour préparer un entretien d'embauche en anglais, mais quand nous avons commencé, j'ai tout de suite compris qu'il n'était pas simplement un coach d'anglais, c'est aussi un coach en développement personnel. Grâce à lui, je suis sorti de ma timidité et je suis parvenue à communiquer aisément au bout de quelques séances. J'ai découvert des talents en moi que je ne connaissais pas jusque-là. Il utilise une méthode de coaching très efficace et accessible à tous. J'apprécie également la disponibilité et les bonnes relations que nous avons gardé après le contrat.",
+      "testimonial3Desc3Paragraph1":"Quand j'ai contacté Patrick sur LinkedIn, c'était juste pour préparer un entretien d'embauche en anglais, mais quand nous avons commencé, j'ai tout de suite compris qu'il n'était pas simplement un coach d'anglais, c'est aussi un coach en développement personnel.",
+		  "testimonial3Desc3Paragraph2":"Grâce à lui, je suis sorti de ma timidité et je suis parvenue à communiquer aisément au bout de quelques séances. J'ai découvert des talents en moi que je ne connaissais pas jusque-là.",
+		  "testimonial3Desc3Paragraph3":"Il utilise une méthode de coaching très efficace et accessible à tous. J'apprécie également la disponibilité et les bonnes relations que nous avons gardé après le contrat.",
+		  "testimonial3Desc3Paragraph4":"PS: Mon entretien d'embauche s'est si bien passé que le recruteur m'a appelé le lendemain pour la suite du processus.",
+		  "testimonial3Desc3Paragraph5":"Merci beaucoup Patrick.",
+      
       "testimonial4Name": "CRIL SELEMANI",
       "testimonial4Title": "Happy Customer",
-      "testimonial4Description": "Le fait d'être l'un de tes premiers étudiants me rend fier de toi car nous sommes venus de loin. Ta formation d'anglais m'a permis de bien commencer mon MBA à Southern Utah University. Cela aurait pu être beaucoup plus difficile si tu n'avais pas été là pour moi.",
+      "testimonial4Desc4Paragraph1":"Le fait d'être l'un de tes premiers étudiants me rend fier de toi car nous sommes venus de loin.",
+      "testimonial4Desc4Paragraph2":"Ta formation d'anglais m'a permis de bien commencer mon MBA à Southern Utah University. Cela aurait pu être beaucoup plus difficile si tu n'avais pas été là pour moi.",
+      
       "testimonial5Name": "EVARISTE LIYELE",
       "testimonial5Title": "Co-founder & CEO - Ferme Azur",
-      "testimonial5Description": "Lorsque notre projet a été sélectionné dans le cadre d'un concours de financement des entreprises à Kinshasa, je devais faire un discours le jour de l'annonce des prix. J'étais inquiet, alors j'ai demandé de l'aide à Patrick. Il a compris mes besoins et m'a aidé tel un médecin avec ses patients. Il m'a non seulement aidé à écrire mon discours, mais m'a aussi montré comment capter l'attention du public. Le jour J, j'ai pu faire un excellent discours. Cette expérience a impacté ma façon de communiquer et j'en suis très reconnaissant.",
+      "testimonial5Desc5Paragraph1":"Lorsque notre projet a été sélectionné dans le cadre d'un concours de financement des entreprises à Kinshasa, je devais faire un discours le jour de l'annonce des prix. J'étais inquiet, alors j'ai demandé de l'aide à Patrick.",
+      "testimonial5Desc5Paragraph2":"Il a compris mes besoins et m'a aidé tel un médecin avec ses patients. Il m'a non seulement aidé à écrire mon discours, mais m'a aussi montré comment capter l'attention du public.",
+      "testimonial5Desc5Paragraph3":"Le jour J, j'ai pu faire un excellent discours. Cette expérience a impacté ma façon de communiquer et j'en suis très reconnaissant.",
+      
       "testimonial6Name": "GLOIRE KITENGE",
       "testimonial6Title": "HR Manager",
-      "testimonial6Description": "Les cours d'anglais interactifs que j'ai suivis avec Patrick m'ont beaucoup aidé. J'avais l'habitude de me sentir mal à l'aise, mais après quelques mois, j'ai pu m'exprimer avec confiance. J'ai également amélioré ma grammaire et mon vocabulaire. Si vous souhaitez également améliorer votre anglais, je vous recommande de contacter Patrick."
+      "testimonial6Description": "The interactive English classes I took with Patrick helped me a lot. I used to feel uncomfortable, but after a few months I was able to express myself with confidence. I also improved my grammar and vocabulary. If you are also interested in improving your English, I recommend that you contact Patrick.",
+      "testimonial6Desc6Paragraph1":"Les cours d'anglais interactifs que j'ai suivis avec Patrick m'ont beaucoup aidé.",
+      "testimonial6Desc6Paragraph2":"J'avais l'habitude de me sentir mal à l'aise, mais après quelques mois, j'ai pu m'exprimer avec confiance. J'ai également amélioré ma grammaire et mon vocabulaire.",
+      "testimonial6Desc6Paragraph3":"Si vous souhaitez également améliorer votre anglais, je vous recommande de contacter Patrick."
     },
     "sponsors" : {
       "intro": "Sponsors & Partenaires"

@@ -68,28 +68,31 @@
     <!-- Second section -->
     <div class="text-white about pb-5 pt-5 about" id="about">
       <div class="container">
-        <h1> {{ $t("description.intro") }}</h1>
-        <p>
-          {{ $t("description.description1") }}
-        </p>
+        <h1> {{ $t("about.intro") }}</h1>
+        <div class="mt-5">
+          <p>{{ $t("about.description.firstParagraph") }}</p>
+          <p>{{ $t("about.description.secondParagraph") }}</p>
+          <p>{{ $t("about.description.thirdParagraph") }}</p>
+          <p>{{ $t("about.description.fourthParagraph") }}</p>
+          <p>{{ $t("about.description.fifthParagraph") }}</p>
+          <p >{{ $t("about.description.seventhParagraph") }}</p>
+          <h4 class="font-weight-bold" style="">{{ $t("about.description.titleMission") }}</h4>
+          <p>{{ $t("about.description.eightParagraph") }}</p>
+          <p>{{ $t("about.description.ninthParagraph") }}</p>
+          <p>{{ $t("about.description.tenthParagraph") }}</p>
+          <p>{{ $t("about.description.eleventhParagraph") }}</p>
+          <p>{{ $t("about.description.twelvethParagraph") }}</p>
+          <p>{{ $t("about.description.thirteenthParagraph") }}</p>
+          <p>{{ $t("about.description.forteenthParagraph") }}</p>
         <ul>
-          {{ $t("description.bulletIntro") }}
-          <li>
-            {{ $t("description.bullet1") }}
-          </li>
-          <li>
-            {{ $t("description.bullet2") }}
-          </li>
-          <li>
-            {{ $t("description.bullet3") }}
-          </li>
-          <li>
-            {{ $t("description.bullet4") }}
-          </li>
+          <li>{{ $t("about.description.bullet1") }}</li>
+          <li>{{ $t("about.description.bullet2") }}</li>
+          <li>{{ $t("about.description.bullet3") }}</li>
+          <li>{{ $t("about.description.bullet4") }}</li>
         </ul>
-        <p>
-          {{ $t("description.description2") }}
-        </p>
+        <p>{{ $t("about.description.fifteenthParagraph") }}</p>
+        <p>{{ $t("about.description.sixteenthParagraph") }}</p>
+        </div>
       </div>
     </div>
     <!-- Third section -->
@@ -99,32 +102,32 @@
           {{ $t("services.intro") }}
         </h1>
 
-        <div class="flex-container-services p-5">
+        <div class="flex-container-services p-3">
           <div class="flex-item-left cards">
-            <img class="mb-5" src="https://cdn-icons-png.flaticon.com/512/4185/4185714.png" alt="">
+            <img class="mb-3" src="https://cdn-icons-png.flaticon.com/512/4185/4185714.png" alt="">
             <h2> {{ $t("services.service1Title") }}</h2>
-            <p>
+            <p class="pt-3">
               {{ $t("services.service1Description") }}
             </p>
           </div>
           <div class="flex-item-right cards">
-            <img class="mb-5" src="https://cdn-icons-png.flaticon.com/512/3454/3454898.png" alt="">
+            <img class="mb-3" src="https://cdn-icons-png.flaticon.com/512/3454/3454898.png" alt="">
             <h2>{{ $t("services.service2Title") }}</h2>
-            <p>
+            <p class="pt-3">
               {{ $t("services.service2Description") }}
             </p>
           </div>
           <div class="flex-item-right cards">
-            <img class="mb-5" src="https://cdn-icons-png.flaticon.com/512/609/609001.png" alt="">
+            <img class="mb-3" src="https://cdn-icons-png.flaticon.com/512/609/609001.png" alt="">
             <h2>{{ $t("services.service3Title") }}</h2>
-            <p>
+            <p class="pt-3">
               {{ $t("services.service3Description") }}
             </p>
           </div>
           <div class="flex-item-right cards">
-            <img class="mb-5" src="https://cdn-icons-png.flaticon.com/512/4951/4951698.png" alt="">
+            <img class="mb-3" src="https://cdn-icons-png.flaticon.com/512/4951/4951698.png" alt="">
             <h2> {{ $t("services.service4Title") }}</h2>
-            <p>
+            <p class="pt-3">
               {{ $t("services.service4Description") }}
             </p>
           </div>
@@ -133,7 +136,7 @@
     </div>
 
     <!-- Fourth section -->
-    <div class="parallex testimonials" id="testimonials">
+    <div class="parallex testimonials pb-5" id="testimonials">
       <div class="container text-center">
         <Testimonial />
       </div>
