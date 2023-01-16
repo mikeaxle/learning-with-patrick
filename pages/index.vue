@@ -545,13 +545,6 @@ a:hover {
 }
 
 @media screen and (max-width: 450px) {
-  .container .box .role .mini-title[data-v-d035dc27][data-v-d035dc27] {
-    font-weight: 100;
-    margin-top: 5%;
-    margin-left: 3% !important;
-    display: none;
-  }
-
   .services {
     img {
       width: 80px !important;
