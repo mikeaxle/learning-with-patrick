@@ -5,18 +5,7 @@
         <h4>{{ $t("contacts.intro") }}</h4>
         <form method="POST" action="POST" data-netlify="true">
           <input class="form-control" name="name" type="text" :placeholder="$t('contacts.name')" required />
-          <input class="form-control mt-4" name="text" type="email" :placeholder="$t('contacts.email')" required />
-          <input class="form-control mt-4" name="tel" type="tel" :placeholder="$t('contacts.phone')" required />
-          <select class="form-select mt-4" :placeholder="$t('contacts.subject')" :name="$t('contacts.subject')"
-            id="subject" required>
-            <option name="subject">{{ $t('contacts.subject0') }}</option>
-            <option name="subject" :value="$t('contacts.subject1')">{{ $t('contacts.subject1') }}</option>
-            <option name="subject" :value="$t('contacts.subject2')">{{ $t('contacts.subject2') }}</option>
-            <option name="subject" :value="$t('contacts.subject3')">{{ $t('contacts.subject3') }}</option>
-            <option name="subject" :value="$t('contacts.subject4')">{{ $t('contacts.subject4') }}</option>
-            <option name="subject" :value="$t('contacts.subject5')">{{ $t('contacts.subject5') }}</option>
-          </select>
-
+          <input class="form-control mt-4" name="email" type="email" :placeholder="$t('contacts.email')" required />
           <textarea class="form-control mt-4" name="message" id="message" cols="30" rows="10"
             :placeholder="$t('contacts.message')"></textarea>
           <div class="field">
@@ -26,7 +15,7 @@
           <input class="form-control submit-button" type="submit" :value="$t('contacts.send')" />
         </form>
       </div>
-      <div class="flex-item-right p-5 text-bg-dark">
+      <div class="flex-item-right p-3 pt-5 text-bg-dark">
         <div class="container">
           <h4>{{ $t("contacts.contactInfo") }}</h4>
         </div>

@@ -76,7 +76,7 @@
           <div class="testimonial">
             <img src="../assets/images/testimonial/Gloire.jpg" alt="" />
             <h3 class="name"> {{ $t("testimonials.testimonial6Name") }}</h3>
-            <footer class="blockquote-footer"> {{ $t("testimonials.testimonial6Title") }}r</footer>
+            <footer class="blockquote-footer"> {{ $t("testimonials.testimonial6Title") }}</footer>
             <q>
               <p> {{ $t("testimonials.testimonial6Desc6Paragraph1") }} </p>
               <p>{{ $t("testimonials.testimonial6Desc6Paragraph2") }}</p>
