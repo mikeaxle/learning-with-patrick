@@ -3,9 +3,9 @@
     <div class="flex-container container-wrapper">
       <div class="flex-item-left p-4 text-bg-dark">
         <h4>{{ $t("contacts.intro") }}</h4>
-        <form method="POST" action="POST" data-netlify="true">
+        <form method="POST" action="POST" data-netlify="true" name="myform">
           <input class="form-control" name="name" type="text" :placeholder="$t('contacts.name')" required />
-          <input class="form-control mt-4" name="text" type="email" :placeholder="$t('contacts.email')" required />
+          <input class="form-control mt-4" type="email" name="email"  :placeholder="$t('contacts.email')" required />
           <textarea class="form-control mt-4" name="message" id="message" cols="30" rows="10"
             :placeholder="$t('contacts.message')"></textarea>
             <br>
