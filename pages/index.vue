@@ -197,17 +197,13 @@
                 <img class="m-2 twitter" width="30" src="@/assets/icons/twitter.png" alt="" />
               </a>
             </p>
-
           </div>
-          <!-- <a href="#home">
-            <img width="30" height="30" src="../assets/icons/up-arrow.png" alt=""><p class="text-right pt-5 mt-5"></p>
-          </a> -->
-
-
+ 
         </div>
         <p class="text-center p-5">
-          © Copyright Learn With Patrick... 2022 | Built by Incognito Software
+          © Copyright Learn With Patrick 2023 | Built by Incognito Software
         </p>
+        <div><a href="#home">{{ $t("Navigation.home") }} <img width="20" height="20" style="padding-left:4px;" src="../assets/icons/up-arrow.png" alt=""> </a></div>
       </div>
     </div>
   </main>
@@ -322,6 +318,7 @@ export default defineComponent({
 #home {
   .display-1 {
     color: $title_color;
+     font-family: 'Merienda', cursive;
   }
 }
 
