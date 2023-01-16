@@ -208,6 +208,7 @@
         <p class="text-center p-5">
           © Copyright Learn With Patrick... 2022 | Built by Incognito Software
         </p>
+        <div><a href="#home">{{ $t("Navigation.home") }} <img width="20" height="20" style="padding-left:4px;" src="../assets/icons/up-arrow.png" alt=""> </a></div>
       </div>
     </div>
   </main>
