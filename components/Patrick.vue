@@ -214,6 +214,9 @@ export default {};
     background-color: red;
     display: none;
   }
+  .container .box .mini-title{
+    display: none;
+  }
 
   .container .box .title h1[data-v-d035dc27] {
     font-size: 27px;
