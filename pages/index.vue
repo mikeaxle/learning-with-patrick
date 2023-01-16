@@ -93,28 +93,6 @@
         <p>{{ $t("about.description.fifteenthParagraph") }}</p>
         <p>{{ $t("about.description.sixteenthParagraph") }}</p>
         </div>
-
-        <!-- <p>
-          {{ $t("description.description1") }}
-        </p> -->
-        <!-- <ul>
-          {{ $t("description.bulletIntro") }}
-          <li>
-            {{ $t("description.bullet1") }}
-          </li>
-          <li>
-            {{ $t("description.bullet2") }}
-          </li>
-          <li>
-            {{ $t("description.bullet3") }}
-          </li>
-          <li>
-            {{ $t("description.bullet4") }}
-          </li>
-        </ul> -->
-        <!-- <p>
-          {{ $t("description.description2") }}
-        </p> -->
       </div>
     </div>
     <!-- Third section -->
@@ -124,32 +102,32 @@
           {{ $t("services.intro") }}
         </h1>
 
-        <div class="flex-container-services p-5">
+        <div class="flex-container-services p-3">
           <div class="flex-item-left cards">
-            <img class="mb-5" src="https://cdn-icons-png.flaticon.com/512/4185/4185714.png" alt="">
+            <img class="mb-3" src="https://cdn-icons-png.flaticon.com/512/4185/4185714.png" alt="">
             <h2> {{ $t("services.service1Title") }}</h2>
-            <p>
+            <p class="pt-3">
               {{ $t("services.service1Description") }}
             </p>
           </div>
           <div class="flex-item-right cards">
-            <img class="mb-5" src="https://cdn-icons-png.flaticon.com/512/3454/3454898.png" alt="">
+            <img class="mb-3" src="https://cdn-icons-png.flaticon.com/512/3454/3454898.png" alt="">
             <h2>{{ $t("services.service2Title") }}</h2>
-            <p>
+            <p class="pt-3">
               {{ $t("services.service2Description") }}
             </p>
           </div>
           <div class="flex-item-right cards">
-            <img class="mb-5" src="https://cdn-icons-png.flaticon.com/512/609/609001.png" alt="">
+            <img class="mb-3" src="https://cdn-icons-png.flaticon.com/512/609/609001.png" alt="">
             <h2>{{ $t("services.service3Title") }}</h2>
-            <p>
+            <p class="pt-3">
               {{ $t("services.service3Description") }}
             </p>
           </div>
           <div class="flex-item-right cards">
-            <img class="mb-5" src="https://cdn-icons-png.flaticon.com/512/4951/4951698.png" alt="">
+            <img class="mb-3" src="https://cdn-icons-png.flaticon.com/512/4951/4951698.png" alt="">
             <h2> {{ $t("services.service4Title") }}</h2>
-            <p>
+            <p class="pt-3">
               {{ $t("services.service4Description") }}
             </p>
           </div>
@@ -158,7 +136,7 @@
     </div>
 
     <!-- Fourth section -->
-    <div class="parallex testimonials" id="testimonials">
+    <div class="parallex testimonials pb-5" id="testimonials">
       <div class="container text-center">
         <Testimonial />
       </div>
