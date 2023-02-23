@@ -19,9 +19,9 @@
         "sixthParagraph":"Je considère qu'il est impossible de progresser sur le plan professionnel ou personnel  sans améliorer constamment ses compétences et ses connaissances. Et aucun pays ne  peut progresser sans investir dans l'éducation de sa jeunesse. ",
         "seventhParagraph":"Pour moi, l'apprentissage est en effet un processus sans fin.",
         "titleMission":"Ma mission : Aider les gens à saisir les opportunités professionnelles",
-        "eightParagraph":"Titulaire d'un diplôme en administration des affaires, j'apprends des sujets liés à la finance, au marketing, aux ressources humaines et au business en général.",
+        "eightParagraph":"Titulaire d'un diplôme en gestion des entreprises, j'apprends des sujets liés à la finance, au marketing, aux ressources humaines et au business en général.",
         "ninthParagraph":"En 2015, lorsque j'ai quitté mon pays la RDC pour poursuivre mes études en INDE, j'ai été confrontée à  un problème : la communication.",
-        "tenthParagraph":"Je ne maîtrisais pas l'anglais et cela m'empêchait de bien étudier. Pour résoudre ce problème, j'ai dû appliquer plusieurs techniques d'apprentissage et pratiquer chaque  jour. Ce processus m'a aidé à comprendre ce qui marche et ce qui ne marche pas.",
+        "tenthParagraph":"Je maîtrisais pas l'anglais et cela m'empêchait de bien étudier. Pour résoudre ce problème, j'ai dû appliquer plusieurs techniques d'apprentissage et pratiquer chaque  jour. Ce processus m'a aidé à comprendre ce qui marche et ce qui ne marche pas.",
         "eleventhParagraph":"Au cours de mon parcours universitaire, j'ai également développé une passion pour l'art oratoire. J'ai  participé à de nombreux concours et j'ai fait plus d'une centaine de discours et de présentations devant  des centaines de personnes et de petits groupes.",
         "twelvethParagraph":"Grâce à tous ces défis, j'ai appris de nombreuses méthodes et techniques pour capter l'attention de mon  auditoire et atteindre l'objectif de mon discours ou de ma présentation.",
         "thirteenthParagraph":"Lorsque je suis retourné dans mon pays en 2019, j'ai obtenu mon tout premier emploi parce qu'au-delà  de mes autres compétences, je ne maîtrisais l'anglais et j'étais capable de bien me défendre lors des  entretiens.",
@@ -29,7 +29,7 @@
         "bullet1":"Des personnes avec plusieurs années d'expérience rater des promotions à cause de l'anglais",
         "bullet2":"Des entrepreneurs rater des marchés importants à cause de l'anglais",
         "bullet3":"Des chefs d'entreprise souffrir lors d'événements et de réunions à l'étranger à cause de l'anglais",
-        "bullet4":"Des demandeurs d'emploi souffrir lors d'un entretien en anglais",
+        "bullet4":"Des demandeurs d'emploi souffrir lors Lors des entretiens en Anglais",
         "fifteenthParagraph":"Je sais combien l'anglais et les compétences en communication sont nécessaires dans le monde  professionnel. Voilà pourquoi j'aide les gens à booster leur carrière professionnelle. Au cours des dernières années, mon équipe et moi-même avons aidé des chefs d'entreprises, des  cadres, des employés et des étudiants à atteindre leurs objectifs grâce à nos services.",
         "sixteenthParagraph":"Je suis convaincu qu'une communication efficace est un atout majeur pour une carrière réussie."
       }
@@ -114,7 +114,7 @@
       "subject5":"Autre"
     },
     "footer": {
-      "connect": "Connectez-vous avec nous",
+      "connect": "Suivez nos activités",
       "connectText":"Avez-vous vu les astuces que nous partageons sur les réseaux sociaux ? Je suis sûr que vous allez aimer. Abonnez-vous ici: ",
       "copyright": " Copyright Learn With Patrick... 2022",
       "quoteTitle":"Nos meilleures citations",
