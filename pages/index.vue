@@ -12,7 +12,7 @@
         <div class="flex-item-right">
           <div class="container">
             <div class="text-right" @click="openNav">
-              <span class="p-3 text-light">&#9776; </span>
+              <span class="btn p-3 text-light">&#9776; </span>
             </div>
           </div>
 
