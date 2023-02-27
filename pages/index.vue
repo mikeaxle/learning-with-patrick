@@ -431,6 +431,10 @@ a:hover {
 @media (max-width: 600px) {
   .parallax {
     text-align: center;
+    background-size: auto;
+    .sidenav{
+      text-align: left;
+    }
   }
 
   .about {
