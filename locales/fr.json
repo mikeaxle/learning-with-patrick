@@ -35,7 +35,7 @@
       }
     },
     "services": {
-      "intro": "En quoi pourrai-je vous aider?",
+      "intro": "Comment puis-je vous aider?",
       "service1Title": "Apprendre l'anglais",
       "service1Description": "Avez-vous déjà raté une opportunité à cause de l'anglais ? Vous écoutez mais trouvez difficile de parler ? Nous avons la solution ! Notre approche est pratique et adaptée pour répondre à vos besoins spécifiques. En plus de vos compétences techniques, parler anglais peut vous ouvrir les portes de nombreuses opportunités.",
       "service2Title": "Préparer un entretien",
@@ -46,7 +46,7 @@
       "service4Description": "Nous fournissons des services de traduction en français et en anglais. Nous pouvons vous aider à traduire vos lettres, CV, présentations et bien d'autres documents et textes commerciaux."
     },
     "testimonials": {
-      "intro": "Ce Que Nos Clients Disent De Nous",
+      "intro": "Ce que nos clients disent de nous",
       "description": "Notre satisfaction provient principalement du fait de voir nos clients réussir. Nous nous surpassons pour les aider à atteindre leurs objectifs. Nous croyons au progrès plutôt qu'au mouvement, c'est pourquoi nous cherchons le moyen le plus efficace d'aider nos clients à atteindre leurs objectifs.",
       "testimonial1Name": "SAMY MWAMBA",
       "testimonial1Title": "CEO - Itot Africa",
@@ -73,7 +73,7 @@
 		  "testimonial3Desc3Paragraph5":"Merci beaucoup Patrick.",
       
       "testimonial4Name": "CRIL SELEMANI",
-      "testimonial4Title": "Happy Customer",
+      "testimonial4Title": "MBA, Southern Utha University",
       "testimonial4Desc4Paragraph1":"Le fait d'être l'un de tes premiers étudiants me rend fier de toi car nous sommes venus de loin.",
       "testimonial4Desc4Paragraph2":"Ta formation d'anglais m'a permis de bien commencer mon MBA à Southern Utah University. Cela aurait pu être beaucoup plus difficile si tu n'avais pas été là pour moi.",
       

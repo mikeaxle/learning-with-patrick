@@ -36,7 +36,7 @@
         </div>
         <div class="flex-item-right cards mt-5">
           <div class="testimonial">
-            <img src="../assets/images/testimonial/sira.jpg" alt="" />
+            <img src="../assets/images/testimonial/sira.jpeg" alt="" />
             <h3 class="name"> {{ $t("testimonials.testimonial3Name") }}</h3>
             <footer class="blockquote-footer"> {{ $t("testimonials.testimonial3Title") }}</footer>
             <q>
