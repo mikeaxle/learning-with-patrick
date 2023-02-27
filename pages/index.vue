@@ -355,7 +355,7 @@ export default defineComponent({
   background-image: url("../assets/images/patrick_profile.jpg");
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
-  background-position: right;
+  background-position: 100%;
   background-repeat: no-repeat;
   background-size: cover;
 }
