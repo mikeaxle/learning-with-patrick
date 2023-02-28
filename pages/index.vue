@@ -535,6 +535,12 @@ a:hover {
   .sidenav a {
     font-size: 18px;
   }
+  .parallax {
+    text-align: center;
+    background-size: auto;
+    .sidenav{
+      text-align: left;
+    }}
 
 }
 
@@ -553,6 +559,13 @@ a:hover {
     img {
       width: 80px !important;
       margin-top: 5%;
+    }
+  }
+  .parallax {
+    text-align: center;
+    background-size: auto;
+    .sidenav{
+      text-align: left;
     }
   }
 }
