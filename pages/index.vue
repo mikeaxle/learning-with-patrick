@@ -21,15 +21,14 @@
               <a href="javascript:void(0)" class="closebtn" @click="closeNav">
                 &times;</a>
             </div>
-
             <div class="flex-container">
               <div class="flex-item-right"></div>
             </div>
             <a href="#home">{{ $t("Navigation.home") }}</a>
-            <a href="#about">{{ $t("Navigation.about") }}</a>
             <a href="#services">{{ $t("Navigation.services") }}</a>
             <a href="#testimonials">{{ $t("Navigation.clients") }}</a>
             <a href="#contact">{{ $t("Navigation.contact") }}</a>
+            <a href="#about">{{ $t("Navigation.about") }}</a>
             <p class="p-3">
               {{ $t("Navigation.text") }}
             </p>
@@ -65,34 +64,23 @@
         </div>
       </div>
     </div>
-    <!-- Second section -->
-    <div class="text-white about pb-5 pt-5 about" id="about">
+
+    <!-- Why Learn English -->
+    <div class="parallex testimonials pb-5" id="testimonials">
       <div class="container">
-        <h1> {{ $t("about.intro") }}</h1>
-        <div class="mt-5">
-          <p>{{ $t("about.description.firstParagraph") }}</p>
-          <p>{{ $t("about.description.secondParagraph") }}</p>
-          <p>{{ $t("about.description.thirdParagraph") }}</p>
-          <p>{{ $t("about.description.fourthParagraph") }}</p>
-          <p>{{ $t("about.description.fifthParagraph") }}</p>
-          <p>{{ $t("about.description.seventhParagraph") }}</p>
-          <h4 class="font-weight-bold" style="">{{ $t("about.description.titleMission") }}</h4>
-          <p>{{ $t("about.description.eightParagraph") }}</p>
-          <p>{{ $t("about.description.ninthParagraph") }}</p>
-          <p>{{ $t("about.description.tenthParagraph") }}</p>
-          <p>{{ $t("about.description.eleventhParagraph") }}</p>
-          <p>{{ $t("about.description.twelvethParagraph") }}</p>
-          <p>{{ $t("about.description.thirteenthParagraph") }}</p>
-          <p>{{ $t("about.description.forteenthParagraph") }}</p>
-          <ul>
-            <li>{{ $t("about.description.bullet1") }}</li>
-            <li>{{ $t("about.description.bullet2") }}</li>
-            <li>{{ $t("about.description.bullet3") }}</li>
-            <li>{{ $t("about.description.bullet4") }}</li>
-          </ul>
-          <p>{{ $t("about.description.fifteenthParagraph") }}</p>
-          <p>{{ $t("about.description.sixteenthParagraph") }}</p>
+        <h2 class="text-center pt-3">Why Learn English?</h2>
+        <div class="video-wrapper mt-5">
+          <video controls autoplay>
+            <source src="../assets/videos/why_learn_english.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
         </div>
+        <ul>
+          <li>To propel your career</li>
+          <li>To easily travel and study abroad</li>
+          <li>To have access to good online content</li>
+          <li>English is the language of business</li>
+        </ul>
       </div>
     </div>
     <!-- Third section -->
@@ -154,6 +142,37 @@
         <Form />
       </div>
     </div>
+
+    <!-- Second section / About section -->
+    <div class="text-white about pb-5 pt-5 about" id="about">
+      <div class="container">
+        <h1> {{ $t("about.intro") }}</h1>
+        <div class="mt-5">
+          <p>{{ $t("about.description.firstParagraph") }}</p>
+          <p>{{ $t("about.description.secondParagraph") }}</p>
+          <p>{{ $t("about.description.thirdParagraph") }}</p>
+          <p>{{ $t("about.description.fourthParagraph") }}</p>
+          <p>{{ $t("about.description.fifthParagraph") }}</p>
+          <p>{{ $t("about.description.seventhParagraph") }}</p>
+          <h4 class="font-weight-bold" style="">{{ $t("about.description.titleMission") }}</h4>
+          <p>{{ $t("about.description.eightParagraph") }}</p>
+          <p>{{ $t("about.description.ninthParagraph") }}</p>
+          <p>{{ $t("about.description.tenthParagraph") }}</p>
+          <p>{{ $t("about.description.eleventhParagraph") }}</p>
+          <p>{{ $t("about.description.twelvethParagraph") }}</p>
+          <p>{{ $t("about.description.thirteenthParagraph") }}</p>
+          <p>{{ $t("about.description.forteenthParagraph") }}</p>
+          <ul>
+            <li>{{ $t("about.description.bullet1") }}</li>
+            <li>{{ $t("about.description.bullet2") }}</li>
+            <li>{{ $t("about.description.bullet3") }}</li>
+            <li>{{ $t("about.description.bullet4") }}</li>
+          </ul>
+          <p>{{ $t("about.description.fifteenthParagraph") }}</p>
+          <p>{{ $t("about.description.sixteenthParagraph") }}</p>
+        </div>
+      </div>
+    </div>
     <!-- Sixth section -->
     <div class="footer pb-5 pt-5 text-bg-dark">
       <div class="container">
@@ -213,9 +232,11 @@
 <script lang="ts">
 import { defineComponent, computed } from "vue";
 import Button from "../components/Button.vue";
+import VideoPlayer from "~~/components/VideoPlayer.vue";
 export default defineComponent({
   components: {
     Button,
+    VideoPlayer
   },
   setup() {
     // SEO
@@ -256,6 +277,20 @@ export default defineComponent({
 </script>
 
 <style lang="scss">
+.video-wrapper {
+  position: relative;
+  padding-bottom: 56.25%;
+  /* This creates a 16:9 aspect ratio */
+}
+
+.video-wrapper video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
 .parallax-header {
   height: 800px;
 
@@ -271,6 +306,7 @@ export default defineComponent({
         }
       }
     }
+
 
     .flex-item-right {
       .container {
@@ -341,6 +377,8 @@ export default defineComponent({
     width: 100px;
   }
 }
+
+
 
 .contact {
   background-color: $title_color;
@@ -432,7 +470,8 @@ a:hover {
   .parallax {
     text-align: center;
     background-size: auto;
-    .sidenav{
+
+    .sidenav {
       text-align: left;
     }
   }
@@ -535,12 +574,15 @@ a:hover {
   .sidenav a {
     font-size: 18px;
   }
+
   .parallax {
     text-align: center;
     background-size: auto;
-    .sidenav{
+
+    .sidenav {
       text-align: left;
-    }}
+    }
+  }
 
 }
 
@@ -561,10 +603,12 @@ a:hover {
       margin-top: 5%;
     }
   }
+
   .parallax {
     text-align: center;
     background-size: auto;
-    .sidenav{
+
+    .sidenav {
       text-align: left;
     }
   }
