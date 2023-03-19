@@ -144,7 +144,7 @@
     </div>
 
     <!-- Second section / About section -->
-    <div class="text-white about pb-5 pt-5 about" id="about">
+    <div class="parallax parallax-header text-white about pb-5 pt-5 about" id="about">
       <div class="container">
         <h1> {{ $t("about.intro") }}</h1>
         <div class="mt-5">
@@ -290,9 +290,11 @@ export default defineComponent({
   width: 100%;
   height: 100%;
 }
-
-.parallax-header {
+#home{
   height: 800px;
+}
+.parallax-header {
+  height: 150%;
 
   .navbar {
     .flex-item-left {
