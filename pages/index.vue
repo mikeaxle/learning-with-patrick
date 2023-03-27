@@ -68,19 +68,22 @@
     <!-- Why Learn English -->
     <div class="parallex testimonials pb-5" id="testimonials">
       <div class="container">
-        <h2 class="text-center pt-3">Why Learn English?</h2>
-        <div class="video-wrapper mt-5">
+        <h2 class="text-center pt-5 pb-5">{{ $t("whyLearnEnglish.title") }}</h2>
+        <h4 class="pb-3">{{ $t("whyLearnEnglish.description") }}</h4>
+        <p>{{ $t("whyLearnEnglish.description1") }}</p>
+        <p>{{ $t("whyLearnEnglish.description2") }}</p>
+        <ul>
+          <li>{{ $t("whyLearnEnglish.list1") }}</li>
+          <li>{{ $t("whyLearnEnglish.list2") }}</li>
+          <li>{{ $t("whyLearnEnglish.list3") }}</li>
+        </ul>
+        <div class="video-wrapper mt-5 mb-5">
           <video controls autoplay>
             <source src="../assets/videos/why_learn_english.mp4" type="video/mp4">
             Your browser does not support the video tag.
           </video>
         </div>
-        <ul>
-          <li>To propel your career</li>
-          <li>To easily travel and study abroad</li>
-          <li>To have access to good online content</li>
-          <li>English is the language of business</li>
-        </ul>
+       
       </div>
     </div>
     <!-- Third section -->
