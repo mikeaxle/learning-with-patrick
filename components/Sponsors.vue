@@ -20,6 +20,9 @@
             <div class="flex-item-right">
                 <img width="200px" src="../assets/images/bunker.png" alt="Bunker" />
             </div>
+            <div class="flex-item-right">
+                <img width="200px" src="../assets/images/Quick_Learners.png" alt="Bunker" />
+            </div>
         </div>
     </div>
 </template>
