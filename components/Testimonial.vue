@@ -111,6 +111,10 @@ export default {};
   overflow: hidden;
 }
 
+.blockquote-footer {
+    color: #ccd4db;
+}
+
 .cards:hover {
   background-color: #082948;
 }
