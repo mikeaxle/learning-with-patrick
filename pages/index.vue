@@ -83,7 +83,7 @@
             Your browser does not support the video tag.
           </video>
         </div>
-       
+
       </div>
     </div>
     <!-- Third section -->
@@ -293,9 +293,11 @@ export default defineComponent({
   width: 100%;
   height: 100%;
 }
-#home{
+
+#home {
   height: 800px;
 }
+
 .parallax-header {
   height: 150%;
 
@@ -382,8 +384,6 @@ export default defineComponent({
     width: 100px;
   }
 }
-
-
 
 .contact {
   background-color: $title_color;
@@ -589,6 +589,16 @@ a:hover {
     }
   }
 
+  .parallax {
+    /* The image used */
+    background-image: url("../assets/images/patrick_profile.jpg");
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
 }
 
 @media (max-width: 700px) {
@@ -624,5 +634,4 @@ a:hover {
   border: 1px solid white;
   padding: 10px;
   border-radius: 50px 30px;
-}
-</style>
+}</style>
