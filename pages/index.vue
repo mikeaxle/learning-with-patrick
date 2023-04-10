@@ -474,7 +474,8 @@ a:hover {
 @media (max-width: 600px) {
   .parallax {
     text-align: center;
-    background-size: auto;
+    background-size: cover;
+    background-position: right;
 
     .sidenav {
       text-align: left;
@@ -589,16 +590,6 @@ a:hover {
     }
   }
 
-  .parallax {
-    /* The image used */
-    background-image: url("../assets/images/patrick_profile.jpg");
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: 100%;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-
 }
 
 @media (max-width: 700px) {
@@ -621,7 +612,6 @@ a:hover {
 
   .parallax {
     text-align: center;
-    background-size: auto;
 
     .sidenav {
       text-align: left;
