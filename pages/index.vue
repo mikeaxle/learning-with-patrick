@@ -78,10 +78,22 @@
           <li>{{ $t("whyLearnEnglish.list3") }}</li>
         </ul>
         <div class="video-wrapper mt-5 mb-5">
-          <video controls autoplay>
-            <source src="../assets/videos/why_learn_english.mp4" type="video/mp4">
-            Your browser does not support the video tag.
-          </video>
+          <div style="padding: 75% 0 0 0; position: relative">
+            <iframe
+              src="https://player.vimeo.com/video/826565113?h=83402e9e47&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
+              frameborder="0"
+              allow="autoplay; fullscreen; picture-in-picture"
+              allowfullscreen
+              style="
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+              "
+              title="why_learn_english"
+            ></iframe>
+          </div>
         </div>
 
       </div>
