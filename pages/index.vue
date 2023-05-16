@@ -1,72 +1,80 @@
 <template>
   <main>
     <!-- First section -->
-    <div class="parallax parallax-header" id="home">
-      <div class="flex-container navbar pt-3">
-        <div class="flex-item-left text-left">
-          <div class="text-white logo">
-            <p class="pb-3">{{ $t("home.learn") }}</p>
-            <Patrick />
+      <div class="parallax-container">
+          <div class="parallax parallax-header" >
           </div>
-        </div>
-        <div class="flex-item-right">
-          <div class="container">
-            <div class="text-right" @click="openNav">
-              <span class="btn p-3 text-light">&#9776; </span>
-            </div>
+      </div>
+
+      <div id="home">
+          <div class="flex-container navbar pt-3">
+              <div class="flex-item-left text-left">
+                  <div class="text-white logo">
+                      <p class="pb-3">{{ $t("home.learn") }}</p>
+                      <Patrick />
+                  </div>
+              </div>
+              <div class="flex-item-right">
+                  <div class="container">
+                      <div class="text-right" @click="openNav">
+                          <span class="btn p-3 text-light">&#9776; </span>
+                      </div>
+                  </div>
+
+                  <div id="mySidenav" class="sidenav" ref="sidenav">
+                      <div class="container p-3">
+                          <a href="javascript:void(0)" class="closebtn" @click="closeNav">
+                              &times;</a>
+                      </div>
+                      <div class="flex-container">
+                          <div class="flex-item-right"></div>
+                      </div>
+                      <a href="#home">{{ $t("Navigation.home") }}</a>
+                      <a href="#services">{{ $t("Navigation.services") }}</a>
+                      <a href="#testimonials">{{ $t("Navigation.clients") }}</a>
+                      <a href="#contact">{{ $t("Navigation.contact") }}</a>
+                      <a href="#about">{{ $t("Navigation.about") }}</a>
+                      <p class="p-3">
+                          {{ $t("Navigation.text") }}
+                      </p>
+                      <div class="text-bg-primary mt-5">
+                          <NuxtLink style="font-size:15px !important;" v-for="locale in availableLocales" :key="locale.code"
+                                    :to="switchLocalePath(locale.code)">{{
+                              locale.name
+                              }}
+                              <img class="m-2 linkedin" width="80" src="@/assets/icons/language.png" alt="" />
+                          </NuxtLink>
+                      </div>
+                  </div>
+              </div>
           </div>
 
-          <div id="mySidenav" class="sidenav" ref="sidenav">
-            <div class="container p-3">
-              <a href="javascript:void(0)" class="closebtn" @click="closeNav">
-                &times;</a>
-            </div>
-            <div class="flex-container">
-              <div class="flex-item-right"></div>
-            </div>
-            <a href="#home">{{ $t("Navigation.home") }}</a>
-            <a href="#services">{{ $t("Navigation.services") }}</a>
-            <a href="#testimonials">{{ $t("Navigation.clients") }}</a>
-            <a href="#contact">{{ $t("Navigation.contact") }}</a>
-            <a href="#about">{{ $t("Navigation.about") }}</a>
-            <p class="p-3">
-              {{ $t("Navigation.text") }}
-            </p>
-            <div class="text-bg-primary mt-5">
-              <NuxtLink style="font-size:15px !important;" v-for="locale in availableLocales" :key="locale.code"
-                :to="switchLocalePath(locale.code)">{{
-                  locale.name
-                }}
-                <img class="m-2 linkedin" width="80" src="@/assets/icons/language.png" alt="" />
-              </NuxtLink>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="container main-content mt-3" id="home">
-        <div class="flex-container-head">
-          <div class="flex-item-left text-left">
-            <div class="mb-5 mt-5 main-text text-left">
-              <h2 class="display-1"> {{ $t("home.intro") }}</h2>
-              <p class="display-4 text-white font-italic">
-                {{ $t("home.introDescription") }}
-              </p>
-              <div class="button pt-5">
-                <a href="#services">
-                  <Button class="m-2" :title="$t('home.servicesButton')"
-                    :secondTitle="$t('home.ServicesButtomHover')" /></a>
-                <a href="#contact">
-                  <Button :title="$t('home.contactButton')" :secondTitle="$t('home.contacButtontHover')" />
-                </a>
+
+          <div class="container main-content mt-3" id="home">
+              <div class="flex-container-head">
+                  <div class="flex-item-left text-left">
+                      <div class="mb-5 mt-5 main-text text-left">
+                          <h2 class="display-1"> {{ $t("home.intro") }}</h2>
+                          <p class="display-4 text-white font-italic">
+                              {{ $t("home.introDescription") }}
+                          </p>
+                          <div class="button pt-5">
+                              <a href="#services">
+                                  <Button class="m-2" :title="$t('home.servicesButton')"
+                                          :secondTitle="$t('home.ServicesButtomHover')" /></a>
+                              <a href="#contact">
+                                  <Button :title="$t('home.contactButton')" :secondTitle="$t('home.contacButtontHover')" />
+                              </a>
+                          </div>
+                      </div>
+                  </div>
               </div>
-            </div>
           </div>
-        </div>
       </div>
-    </div>
+
 
     <!-- Why Learn English -->
-    <div class="parallex testimonials pb-5" id="testimonials">
+    <div class="testimonials" id="testimonials">
       <div class="container">
         <h2 class="text-center pt-5 pb-5">{{ $t("whyLearnEnglish.title") }}</h2>
         <h4 class="pb-3">{{ $t("whyLearnEnglish.description") }}</h4>
@@ -77,8 +85,9 @@
           <li>{{ $t("whyLearnEnglish.list2") }}</li>
           <li>{{ $t("whyLearnEnglish.list3") }}</li>
         </ul>
-        <div class="video-wrapper mt-5 mb-5">
-          <div style="padding: 75% 0 0 0; position: relative">
+
+        <div class="video-wrapper">
+          <div>
             <iframe
               src="https://player.vimeo.com/video/826565113?h=83402e9e47&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
               frameborder="0"
@@ -149,7 +158,6 @@
         <Sponsors />
       </div>
     </div>
-
 
     <!-- Fifth section -->
     <div id="contact" class="contact pb-5 pt-5">
@@ -247,11 +255,10 @@
 <script lang="ts">
 import { defineComponent, computed } from "vue";
 import Button from "../components/Button.vue";
-import VideoPlayer from "~~/components/VideoPlayer.vue";
+
 export default defineComponent({
   components: {
     Button,
-    VideoPlayer
   },
   setup() {
     // SEO
@@ -294,7 +301,8 @@ export default defineComponent({
 <style lang="scss">
 .video-wrapper {
   position: relative;
-  padding-bottom: 56.25%;
+  padding: 75% 0 0 0
+  //padding-bottom: 56.25%;
   /* This creates a 16:9 aspect ratio */
 }
 
@@ -405,15 +413,37 @@ export default defineComponent({
   background-color: white;
 }
 
-.parallax {
-  /* The image used */
-  background-image: url("../assets/images/patrick_profile.jpg");
-  /* Create the parallax scrolling effect */
-  background-attachment: fixed;
-  background-position: 100%;
-  background-repeat: no-repeat;
-  background-size: cover;
+.parallax-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1000;
+
+  .parallax {
+    /* The image used */
+    background-image: url("../assets/images/patrick_profile.jpg");
+    /* Create the parallax scrolling effect */
+    //background-attachment: fixed !important;
+    //background-attachment: scroll !important;
+    background-position: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    //width: 100%;
+    //height: 100%;
+  }
 }
+
+//.parallax {
+//  /* The image used */
+//  background-image: url("../assets/images/patrick_profile.jpg");
+//  /* Create the parallax scrolling effect */
+//  background-attachment: fixed;
+//  background-position: 100%;
+//  background-repeat: no-repeat;
+//  background-size: cover;
+//}
 
 .testimonials {
   background-color: $title_color;
@@ -597,9 +627,11 @@ a:hover {
     text-align: center;
     background-size: auto;
 
-    .sidenav {
-      text-align: left;
-    }
+
+  }
+  .sidenav {
+    text-align: left !important;
+    float: left !important;
   }
 
 }
