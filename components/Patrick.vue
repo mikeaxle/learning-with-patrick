@@ -1,17 +1,19 @@
 <template>
-  <div class="container">
-    <div class="box">
-      <div class="title">
-        <span class="block"></span>
-        <h1 class="mb-5 mt-2">Patrick Mukad<span></span></h1>
-      </div>
+    <div class="container">
+        <div class="box">
+            <p class="pb-3 align-self-lg-start">{{ $t("home.learn") }}</p>
 
-      <div class="role p-1">
-        <div class="block"></div>
-        <p class="font-italic mini-title">English Coach</p>
-      </div>
+            <div class="title">
+                <span class="block"></span>
+                <h1 class="mb-5 mt-2">Patrick Mukad<span></span></h1>
+            </div>
+
+            <div class="role p-1">
+                <div class="block"></div>
+                <p class="font-italic mini-title">English Coach</p>
+            </div>
+        </div>
     </div>
-  </div>
 </template>
 
 <script>
@@ -214,7 +216,7 @@ export default {};
     background-color: red;
     display: none;
   }
-  .container .box .mini-title{
+  .container .box .mini-title {
     display: none;
   }
 

@@ -1,300 +1,297 @@
 <template>
-  <main>
-    <!-- First section -->
-      <div class="parallax-container">
-          <div class="parallax parallax-header" >
-          </div>
-      </div>
-
-      <div id="home">
-          <div class="flex-container navbar pt-3">
-              <div class="flex-item-left text-left">
-                  <div class="text-white logo">
-                      <p class="pb-3">{{ $t("home.learn") }}</p>
-                      <Patrick />
-                  </div>
-              </div>
-              <div class="flex-item-right">
-                  <div class="container">
-                      <div class="text-right" @click="openNav">
-                          <span class="btn p-3 text-light">&#9776; </span>
-                      </div>
-                  </div>
-
-                  <div id="mySidenav" class="sidenav" ref="sidenav">
-                      <div class="container p-3">
-                          <a href="javascript:void(0)" class="closebtn" @click="closeNav">
-                              &times;</a>
-                      </div>
-                      <div class="flex-container">
-                          <div class="flex-item-right"></div>
-                      </div>
-                      <a href="#home">{{ $t("Navigation.home") }}</a>
-                      <a href="#services">{{ $t("Navigation.services") }}</a>
-                      <a href="#testimonials">{{ $t("Navigation.clients") }}</a>
-                      <a href="#contact">{{ $t("Navigation.contact") }}</a>
-                      <a href="#about">{{ $t("Navigation.about") }}</a>
-                      <p class="p-3">
-                          {{ $t("Navigation.text") }}
-                      </p>
-                      <div class="text-bg-primary mt-5">
-                          <NuxtLink style="font-size:15px !important;" v-for="locale in availableLocales" :key="locale.code"
-                                    :to="switchLocalePath(locale.code)">{{
-                              locale.name
-                              }}
-                              <img class="m-2 linkedin" width="80" src="@/assets/icons/language.png" alt="" />
-                          </NuxtLink>
-                      </div>
-                  </div>
-              </div>
-          </div>
-
-
-          <div class="container main-content mt-3" id="home">
-              <div class="flex-container-head">
-                  <div class="flex-item-left text-left">
-                      <div class="mb-5 mt-5 main-text text-left">
-                          <h2 class="display-1"> {{ $t("home.intro") }}</h2>
-                          <p class="display-4 text-white font-italic">
-                              {{ $t("home.introDescription") }}
-                          </p>
-                          <div class="button pt-5">
-                              <a href="#services">
-                                  <Button class="m-2" :title="$t('home.servicesButton')"
-                                          :secondTitle="$t('home.ServicesButtomHover')" /></a>
-                              <a href="#contact">
-                                  <Button :title="$t('home.contactButton')" :secondTitle="$t('home.contacButtontHover')" />
-                              </a>
-                          </div>
-                      </div>
-                  </div>
-              </div>
-          </div>
-      </div>
-
-
-    <!-- Why Learn English -->
-    <div class="testimonials" id="testimonials">
-      <div class="container">
-        <h2 class="text-center pt-5 pb-5">{{ $t("whyLearnEnglish.title") }}</h2>
-        <h4 class="pb-3">{{ $t("whyLearnEnglish.description") }}</h4>
-        <p>{{ $t("whyLearnEnglish.description1") }}</p>
-        <p>{{ $t("whyLearnEnglish.description2") }}</p>
-        <ul>
-          <li>{{ $t("whyLearnEnglish.list1") }}</li>
-          <li>{{ $t("whyLearnEnglish.list2") }}</li>
-          <li>{{ $t("whyLearnEnglish.list3") }}</li>
-        </ul>
-
-        <div class="video-wrapper">
-          <div>
-            <iframe
-              src="https://player.vimeo.com/video/826565113?h=83402e9e47&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
-              frameborder="0"
-              allow="autoplay; fullscreen; picture-in-picture"
-              allowfullscreen
-              style="
-                position: absolute;
-                top: 0;
-                left: 0;
-                width: 100%;
-                height: 100%;
-              "
-              title="why_learn_english"
-            ></iframe>
-          </div>
+    <main>
+        <!-- First section -->
+        <div class="parallax-container">
+            <div class="parallax parallax-header">
+            </div>
         </div>
 
-      </div>
-    </div>
-    <!-- Third section -->
-    <div class="parallax services" id="services">
-      <div class="container text-center">
-        <h1 class="text-justify text-white pt-5">
-          {{ $t("services.intro") }}
-        </h1>
+        <div id="home">
+            <div class="flex-container navbar pt-3">
+                <div class="flex-item-left text-center">
+                    <div class="text-white logo">
+                        <Patrick/>
+                    </div>
+                </div>
+                <div class="flex-item-right">
+                    <div class="container">
+                        <div class="float-end" @click="openNav">
+                            <span class="navbar-button btn p-3 text-light">&#9776; </span>
+                        </div>
+                    </div>
 
-        <div class="flex-container-services p-3">
-          <div class="flex-item-left cards">
-            <img class="mb-3" src="https://cdn-icons-png.flaticon.com/512/4185/4185714.png" alt="">
-            <h2> {{ $t("services.service1Title") }}</h2>
-            <p class="pt-3">
-              {{ $t("services.service1Description") }}
-            </p>
-          </div>
-          <div class="flex-item-right cards">
-            <img class="mb-3" src="https://cdn-icons-png.flaticon.com/512/3454/3454898.png" alt="">
-            <h2>{{ $t("services.service2Title") }}</h2>
-            <p class="pt-3">
-              {{ $t("services.service2Description") }}
-            </p>
-          </div>
-          <div class="flex-item-right cards">
-            <img class="mb-3" src="https://cdn-icons-png.flaticon.com/512/609/609001.png" alt="">
-            <h2>{{ $t("services.service3Title") }}</h2>
-            <p class="pt-3">
-              {{ $t("services.service3Description") }}
-            </p>
-          </div>
-          <div class="flex-item-right cards">
-            <img class="mb-3" src="https://cdn-icons-png.flaticon.com/512/4951/4951698.png" alt="">
-            <h2> {{ $t("services.service4Title") }}</h2>
-            <p class="pt-3">
-              {{ $t("services.service4Description") }}
-            </p>
-          </div>
+                    <div id="mySidenav" class="sidenav" ref="sidenav">
+                        <div class="container p-3">
+                            <a href="javascript:void(0)" class="closebtn" @click="closeNav">
+                                &times;</a>
+                        </div>
+                        <div class="flex-container">
+                            <div class="flex-item-right"></div>
+                        </div>
+                        <a href="#home">{{ $t("Navigation.home") }}</a>
+                        <a href="#services">{{ $t("Navigation.services") }}</a>
+                        <a href="#testimonials">{{ $t("Navigation.clients") }}</a>
+                        <a href="#contact">{{ $t("Navigation.contact") }}</a>
+                        <a href="#about">{{ $t("Navigation.about") }}</a>
+                        <p class="p-3">
+                            {{ $t("Navigation.text") }}
+                        </p>
+                        <div class="text-bg-primary mt-5">
+                            <NuxtLink style="font-size:15px !important;" v-for="locale in availableLocales"
+                                      :key="locale.code"
+                                      :to="switchLocalePath(locale.code)">{{
+                                locale.name
+                                }}
+                                <img class="m-2 linkedin" width="80" src="@/assets/icons/language.png" alt=""/>
+                            </NuxtLink>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="container main-content mt-3" id="home">
+                <div class="flex-container-head">
+                    <div class="flex-item-left text-lg-start text-center">
+                        <div class="mb-5 mt-5 main-text text-left">
+                            <h2 class="display-1"> {{ $t("home.intro") }}</h2>
+                            <p class="display-4 text-white font-italic">
+                                {{ $t("home.introDescription") }}
+                            </p>
+                            <div class="button pt-5">
+                                <a href="#services">
+                                    <Button class="m-2" :title="$t('home.servicesButton')"
+                                            :secondTitle="$t('home.ServicesButtomHover')"/>
+                                </a>
+                                <a href="#contact">
+                                    <Button :title="$t('home.contactButton')"
+                                            :secondTitle="$t('home.contacButtontHover')"/>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
-    </div>
 
-    <!-- Fourth section -->
-    <div class="parallex testimonials pb-5" id="testimonials">
-      <div class="container text-center">
-        <Testimonial />
-      </div>
-    </div>
-    <div id="sponsors" class="sponsors pb-5 pt-5 text-bg-white">
-      <div class="container">
-        <Sponsors />
-      </div>
-    </div>
+        <!-- Why Learn English -->
+        <div class="testimonials" id="testimonials">
+            <div class="container">
+                <h2 class="text-center pt-5 pb-5">{{ $t("whyLearnEnglish.title") }}</h2>
+                <h4 class="pb-3">{{ $t("whyLearnEnglish.description") }}</h4>
+                <p>{{ $t("whyLearnEnglish.description1") }}</p>
+                <p>{{ $t("whyLearnEnglish.description2") }}</p>
+                <ul>
+                    <li>{{ $t("whyLearnEnglish.list1") }}</li>
+                    <li>{{ $t("whyLearnEnglish.list2") }}</li>
+                    <li>{{ $t("whyLearnEnglish.list3") }}</li>
+                </ul>
 
-    <!-- Fifth section -->
-    <div id="contact" class="contact pb-5 pt-5">
-      <div class="container">
-        <Form />
-      </div>
-    </div>
+                <div class="video-wrapper">
+                    <div>
+                        <iframe src="https://player.vimeo.com/video/828543439?h=e7c134053e"
+                                width="640" height="360"
+                                frameborder="0"
+                                allow="autoplay; fullscreen; picture-in-picture"
+                                allowfullscreen
+                                style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"
+                                title="why_learn_english"
+                        ></iframe>
+                    </div>
+                </div>
 
-    <!-- Second section / About section -->
-    <div class="parallax parallax-header text-white about pb-5 pt-5 about" id="about">
-      <div class="container">
-        <h1> {{ $t("about.intro") }}</h1>
-        <div class="mt-5">
-          <p>{{ $t("about.description.firstParagraph") }}</p>
-          <p>{{ $t("about.description.secondParagraph") }}</p>
-          <p>{{ $t("about.description.thirdParagraph") }}</p>
-          <p>{{ $t("about.description.fourthParagraph") }}</p>
-          <p>{{ $t("about.description.fifthParagraph") }}</p>
-          <p>{{ $t("about.description.seventhParagraph") }}</p>
-          <h4 class="font-weight-bold" style="">{{ $t("about.description.titleMission") }}</h4>
-          <p>{{ $t("about.description.eightParagraph") }}</p>
-          <p>{{ $t("about.description.ninthParagraph") }}</p>
-          <p>{{ $t("about.description.tenthParagraph") }}</p>
-          <p>{{ $t("about.description.eleventhParagraph") }}</p>
-          <p>{{ $t("about.description.twelvethParagraph") }}</p>
-          <p>{{ $t("about.description.thirteenthParagraph") }}</p>
-          <p>{{ $t("about.description.forteenthParagraph") }}</p>
-          <ul>
-            <li>{{ $t("about.description.bullet1") }}</li>
-            <li>{{ $t("about.description.bullet2") }}</li>
-            <li>{{ $t("about.description.bullet3") }}</li>
-            <li>{{ $t("about.description.bullet4") }}</li>
-          </ul>
-          <p>{{ $t("about.description.fifteenthParagraph") }}</p>
-          <p>{{ $t("about.description.sixteenthParagraph") }}</p>
+            </div>
         </div>
-      </div>
-    </div>
-    <!-- Sixth section -->
-    <div class="footer pb-5 pt-5 text-bg-dark">
-      <div class="container">
-        <div class="flex-container">
-          <div class="flex-item-left">
-            <h3>{{ $t("footer.quoteTitle") }}</h3>
-            <figure>
-              <blockquote class="blockquote">
-                <q>{{ $t("footer.quoteText1") }}</q>
-              </blockquote>
-              <figcaption class="blockquote-footer">
-                {{ $t("footer.quoteSource1") }}
-              </figcaption>
-            </figure>
-            <figure>
-              <blockquote class="blockquote">
-                <q>{{ $t("footer.quoteText2") }}</q>
-              </blockquote>
-              <figcaption class="blockquote-footer">
-                {{ $t("footer.quoteSource2") }}
-              </figcaption>
-            </figure>
-          </div>
-          <div class="flex-item-right">
-            <h4> {{ $t("footer.connect") }}</h4>
-            <p>
-              {{ $t("footer.connectText") }} <br>
-              <a href="https://www.linkedin.com/in/patrick-mukad-91a96a1b6/" target="blank">
-                <img class="m-2 linkedin" width="30" src="@/assets/icons/linkedin.png" alt="" />
-              </a>
-              <a href="https://t.me/LearnWithPatrick" target="blank"> <img class="m-2 telegram" width="30"
-                  src="@/assets/icons/telegram.png" alt="" /></a>
-              <a href="https://www.facebook.com/profile.php?id=100006056104626" target="blank">
-                <img class="m-2 facebook" width="30" src="@/assets/icons/facebook.png" alt="" />
-              </a>
-              <a href="https://www.instagram.com/patrick_mukad/" target="blank">
-                <img class="m-2 instagram" width="30" src="@/assets/icons/instagram.png" alt="" />
-              </a>
+        <!-- Third section -->
+        <div class="parallax services" id="services">
+            <div class="container text-center">
+                <h1 class="text-justify text-white pt-5">
+                    {{ $t("services.intro") }}
+                </h1>
 
-              <a href="https://twitter.com/Patrick_Mukad?t=hRYcyL6RqoHklRk2MZi_NQ&s=08" target="blank">
-                <img class="m-2 twitter" width="30" src="@/assets/icons/twitter.png" alt="" />
-              </a>
-            </p>
-          </div>
-
+                <div class="flex-container-services p-3">
+                    <div class="flex-item-left cards">
+                        <img class="mb-3" src="https://cdn-icons-png.flaticon.com/512/4185/4185714.png" alt="">
+                        <h2> {{ $t("services.service1Title") }}</h2>
+                        <p class="pt-3">
+                            {{ $t("services.service1Description") }}
+                        </p>
+                    </div>
+                    <div class="flex-item-right cards">
+                        <img class="mb-3" src="https://cdn-icons-png.flaticon.com/512/3454/3454898.png" alt="">
+                        <h2>{{ $t("services.service2Title") }}</h2>
+                        <p class="pt-3">
+                            {{ $t("services.service2Description") }}
+                        </p>
+                    </div>
+                    <div class="flex-item-right cards">
+                        <img class="mb-3" src="https://cdn-icons-png.flaticon.com/512/609/609001.png" alt="">
+                        <h2>{{ $t("services.service3Title") }}</h2>
+                        <p class="pt-3">
+                            {{ $t("services.service3Description") }}
+                        </p>
+                    </div>
+                    <div class="flex-item-right cards">
+                        <img class="mb-3" src="https://cdn-icons-png.flaticon.com/512/4951/4951698.png" alt="">
+                        <h2> {{ $t("services.service4Title") }}</h2>
+                        <p class="pt-3">
+                            {{ $t("services.service4Description") }}
+                        </p>
+                    </div>
+                </div>
+            </div>
         </div>
-        <p class="text-center p-5">
-          © Copyright Learn With Patrick 2023 | Built by Incognito Software
-        </p>
-        <div><a href="#home">{{ $t("Navigation.home") }} <img width="20" height="20" style="padding-left:4px;"
-              src="../assets/icons/up-arrow.png" alt=""> </a></div>
-      </div>
-    </div>
-  </main>
+
+        <!-- Fourth section -->
+        <div class="parallex testimonials pb-5" id="testimonials">
+            <div class="container text-center">
+                <Testimonial/>
+            </div>
+        </div>
+        <div id="sponsors" class="sponsors pb-5 pt-5 text-bg-white">
+            <div class="container">
+                <Sponsors/>
+            </div>
+        </div>
+
+        <!-- Fifth section -->
+        <div id="contact" class="contact pb-5 pt-5">
+            <div class="container">
+                <Form/>
+            </div>
+        </div>
+
+        <!-- Second section / About section -->
+        <div class="parallax parallax-header text-white about pb-5 pt-5 about" id="about">
+            <div class="container">
+                <h1> {{ $t("about.intro") }}</h1>
+                <div class="mt-5">
+                    <p>{{ $t("about.description.firstParagraph") }}</p>
+                    <p>{{ $t("about.description.secondParagraph") }}</p>
+                    <p>{{ $t("about.description.thirdParagraph") }}</p>
+                    <p>{{ $t("about.description.fourthParagraph") }}</p>
+                    <p>{{ $t("about.description.fifthParagraph") }}</p>
+                    <p>{{ $t("about.description.seventhParagraph") }}</p>
+                    <h4 class="font-weight-bold" style="">{{ $t("about.description.titleMission") }}</h4>
+                    <p>{{ $t("about.description.eightParagraph") }}</p>
+                    <p>{{ $t("about.description.ninthParagraph") }}</p>
+                    <p>{{ $t("about.description.tenthParagraph") }}</p>
+                    <p>{{ $t("about.description.eleventhParagraph") }}</p>
+                    <p>{{ $t("about.description.twelvethParagraph") }}</p>
+                    <p>{{ $t("about.description.thirteenthParagraph") }}</p>
+                    <p>{{ $t("about.description.forteenthParagraph") }}</p>
+                    <ul>
+                        <li>{{ $t("about.description.bullet1") }}</li>
+                        <li>{{ $t("about.description.bullet2") }}</li>
+                        <li>{{ $t("about.description.bullet3") }}</li>
+                        <li>{{ $t("about.description.bullet4") }}</li>
+                    </ul>
+                    <p>{{ $t("about.description.fifteenthParagraph") }}</p>
+                    <p>{{ $t("about.description.sixteenthParagraph") }}</p>
+                </div>
+            </div>
+        </div>
+        <!-- Sixth section -->
+        <div class="footer pb-5 pt-5 text-bg-dark">
+            <div class="container">
+                <div class="flex-container">
+                    <div class="flex-item-left">
+                        <h3>{{ $t("footer.quoteTitle") }}</h3>
+                        <figure>
+                            <blockquote class="blockquote">
+                                <q>{{ $t("footer.quoteText1") }}</q>
+                            </blockquote>
+                            <figcaption class="blockquote-footer">
+                                {{ $t("footer.quoteSource1") }}
+                            </figcaption>
+                        </figure>
+                        <figure>
+                            <blockquote class="blockquote">
+                                <q>{{ $t("footer.quoteText2") }}</q>
+                            </blockquote>
+                            <figcaption class="blockquote-footer">
+                                {{ $t("footer.quoteSource2") }}
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div class="flex-item-right">
+                        <h4> {{ $t("footer.connect") }}</h4>
+                        <p>
+                            {{ $t("footer.connectText") }} <br>
+                            <a href="https://www.linkedin.com/in/patrick-mukad-91a96a1b6/" target="blank">
+                                <img class="m-2 linkedin" width="30" src="@/assets/icons/linkedin.png" alt=""/>
+                            </a>
+                            <a href="https://t.me/LearnWithPatrick" target="blank"> <img class="m-2 telegram" width="30"
+                                                                                         src="@/assets/icons/telegram.png"
+                                                                                         alt=""/></a>
+                            <a href="https://www.facebook.com/profile.php?id=100006056104626" target="blank">
+                                <img class="m-2 facebook" width="30" src="@/assets/icons/facebook.png" alt=""/>
+                            </a>
+                            <a href="https://www.instagram.com/patrick_mukad/" target="blank">
+                                <img class="m-2 instagram" width="30" src="@/assets/icons/instagram.png" alt=""/>
+                            </a>
+
+                            <a href="https://twitter.com/Patrick_Mukad?t=hRYcyL6RqoHklRk2MZi_NQ&s=08" target="blank">
+                                <img class="m-2 twitter" width="30" src="@/assets/icons/twitter.png" alt=""/>
+                            </a>
+                        </p>
+                    </div>
+
+                </div>
+                <p class="text-center p-5">
+                    © Copyright Learn With Patrick 2023 | Built by Incognito Software
+                </p>
+                <div><a href="#home">{{ $t("Navigation.home") }} <img width="20" height="20" style="padding-left:4px;"
+                                                                      src="../assets/icons/up-arrow.png" alt=""> </a>
+                </div>
+            </div>
+        </div>
+    </main>
 </template>
 
 <script lang="ts">
-import { defineComponent, computed } from "vue";
+import {defineComponent, computed} from "vue";
 import Button from "../components/Button.vue";
 
 export default defineComponent({
-  components: {
-    Button,
-  },
-  setup() {
-    // SEO
-    useHead({
-      title: "Learn With Patrick: votre meilleur coach d'anglais",
-      meta: [{ name: "Votre meilleur coach", content: "My amazing site." }],
-    });
+    components: {
+        Button,
+    },
+    setup() {
+        // SEO
+        useHead({
+            title: "Learn With Patrick: votre meilleur coach d'anglais",
+            meta: [{name: "Votre meilleur coach", content: "My amazing site."}],
+        });
 
-    const sidenav: string = "";
+        const sidenav: string = "";
 
-    const { locale, locales } = useI18n();
-    const switchLocalePath = useSwitchLocalePath();
+        const {locale, locales} = useI18n();
+        const switchLocalePath = useSwitchLocalePath();
 
-    const availableLocales = computed(() => {
-      return locales.value.filter((i) => i.code !== locale.value);
-    });
+        const availableLocales = computed(() => {
+            return locales.value.filter((i) => i.code !== locale.value);
+        });
 
-    function openNav(): void {
-      this.$refs.sidenav.style.backgroundColor = "red";
-      this.$refs.sidenav.style.width = "250px";
-    }
-    function closeNav(): void {
-      this.$refs.sidenav.style.width = "0";
-    }
+        function openNav(): void {
+            this.$refs.sidenav.style.backgroundColor = "red";
+            this.$refs.sidenav.style.width = "250px";
+        }
+
+        function closeNav(): void {
+            this.$refs.sidenav.style.width = "0";
+        }
 
 
+        return {
+            openNav,
+            closeNav,
+            availableLocales,
+            locale,
+            locales
 
-    return {
-      openNav,
-      closeNav,
-      availableLocales,
-      locale,
-      locales
-
-    };
-  },
+        };
+    },
 });
 </script>
 
@@ -318,23 +315,25 @@ export default defineComponent({
   height: 800px;
 }
 
+.logo {
+  font-size: 25px;
+  margin-left: 5%;
+
+  p {
+    font-size: 12px;
+    padding-left: 2%;
+  }
+
+    @media (max-width: 600px) {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
 .parallax-header {
   height: 150%;
 
   .navbar {
-    .flex-item-left {
-      .logo {
-        font-size: 25px;
-        margin-left: 5%;
-
-        p {
-          font-size: 12px;
-          padding-left: 2%;
-        }
-      }
-    }
-
-
     .flex-item-right {
       .container {
         div {
@@ -342,15 +341,6 @@ export default defineComponent({
           font-size: 25px;
           margin-right: 5%;
           cursor: pointer;
-
-          span {
-            font-size: 40px;
-            background-color: rgb(8, 68, 105);
-            position: sticky;
-            border: 2px solid white;
-            padding: 10px;
-            border-radius: 50px 30px;
-          }
         }
       }
     }
@@ -360,10 +350,7 @@ export default defineComponent({
     .flex-container-head {
       .flex-item-left {
         .main-text {
-          width: 82% h2 {
-            font-size: 60px !important;
-            color: rgb(8, 68, 105);
-          }
+
 
           p {
             font-size: 30px;
@@ -422,16 +409,11 @@ export default defineComponent({
   z-index: -1000;
 
   .parallax {
-    /* The image used */
+    height: 100vh;
     background-image: url("../assets/images/patrick_profile.jpg");
-    /* Create the parallax scrolling effect */
-    //background-attachment: fixed !important;
-    //background-attachment: scroll !important;
     background-position: 100%;
     background-repeat: no-repeat;
     background-size: cover;
-    //width: 100%;
-    //height: 100%;
   }
 }
 
@@ -483,6 +465,19 @@ export default defineComponent({
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+
+  p {
+    font-size: 30px;
+    //margin-top: 15%;
+  }
+
+  @media (max-width: 600px) {
+    p {
+      font-size: 20px;
+      margin-top: 15%;
+    }
+  }
+
 
   .flex-item-left {
     font-size: 35px;
@@ -540,6 +535,11 @@ a:hover {
     font-size: 20px;
     margin-top: 15%;
   }
+
+    .parallax-header .main-content .flex-container-head .flex-item-left .main-text p {
+        font-size: 20px;
+        margin-top: 15%;
+    }
 
   .sidenav {
     z-index: 100 !important;
@@ -663,9 +663,17 @@ a:hover {
   }
 }
 
-.parallax-header .navbar .flex-item-right .container div span {
+.navbar-button {
   font-size: 30px;
   border: 1px solid white;
   padding: 10px;
   border-radius: 50px 30px;
-}</style>
+  background-color: rgb(8, 68, 105);
+  position: sticky;
+}
+
+.navbar-button:hover {
+    background-color: red;
+    border: 1px solid white;
+}
+</style>
