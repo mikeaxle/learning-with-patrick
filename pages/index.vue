@@ -49,12 +49,11 @@
                 </div>
             </div>
 
-
             <div class="container main-content mt-3" id="home">
                 <div class="flex-container-head">
                     <div class="flex-item-left text-lg-start text-center">
                         <div class="mb-5 mt-5 main-text text-left">
-                            <h2 class="display-1"> {{ $t("home.intro") }}</h2>
+                            <h2 class="display-1 translucent-text-block"> {{ $t("home.intro") }}</h2>
                             <p class="display-4 text-white font-italic">
                                 {{ $t("home.introDescription") }}
                             </p>
@@ -324,10 +323,10 @@ export default defineComponent({
     padding-left: 2%;
   }
 
-    @media (max-width: 600px) {
-        display: flex;
-        flex-direction: column;
-    }
+  @media (max-width: 600px) {
+    display: flex;
+    flex-direction: column;
+  }
 }
 
 .parallax-header {
@@ -350,7 +349,6 @@ export default defineComponent({
     .flex-container-head {
       .flex-item-left {
         .main-text {
-
 
           p {
             font-size: 30px;
@@ -416,16 +414,6 @@ export default defineComponent({
     background-size: cover;
   }
 }
-
-//.parallax {
-//  /* The image used */
-//  background-image: url("../assets/images/patrick_profile.jpg");
-//  /* Create the parallax scrolling effect */
-//  background-attachment: fixed;
-//  background-position: 100%;
-//  background-repeat: no-repeat;
-//  background-size: cover;
-//}
 
 .testimonials {
   background-color: $title_color;
@@ -536,10 +524,10 @@ a:hover {
     margin-top: 15%;
   }
 
-    .parallax-header .main-content .flex-container-head .flex-item-left .main-text p {
-        font-size: 20px;
-        margin-top: 15%;
-    }
+  .parallax-header .main-content .flex-container-head .flex-item-left .main-text p {
+    font-size: 20px;
+    margin-top: 15%;
+  }
 
   .sidenav {
     z-index: 100 !important;
@@ -673,7 +661,12 @@ a:hover {
 }
 
 .navbar-button:hover {
-    background-color: red;
-    border: 1px solid white;
+  background-color: red;
+  border: 1px solid white;
+}
+
+.translucent-text-block {
+    text-shadow:  3px 3px rgb(8, 68, 105) !important;
+    color: white !important;
 }
 </style>
